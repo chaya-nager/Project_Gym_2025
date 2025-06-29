@@ -1,0 +1,105 @@
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר\Mock\bin\Debug\net7.0\Mock.deps.json
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר\Mock\bin\Debug\net7.0\Mock.runtimeconfig.json
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר\Mock\bin\Debug\net7.0\Mock.dll
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר\Mock\bin\Debug\net7.0\Mock.pdb
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר\Mock\bin\Debug\net7.0\Repository.dll
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר\Mock\bin\Debug\net7.0\Repository.pdb
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר\Mock\obj\Debug\net7.0\Mock.csproj.AssemblyReference.cache
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר\Mock\obj\Debug\net7.0\Mock.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר\Mock\obj\Debug\net7.0\Mock.AssemblyInfoInputs.cache
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר\Mock\obj\Debug\net7.0\Mock.AssemblyInfo.cs
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר\Mock\obj\Debug\net7.0\Mock.csproj.CoreCompileInputs.cache
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר\Mock\obj\Debug\net7.0\Mock.csproj.Up2Date
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר\Mock\obj\Debug\net7.0\Mock.dll
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר\Mock\obj\Debug\net7.0\refint\Mock.dll
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר\Mock\obj\Debug\net7.0\Mock.pdb
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר\Mock\obj\Debug\net7.0\Mock.genruntimeconfig.cache
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר\Mock\obj\Debug\net7.0\ref\Mock.dll
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר אימונים\C#\project_chavy-chayaC-\פרויקט גמר\Mock\bin\Debug\net7.0\Mock.deps.json
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר אימונים\C#\project_chavy-chayaC-\פרויקט גמר\Mock\bin\Debug\net7.0\Mock.runtimeconfig.json
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר אימונים\C#\project_chavy-chayaC-\פרויקט גמר\Mock\bin\Debug\net7.0\Mock.dll
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר אימונים\C#\project_chavy-chayaC-\פרויקט גמר\Mock\bin\Debug\net7.0\Mock.pdb
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר אימונים\C#\project_chavy-chayaC-\פרויקט גמר\Mock\bin\Debug\net7.0\Repository.dll
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר אימונים\C#\project_chavy-chayaC-\פרויקט גמר\Mock\bin\Debug\net7.0\Repository.pdb
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר אימונים\C#\project_chavy-chayaC-\פרויקט גמר\Mock\obj\Debug\net7.0\Mock.csproj.AssemblyReference.cache
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר אימונים\C#\project_chavy-chayaC-\פרויקט גמר\Mock\obj\Debug\net7.0\Mock.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר אימונים\C#\project_chavy-chayaC-\פרויקט גמר\Mock\obj\Debug\net7.0\Mock.AssemblyInfoInputs.cache
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר אימונים\C#\project_chavy-chayaC-\פרויקט גמר\Mock\obj\Debug\net7.0\Mock.AssemblyInfo.cs
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר אימונים\C#\project_chavy-chayaC-\פרויקט גמר\Mock\obj\Debug\net7.0\Mock.csproj.CoreCompileInputs.cache
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר אימונים\C#\project_chavy-chayaC-\פרויקט גמר\Mock\obj\Debug\net7.0\Mock.sourcelink.json
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר אימונים\C#\project_chavy-chayaC-\פרויקט גמר\Mock\obj\Debug\net7.0\Mock.csproj.Up2Date
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר אימונים\C#\project_chavy-chayaC-\פרויקט גמר\Mock\obj\Debug\net7.0\Mock.dll
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר אימונים\C#\project_chavy-chayaC-\פרויקט גמר\Mock\obj\Debug\net7.0\refint\Mock.dll
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר אימונים\C#\project_chavy-chayaC-\פרויקט גמר\Mock\obj\Debug\net7.0\Mock.pdb
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר אימונים\C#\project_chavy-chayaC-\פרויקט גמר\Mock\obj\Debug\net7.0\Mock.genruntimeconfig.cache
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר אימונים\C#\project_chavy-chayaC-\פרויקט גמר\Mock\obj\Debug\net7.0\ref\Mock.dll
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר אימונים\C#\project_chavy-chayaC-\פרויקט גמר\Mock\bin\Debug\net7.0\Common.dll
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר אימונים\C#\project_chavy-chayaC-\פרויקט גמר\Mock\bin\Debug\net7.0\Service.dll
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר אימונים\C#\project_chavy-chayaC-\פרויקט גמר\Mock\bin\Debug\net7.0\Service.pdb
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר אימונים\C#\project_chavy-chayaC-\פרויקט גמר\Mock\bin\Debug\net7.0\Common.pdb
+C:\גיבוי הלפגוט\תוכן מחשב\לימודים\שנה ב\פרויקט\project_chavy-chayaC-\פרויקט גמר\Mock\bin\Debug\net7.0\Mock.deps.json
+C:\גיבוי הלפגוט\תוכן מחשב\לימודים\שנה ב\פרויקט\project_chavy-chayaC-\פרויקט גמר\Mock\bin\Debug\net7.0\Mock.runtimeconfig.json
+C:\גיבוי הלפגוט\תוכן מחשב\לימודים\שנה ב\פרויקט\project_chavy-chayaC-\פרויקט גמר\Mock\bin\Debug\net7.0\Mock.dll
+C:\גיבוי הלפגוט\תוכן מחשב\לימודים\שנה ב\פרויקט\project_chavy-chayaC-\פרויקט גמר\Mock\bin\Debug\net7.0\Mock.pdb
+C:\גיבוי הלפגוט\תוכן מחשב\לימודים\שנה ב\פרויקט\project_chavy-chayaC-\פרויקט גמר\Mock\bin\Debug\net7.0\Common.dll
+C:\גיבוי הלפגוט\תוכן מחשב\לימודים\שנה ב\פרויקט\project_chavy-chayaC-\פרויקט גמר\Mock\bin\Debug\net7.0\Repository.dll
+C:\גיבוי הלפגוט\תוכן מחשב\לימודים\שנה ב\פרויקט\project_chavy-chayaC-\פרויקט גמר\Mock\bin\Debug\net7.0\Service.dll
+C:\גיבוי הלפגוט\תוכן מחשב\לימודים\שנה ב\פרויקט\project_chavy-chayaC-\פרויקט גמר\Mock\bin\Debug\net7.0\Service.pdb
+C:\גיבוי הלפגוט\תוכן מחשב\לימודים\שנה ב\פרויקט\project_chavy-chayaC-\פרויקט גמר\Mock\bin\Debug\net7.0\Common.pdb
+C:\גיבוי הלפגוט\תוכן מחשב\לימודים\שנה ב\פרויקט\project_chavy-chayaC-\פרויקט גמר\Mock\bin\Debug\net7.0\Repository.pdb
+C:\גיבוי הלפגוט\תוכן מחשב\לימודים\שנה ב\פרויקט\project_chavy-chayaC-\פרויקט גמר\Mock\obj\Debug\net7.0\Mock.csproj.AssemblyReference.cache
+C:\גיבוי הלפגוט\תוכן מחשב\לימודים\שנה ב\פרויקט\project_chavy-chayaC-\פרויקט גמר\Mock\obj\Debug\net7.0\Mock.GeneratedMSBuildEditorConfig.editorconfig
+C:\גיבוי הלפגוט\תוכן מחשב\לימודים\שנה ב\פרויקט\project_chavy-chayaC-\פרויקט גמר\Mock\obj\Debug\net7.0\Mock.AssemblyInfoInputs.cache
+C:\גיבוי הלפגוט\תוכן מחשב\לימודים\שנה ב\פרויקט\project_chavy-chayaC-\פרויקט גמר\Mock\obj\Debug\net7.0\Mock.AssemblyInfo.cs
+C:\גיבוי הלפגוט\תוכן מחשב\לימודים\שנה ב\פרויקט\project_chavy-chayaC-\פרויקט גמר\Mock\obj\Debug\net7.0\Mock.csproj.CoreCompileInputs.cache
+C:\גיבוי הלפגוט\תוכן מחשב\לימודים\שנה ב\פרויקט\project_chavy-chayaC-\פרויקט גמר\Mock\obj\Debug\net7.0\Mock.sourcelink.json
+C:\גיבוי הלפגוט\תוכן מחשב\לימודים\שנה ב\פרויקט\project_chavy-chayaC-\פרויקט גמר\Mock\obj\Debug\net7.0\Mock.csproj.Up2Date
+C:\גיבוי הלפגוט\תוכן מחשב\לימודים\שנה ב\פרויקט\project_chavy-chayaC-\פרויקט גמר\Mock\obj\Debug\net7.0\Mock.dll
+C:\גיבוי הלפגוט\תוכן מחשב\לימודים\שנה ב\פרויקט\project_chavy-chayaC-\פרויקט גמר\Mock\obj\Debug\net7.0\refint\Mock.dll
+C:\גיבוי הלפגוט\תוכן מחשב\לימודים\שנה ב\פרויקט\project_chavy-chayaC-\פרויקט גמר\Mock\obj\Debug\net7.0\Mock.pdb
+C:\גיבוי הלפגוט\תוכן מחשב\לימודים\שנה ב\פרויקט\project_chavy-chayaC-\פרויקט גמר\Mock\obj\Debug\net7.0\Mock.genruntimeconfig.cache
+C:\גיבוי הלפגוט\תוכן מחשב\לימודים\שנה ב\פרויקט\project_chavy-chayaC-\פרויקט גמר\Mock\obj\Debug\net7.0\ref\Mock.dll
+L:\שנה ב\Full Stack\חיה נאגר\c#\server-gym\chaya-nager\project_chavy-chayaC-\פרויקט גמר\Mock\bin\Debug\net7.0\Mock.deps.json
+L:\שנה ב\Full Stack\חיה נאגר\c#\server-gym\chaya-nager\project_chavy-chayaC-\פרויקט גמר\Mock\bin\Debug\net7.0\Mock.runtimeconfig.json
+L:\שנה ב\Full Stack\חיה נאגר\c#\server-gym\chaya-nager\project_chavy-chayaC-\פרויקט גמר\Mock\bin\Debug\net7.0\Mock.dll
+L:\שנה ב\Full Stack\חיה נאגר\c#\server-gym\chaya-nager\project_chavy-chayaC-\פרויקט גמר\Mock\bin\Debug\net7.0\Mock.pdb
+L:\שנה ב\Full Stack\חיה נאגר\c#\server-gym\chaya-nager\project_chavy-chayaC-\פרויקט גמר\Mock\bin\Debug\net7.0\Common.dll
+L:\שנה ב\Full Stack\חיה נאגר\c#\server-gym\chaya-nager\project_chavy-chayaC-\פרויקט גמר\Mock\bin\Debug\net7.0\Repository.dll
+L:\שנה ב\Full Stack\חיה נאגר\c#\server-gym\chaya-nager\project_chavy-chayaC-\פרויקט גמר\Mock\bin\Debug\net7.0\Service.dll
+L:\שנה ב\Full Stack\חיה נאגר\c#\server-gym\chaya-nager\project_chavy-chayaC-\פרויקט גמר\Mock\bin\Debug\net7.0\Service.pdb
+L:\שנה ב\Full Stack\חיה נאגר\c#\server-gym\chaya-nager\project_chavy-chayaC-\פרויקט גמר\Mock\bin\Debug\net7.0\Common.pdb
+L:\שנה ב\Full Stack\חיה נאגר\c#\server-gym\chaya-nager\project_chavy-chayaC-\פרויקט גמר\Mock\bin\Debug\net7.0\Repository.pdb
+L:\שנה ב\Full Stack\חיה נאגר\c#\server-gym\chaya-nager\project_chavy-chayaC-\פרויקט גמר\Mock\obj\Debug\net7.0\Mock.csproj.AssemblyReference.cache
+L:\שנה ב\Full Stack\חיה נאגר\c#\server-gym\chaya-nager\project_chavy-chayaC-\פרויקט גמר\Mock\obj\Debug\net7.0\Mock.GeneratedMSBuildEditorConfig.editorconfig
+L:\שנה ב\Full Stack\חיה נאגר\c#\server-gym\chaya-nager\project_chavy-chayaC-\פרויקט גמר\Mock\obj\Debug\net7.0\Mock.AssemblyInfoInputs.cache
+L:\שנה ב\Full Stack\חיה נאגר\c#\server-gym\chaya-nager\project_chavy-chayaC-\פרויקט גמר\Mock\obj\Debug\net7.0\Mock.AssemblyInfo.cs
+L:\שנה ב\Full Stack\חיה נאגר\c#\server-gym\chaya-nager\project_chavy-chayaC-\פרויקט גמר\Mock\obj\Debug\net7.0\Mock.csproj.CoreCompileInputs.cache
+L:\שנה ב\Full Stack\חיה נאגר\c#\server-gym\chaya-nager\project_chavy-chayaC-\פרויקט גמר\Mock\obj\Debug\net7.0\Mock.sourcelink.json
+L:\שנה ב\Full Stack\חיה נאגר\c#\server-gym\chaya-nager\project_chavy-chayaC-\פרויקט גמר\Mock\obj\Debug\net7.0\Mock.csproj.Up2Date
+L:\שנה ב\Full Stack\חיה נאגר\c#\server-gym\chaya-nager\project_chavy-chayaC-\פרויקט גמר\Mock\obj\Debug\net7.0\Mock.dll
+L:\שנה ב\Full Stack\חיה נאגר\c#\server-gym\chaya-nager\project_chavy-chayaC-\פרויקט גמר\Mock\obj\Debug\net7.0\refint\Mock.dll
+L:\שנה ב\Full Stack\חיה נאגר\c#\server-gym\chaya-nager\project_chavy-chayaC-\פרויקט גמר\Mock\obj\Debug\net7.0\Mock.pdb
+L:\שנה ב\Full Stack\חיה נאגר\c#\server-gym\chaya-nager\project_chavy-chayaC-\פרויקט גמר\Mock\obj\Debug\net7.0\Mock.genruntimeconfig.cache
+L:\שנה ב\Full Stack\חיה נאגר\c#\server-gym\chaya-nager\project_chavy-chayaC-\פרויקט גמר\Mock\obj\Debug\net7.0\ref\Mock.dll
+C:\Users\user1\Desktop\project_chavy-chayaC-\פרויקט גמר\Mock\bin\Debug\net7.0\Mock.deps.json
+C:\Users\user1\Desktop\project_chavy-chayaC-\פרויקט גמר\Mock\bin\Debug\net7.0\Mock.runtimeconfig.json
+C:\Users\user1\Desktop\project_chavy-chayaC-\פרויקט גמר\Mock\bin\Debug\net7.0\Mock.dll
+C:\Users\user1\Desktop\project_chavy-chayaC-\פרויקט גמר\Mock\bin\Debug\net7.0\Mock.pdb
+C:\Users\user1\Desktop\project_chavy-chayaC-\פרויקט גמר\Mock\bin\Debug\net7.0\Common.dll
+C:\Users\user1\Desktop\project_chavy-chayaC-\פרויקט גמר\Mock\bin\Debug\net7.0\Repository.dll
+C:\Users\user1\Desktop\project_chavy-chayaC-\פרויקט גמר\Mock\bin\Debug\net7.0\Service.dll
+C:\Users\user1\Desktop\project_chavy-chayaC-\פרויקט גמר\Mock\bin\Debug\net7.0\Service.pdb
+C:\Users\user1\Desktop\project_chavy-chayaC-\פרויקט גמר\Mock\bin\Debug\net7.0\Common.pdb
+C:\Users\user1\Desktop\project_chavy-chayaC-\פרויקט גמר\Mock\bin\Debug\net7.0\Repository.pdb
+C:\Users\user1\Desktop\project_chavy-chayaC-\פרויקט גמר\Mock\obj\Debug\net7.0\Mock.csproj.AssemblyReference.cache
+C:\Users\user1\Desktop\project_chavy-chayaC-\פרויקט גמר\Mock\obj\Debug\net7.0\Mock.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\Desktop\project_chavy-chayaC-\פרויקט גמר\Mock\obj\Debug\net7.0\Mock.AssemblyInfoInputs.cache
+C:\Users\user1\Desktop\project_chavy-chayaC-\פרויקט גמר\Mock\obj\Debug\net7.0\Mock.AssemblyInfo.cs
+C:\Users\user1\Desktop\project_chavy-chayaC-\פרויקט גמר\Mock\obj\Debug\net7.0\Mock.csproj.CoreCompileInputs.cache
+C:\Users\user1\Desktop\project_chavy-chayaC-\פרויקט גמר\Mock\obj\Debug\net7.0\Mock.sourcelink.json
+C:\Users\user1\Desktop\project_chavy-chayaC-\פרויקט גמר\Mock\obj\Debug\net7.0\Mock.csproj.Up2Date
+C:\Users\user1\Desktop\project_chavy-chayaC-\פרויקט גמר\Mock\obj\Debug\net7.0\Mock.dll
+C:\Users\user1\Desktop\project_chavy-chayaC-\פרויקט גמר\Mock\obj\Debug\net7.0\refint\Mock.dll
+C:\Users\user1\Desktop\project_chavy-chayaC-\פרויקט גמר\Mock\obj\Debug\net7.0\Mock.pdb
+C:\Users\user1\Desktop\project_chavy-chayaC-\פרויקט גמר\Mock\obj\Debug\net7.0\Mock.genruntimeconfig.cache
+C:\Users\user1\Desktop\project_chavy-chayaC-\פרויקט גמר\Mock\obj\Debug\net7.0\ref\Mock.dll

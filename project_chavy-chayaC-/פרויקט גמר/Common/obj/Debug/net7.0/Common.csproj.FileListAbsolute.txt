@@ -1,0 +1,63 @@
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר\Common\bin\Debug\net7.0\Common.deps.json
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר\Common\bin\Debug\net7.0\Common.dll
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר\Common\bin\Debug\net7.0\Common.pdb
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר\Common\obj\Debug\net7.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר\Common\obj\Debug\net7.0\Common.AssemblyInfoInputs.cache
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר\Common\obj\Debug\net7.0\Common.AssemblyInfo.cs
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר\Common\obj\Debug\net7.0\Common.csproj.CoreCompileInputs.cache
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר\Common\obj\Debug\net7.0\Common.dll
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר\Common\obj\Debug\net7.0\refint\Common.dll
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר\Common\obj\Debug\net7.0\Common.pdb
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר\Common\obj\Debug\net7.0\ref\Common.dll
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר אימונים\C#\project_chavy-chayaC-\פרויקט גמר\Common\bin\Debug\net7.0\Common.deps.json
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר אימונים\C#\project_chavy-chayaC-\פרויקט גמר\Common\bin\Debug\net7.0\Common.dll
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר אימונים\C#\project_chavy-chayaC-\פרויקט גמר\Common\bin\Debug\net7.0\Common.pdb
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר אימונים\C#\project_chavy-chayaC-\פרויקט גמר\Common\obj\Debug\net7.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר אימונים\C#\project_chavy-chayaC-\פרויקט גמר\Common\obj\Debug\net7.0\Common.AssemblyInfoInputs.cache
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר אימונים\C#\project_chavy-chayaC-\פרויקט גמר\Common\obj\Debug\net7.0\Common.AssemblyInfo.cs
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר אימונים\C#\project_chavy-chayaC-\פרויקט גמר\Common\obj\Debug\net7.0\Common.csproj.CoreCompileInputs.cache
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר אימונים\C#\project_chavy-chayaC-\פרויקט גמר\Common\obj\Debug\net7.0\Common.sourcelink.json
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר אימונים\C#\project_chavy-chayaC-\פרויקט גמר\Common\obj\Debug\net7.0\Common.dll
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר אימונים\C#\project_chavy-chayaC-\פרויקט גמר\Common\obj\Debug\net7.0\refint\Common.dll
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר אימונים\C#\project_chavy-chayaC-\פרויקט גמר\Common\obj\Debug\net7.0\Common.pdb
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר אימונים\C#\project_chavy-chayaC-\פרויקט גמר\Common\obj\Debug\net7.0\ref\Common.dll
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר אימונים\C#\project_chavy-chayaC-\פרויקט גמר\Common\obj\Debug\net7.0\Common.csproj.AssemblyReference.cache
+C:\גיבוי הלפגוט\תוכן מחשב\לימודים\שנה ב\פרויקט\project_chavy-chayaC-\פרויקט גמר\Common\bin\Debug\net7.0\Common.deps.json
+C:\גיבוי הלפגוט\תוכן מחשב\לימודים\שנה ב\פרויקט\project_chavy-chayaC-\פרויקט גמר\Common\bin\Debug\net7.0\Common.dll
+C:\גיבוי הלפגוט\תוכן מחשב\לימודים\שנה ב\פרויקט\project_chavy-chayaC-\פרויקט גמר\Common\bin\Debug\net7.0\Common.pdb
+C:\גיבוי הלפגוט\תוכן מחשב\לימודים\שנה ב\פרויקט\project_chavy-chayaC-\פרויקט גמר\Common\obj\Debug\net7.0\Common.csproj.AssemblyReference.cache
+C:\גיבוי הלפגוט\תוכן מחשב\לימודים\שנה ב\פרויקט\project_chavy-chayaC-\פרויקט גמר\Common\obj\Debug\net7.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\גיבוי הלפגוט\תוכן מחשב\לימודים\שנה ב\פרויקט\project_chavy-chayaC-\פרויקט גמר\Common\obj\Debug\net7.0\Common.AssemblyInfoInputs.cache
+C:\גיבוי הלפגוט\תוכן מחשב\לימודים\שנה ב\פרויקט\project_chavy-chayaC-\פרויקט גמר\Common\obj\Debug\net7.0\Common.AssemblyInfo.cs
+C:\גיבוי הלפגוט\תוכן מחשב\לימודים\שנה ב\פרויקט\project_chavy-chayaC-\פרויקט גמר\Common\obj\Debug\net7.0\Common.csproj.CoreCompileInputs.cache
+C:\גיבוי הלפגוט\תוכן מחשב\לימודים\שנה ב\פרויקט\project_chavy-chayaC-\פרויקט גמר\Common\obj\Debug\net7.0\Common.sourcelink.json
+C:\גיבוי הלפגוט\תוכן מחשב\לימודים\שנה ב\פרויקט\project_chavy-chayaC-\פרויקט גמר\Common\obj\Debug\net7.0\Common.dll
+C:\גיבוי הלפגוט\תוכן מחשב\לימודים\שנה ב\פרויקט\project_chavy-chayaC-\פרויקט גמר\Common\obj\Debug\net7.0\refint\Common.dll
+C:\גיבוי הלפגוט\תוכן מחשב\לימודים\שנה ב\פרויקט\project_chavy-chayaC-\פרויקט גמר\Common\obj\Debug\net7.0\Common.pdb
+C:\גיבוי הלפגוט\תוכן מחשב\לימודים\שנה ב\פרויקט\project_chavy-chayaC-\פרויקט גמר\Common\obj\Debug\net7.0\ref\Common.dll
+L:\שנה ב\Full Stack\חיה נאגר\c#\server-gym\chaya-nager\project_chavy-chayaC-\פרויקט גמר\Common\bin\Debug\net7.0\Common.deps.json
+L:\שנה ב\Full Stack\חיה נאגר\c#\server-gym\chaya-nager\project_chavy-chayaC-\פרויקט גמר\Common\bin\Debug\net7.0\Common.dll
+L:\שנה ב\Full Stack\חיה נאגר\c#\server-gym\chaya-nager\project_chavy-chayaC-\פרויקט גמר\Common\bin\Debug\net7.0\Common.pdb
+L:\שנה ב\Full Stack\חיה נאגר\c#\server-gym\chaya-nager\project_chavy-chayaC-\פרויקט גמר\Common\obj\Debug\net7.0\Common.csproj.AssemblyReference.cache
+L:\שנה ב\Full Stack\חיה נאגר\c#\server-gym\chaya-nager\project_chavy-chayaC-\פרויקט גמר\Common\obj\Debug\net7.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+L:\שנה ב\Full Stack\חיה נאגר\c#\server-gym\chaya-nager\project_chavy-chayaC-\פרויקט גמר\Common\obj\Debug\net7.0\Common.AssemblyInfoInputs.cache
+L:\שנה ב\Full Stack\חיה נאגר\c#\server-gym\chaya-nager\project_chavy-chayaC-\פרויקט גמר\Common\obj\Debug\net7.0\Common.AssemblyInfo.cs
+L:\שנה ב\Full Stack\חיה נאגר\c#\server-gym\chaya-nager\project_chavy-chayaC-\פרויקט גמר\Common\obj\Debug\net7.0\Common.csproj.CoreCompileInputs.cache
+L:\שנה ב\Full Stack\חיה נאגר\c#\server-gym\chaya-nager\project_chavy-chayaC-\פרויקט גמר\Common\obj\Debug\net7.0\Common.sourcelink.json
+L:\שנה ב\Full Stack\חיה נאגר\c#\server-gym\chaya-nager\project_chavy-chayaC-\פרויקט גמר\Common\obj\Debug\net7.0\Common.dll
+L:\שנה ב\Full Stack\חיה נאגר\c#\server-gym\chaya-nager\project_chavy-chayaC-\פרויקט גמר\Common\obj\Debug\net7.0\refint\Common.dll
+L:\שנה ב\Full Stack\חיה נאגר\c#\server-gym\chaya-nager\project_chavy-chayaC-\פרויקט גמר\Common\obj\Debug\net7.0\Common.pdb
+L:\שנה ב\Full Stack\חיה נאגר\c#\server-gym\chaya-nager\project_chavy-chayaC-\פרויקט גמר\Common\obj\Debug\net7.0\ref\Common.dll
+C:\Users\user1\Desktop\project_chavy-chayaC-\פרויקט גמר\Common\bin\Debug\net7.0\Common.deps.json
+C:\Users\user1\Desktop\project_chavy-chayaC-\פרויקט גמר\Common\bin\Debug\net7.0\Common.dll
+C:\Users\user1\Desktop\project_chavy-chayaC-\פרויקט גמר\Common\bin\Debug\net7.0\Common.pdb
+C:\Users\user1\Desktop\project_chavy-chayaC-\פרויקט גמר\Common\obj\Debug\net7.0\Common.csproj.AssemblyReference.cache
+C:\Users\user1\Desktop\project_chavy-chayaC-\פרויקט גמר\Common\obj\Debug\net7.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\Desktop\project_chavy-chayaC-\פרויקט גמר\Common\obj\Debug\net7.0\Common.AssemblyInfoInputs.cache
+C:\Users\user1\Desktop\project_chavy-chayaC-\פרויקט גמר\Common\obj\Debug\net7.0\Common.AssemblyInfo.cs
+C:\Users\user1\Desktop\project_chavy-chayaC-\פרויקט גמר\Common\obj\Debug\net7.0\Common.csproj.CoreCompileInputs.cache
+C:\Users\user1\Desktop\project_chavy-chayaC-\פרויקט גמר\Common\obj\Debug\net7.0\Common.sourcelink.json
+C:\Users\user1\Desktop\project_chavy-chayaC-\פרויקט גמר\Common\obj\Debug\net7.0\Common.dll
+C:\Users\user1\Desktop\project_chavy-chayaC-\פרויקט גמר\Common\obj\Debug\net7.0\refint\Common.dll
+C:\Users\user1\Desktop\project_chavy-chayaC-\פרויקט גמר\Common\obj\Debug\net7.0\Common.pdb
+C:\Users\user1\Desktop\project_chavy-chayaC-\פרויקט גמר\Common\obj\Debug\net7.0\ref\Common.dll

@@ -1,0 +1,63 @@
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר\Repository\bin\Debug\net7.0\Repository.deps.json
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר\Repository\bin\Debug\net7.0\Repository.dll
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר\Repository\bin\Debug\net7.0\Repository.pdb
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר\Repository\obj\Debug\net7.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר\Repository\obj\Debug\net7.0\Repository.AssemblyInfoInputs.cache
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר\Repository\obj\Debug\net7.0\Repository.AssemblyInfo.cs
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר\Repository\obj\Debug\net7.0\Repository.csproj.CoreCompileInputs.cache
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר\Repository\obj\Debug\net7.0\Repository.dll
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר\Repository\obj\Debug\net7.0\refint\Repository.dll
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר\Repository\obj\Debug\net7.0\Repository.pdb
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר\Repository\obj\Debug\net7.0\ref\Repository.dll
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר אימונים\C#\project_chavy-chayaC-\פרויקט גמר\Repository\bin\Debug\net7.0\Repository.deps.json
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר אימונים\C#\project_chavy-chayaC-\פרויקט גמר\Repository\bin\Debug\net7.0\Repository.dll
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר אימונים\C#\project_chavy-chayaC-\פרויקט גמר\Repository\bin\Debug\net7.0\Repository.pdb
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר אימונים\C#\project_chavy-chayaC-\פרויקט גמר\Repository\obj\Debug\net7.0\Repository.csproj.AssemblyReference.cache
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר אימונים\C#\project_chavy-chayaC-\פרויקט גמר\Repository\obj\Debug\net7.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר אימונים\C#\project_chavy-chayaC-\פרויקט גמר\Repository\obj\Debug\net7.0\Repository.AssemblyInfoInputs.cache
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר אימונים\C#\project_chavy-chayaC-\פרויקט גמר\Repository\obj\Debug\net7.0\Repository.AssemblyInfo.cs
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר אימונים\C#\project_chavy-chayaC-\פרויקט גמר\Repository\obj\Debug\net7.0\Repository.csproj.CoreCompileInputs.cache
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר אימונים\C#\project_chavy-chayaC-\פרויקט גמר\Repository\obj\Debug\net7.0\Repository.sourcelink.json
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר אימונים\C#\project_chavy-chayaC-\פרויקט גמר\Repository\obj\Debug\net7.0\Repository.dll
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר אימונים\C#\project_chavy-chayaC-\פרויקט גמר\Repository\obj\Debug\net7.0\refint\Repository.dll
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר אימונים\C#\project_chavy-chayaC-\פרויקט גמר\Repository\obj\Debug\net7.0\Repository.pdb
+C:\Users\user1\Desktop\תכנות חיהלה\פרויקט גמר אימונים\C#\project_chavy-chayaC-\פרויקט גמר\Repository\obj\Debug\net7.0\ref\Repository.dll
+C:\גיבוי הלפגוט\תוכן מחשב\לימודים\שנה ב\פרויקט\project_chavy-chayaC-\פרויקט גמר\Repository\bin\Debug\net7.0\Repository.deps.json
+C:\גיבוי הלפגוט\תוכן מחשב\לימודים\שנה ב\פרויקט\project_chavy-chayaC-\פרויקט גמר\Repository\bin\Debug\net7.0\Repository.dll
+C:\גיבוי הלפגוט\תוכן מחשב\לימודים\שנה ב\פרויקט\project_chavy-chayaC-\פרויקט גמר\Repository\bin\Debug\net7.0\Repository.pdb
+C:\גיבוי הלפגוט\תוכן מחשב\לימודים\שנה ב\פרויקט\project_chavy-chayaC-\פרויקט גמר\Repository\obj\Debug\net7.0\Repository.csproj.AssemblyReference.cache
+C:\גיבוי הלפגוט\תוכן מחשב\לימודים\שנה ב\פרויקט\project_chavy-chayaC-\פרויקט גמר\Repository\obj\Debug\net7.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\גיבוי הלפגוט\תוכן מחשב\לימודים\שנה ב\פרויקט\project_chavy-chayaC-\פרויקט גמר\Repository\obj\Debug\net7.0\Repository.AssemblyInfoInputs.cache
+C:\גיבוי הלפגוט\תוכן מחשב\לימודים\שנה ב\פרויקט\project_chavy-chayaC-\פרויקט גמר\Repository\obj\Debug\net7.0\Repository.AssemblyInfo.cs
+C:\גיבוי הלפגוט\תוכן מחשב\לימודים\שנה ב\פרויקט\project_chavy-chayaC-\פרויקט גמר\Repository\obj\Debug\net7.0\Repository.csproj.CoreCompileInputs.cache
+C:\גיבוי הלפגוט\תוכן מחשב\לימודים\שנה ב\פרויקט\project_chavy-chayaC-\פרויקט גמר\Repository\obj\Debug\net7.0\Repository.sourcelink.json
+C:\גיבוי הלפגוט\תוכן מחשב\לימודים\שנה ב\פרויקט\project_chavy-chayaC-\פרויקט גמר\Repository\obj\Debug\net7.0\Repository.dll
+C:\גיבוי הלפגוט\תוכן מחשב\לימודים\שנה ב\פרויקט\project_chavy-chayaC-\פרויקט גמר\Repository\obj\Debug\net7.0\refint\Repository.dll
+C:\גיבוי הלפגוט\תוכן מחשב\לימודים\שנה ב\פרויקט\project_chavy-chayaC-\פרויקט גמר\Repository\obj\Debug\net7.0\Repository.pdb
+C:\גיבוי הלפגוט\תוכן מחשב\לימודים\שנה ב\פרויקט\project_chavy-chayaC-\פרויקט גמר\Repository\obj\Debug\net7.0\ref\Repository.dll
+L:\שנה ב\Full Stack\חיה נאגר\c#\server-gym\chaya-nager\project_chavy-chayaC-\פרויקט גמר\Repository\bin\Debug\net7.0\Repository.deps.json
+L:\שנה ב\Full Stack\חיה נאגר\c#\server-gym\chaya-nager\project_chavy-chayaC-\פרויקט גמר\Repository\bin\Debug\net7.0\Repository.dll
+L:\שנה ב\Full Stack\חיה נאגר\c#\server-gym\chaya-nager\project_chavy-chayaC-\פרויקט גמר\Repository\bin\Debug\net7.0\Repository.pdb
+L:\שנה ב\Full Stack\חיה נאגר\c#\server-gym\chaya-nager\project_chavy-chayaC-\פרויקט גמר\Repository\obj\Debug\net7.0\Repository.csproj.AssemblyReference.cache
+L:\שנה ב\Full Stack\חיה נאגר\c#\server-gym\chaya-nager\project_chavy-chayaC-\פרויקט גמר\Repository\obj\Debug\net7.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+L:\שנה ב\Full Stack\חיה נאגר\c#\server-gym\chaya-nager\project_chavy-chayaC-\פרויקט גמר\Repository\obj\Debug\net7.0\Repository.AssemblyInfoInputs.cache
+L:\שנה ב\Full Stack\חיה נאגר\c#\server-gym\chaya-nager\project_chavy-chayaC-\פרויקט גמר\Repository\obj\Debug\net7.0\Repository.AssemblyInfo.cs
+L:\שנה ב\Full Stack\חיה נאגר\c#\server-gym\chaya-nager\project_chavy-chayaC-\פרויקט גמר\Repository\obj\Debug\net7.0\Repository.csproj.CoreCompileInputs.cache
+L:\שנה ב\Full Stack\חיה נאגר\c#\server-gym\chaya-nager\project_chavy-chayaC-\פרויקט גמר\Repository\obj\Debug\net7.0\Repository.sourcelink.json
+L:\שנה ב\Full Stack\חיה נאגר\c#\server-gym\chaya-nager\project_chavy-chayaC-\פרויקט גמר\Repository\obj\Debug\net7.0\Repository.dll
+L:\שנה ב\Full Stack\חיה נאגר\c#\server-gym\chaya-nager\project_chavy-chayaC-\פרויקט גמר\Repository\obj\Debug\net7.0\refint\Repository.dll
+L:\שנה ב\Full Stack\חיה נאגר\c#\server-gym\chaya-nager\project_chavy-chayaC-\פרויקט גמר\Repository\obj\Debug\net7.0\Repository.pdb
+L:\שנה ב\Full Stack\חיה נאגר\c#\server-gym\chaya-nager\project_chavy-chayaC-\פרויקט גמר\Repository\obj\Debug\net7.0\ref\Repository.dll
+C:\Users\user1\Desktop\project_chavy-chayaC-\פרויקט גמר\Repository\bin\Debug\net7.0\Repository.deps.json
+C:\Users\user1\Desktop\project_chavy-chayaC-\פרויקט גמר\Repository\bin\Debug\net7.0\Repository.dll
+C:\Users\user1\Desktop\project_chavy-chayaC-\פרויקט גמר\Repository\bin\Debug\net7.0\Repository.pdb
+C:\Users\user1\Desktop\project_chavy-chayaC-\פרויקט גמר\Repository\obj\Debug\net7.0\Repository.csproj.AssemblyReference.cache
+C:\Users\user1\Desktop\project_chavy-chayaC-\פרויקט גמר\Repository\obj\Debug\net7.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\Desktop\project_chavy-chayaC-\פרויקט גמר\Repository\obj\Debug\net7.0\Repository.AssemblyInfoInputs.cache
+C:\Users\user1\Desktop\project_chavy-chayaC-\פרויקט גמר\Repository\obj\Debug\net7.0\Repository.AssemblyInfo.cs
+C:\Users\user1\Desktop\project_chavy-chayaC-\פרויקט גמר\Repository\obj\Debug\net7.0\Repository.csproj.CoreCompileInputs.cache
+C:\Users\user1\Desktop\project_chavy-chayaC-\פרויקט גמר\Repository\obj\Debug\net7.0\Repository.sourcelink.json
+C:\Users\user1\Desktop\project_chavy-chayaC-\פרויקט גמר\Repository\obj\Debug\net7.0\Repository.dll
+C:\Users\user1\Desktop\project_chavy-chayaC-\פרויקט גמר\Repository\obj\Debug\net7.0\refint\Repository.dll
+C:\Users\user1\Desktop\project_chavy-chayaC-\פרויקט גמר\Repository\obj\Debug\net7.0\Repository.pdb
+C:\Users\user1\Desktop\project_chavy-chayaC-\פרויקט גמר\Repository\obj\Debug\net7.0\ref\Repository.dll
