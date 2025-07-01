@@ -1,7 +1,12 @@
 import React, { useState } from "react";
 import axios from "axios";
 import { CSSProperties } from "react";
-
+const formatUrl = (url: string) => {
+  if (url.startsWith("https://localhost")) {
+    return url.replace("localhost", "127.0.0.1");
+  }
+  return url;
+};
 const WorkoutPlanForm = () => {
   const [formData, setFormData] = useState({
     difficulty: "",
@@ -18,12 +23,20 @@ const WorkoutPlanForm = () => {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     try {
-      const response = await axios.get("https://localhost:7286/api/WorkoutVideo");
-
-      const data = Array.isArray(response.data) ? response.data : [response.data];
-
-      setVideos(data); // ⬅️ תוקן כאן
-
+      const { difficulty, workoutType, targetAudience } = formData;
+      const params = new URLSearchParams({
+        difficulty,
+        workoutType,
+        targetAudience,
+      });
+  
+      const response = await axios.get(`https://localhost:7286/api/WorkoutVideo?${params.toString()}`);
+  
+      const data = Array.isArray(response.data.$values)
+        ? response.data.$values
+        : [response.data];
+  
+      setVideos(data);
     } catch (error) {
       console.error("שגיאה בקבלת תוכניות:", error);
     }
@@ -62,16 +75,47 @@ const WorkoutPlanForm = () => {
       {videos.length > 0 && (
         <div style={{ marginTop: "2rem", width: "100%", maxWidth: "800px" }}>
           <h3 style={styles.title}>תוצאות:</h3>
-          {videos.map((video) => (
-            <div key={video.videoId}>
-             <h4>{video.title}</h4>
-              <p>{video.description}</p>
-              <video controls width="100%" style={{ borderRadius: "10px" }}>
-                <source src={`https://localhost:7286/Videos/${video.videoUrl}`} type="video/mp4" />
-                הדפדפן שלך לא תומך בניגון וידאו.
-              </video>
-            </div>
-          ))}
+          
+          {videos.map((video) => {
+            console.log("🎥 וידאו:", video);
+            console.log("🔗 videoUrl:", video.videoUrl);
+            return (
+              <div key={`video-${video.videoId || Math.random()}`} style={styles.videoCard}>
+                <h4>{video.title}</h4>
+                <p>{video.description}</p>
+
+                <button
+  style={{
+    marginTop: "1rem",
+    padding: "0.5rem 1rem",
+    backgroundColor: "#007bff",
+    color: "#fff",
+    border: "none",
+    borderRadius: "6px",
+    cursor: "pointer",
+  }}
+  onClick={() => {
+
+    console.log("🎯 נלחץ על כפתור לצפייה");
+    console.log("🔗 videoUrl:", video.videoUrl);
+    if (
+      
+      typeof video.videoUrl === "string" &&
+      video.videoUrl.trim().startsWith("http")
+      
+    ) {
+      console.log(video.videoUrl)
+      window.open(video.videoUrl, "_blank");
+    } else {
+      alert("קובץ הווידאו אינו זמין או שכתובת ה-URL אינה חוקית.");
+    }
+  }}
+>
+  צפייה בדף נפרד
+</button>        
+              </div>
+            );
+          })}
         </div>
       )}
     </div>

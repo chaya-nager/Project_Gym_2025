@@ -1495,3 +1495,4 @@ C:\Users\user1\Desktop\Project_Gym_2025\project_chavy-chayaC-\פרויקט גמ�
 C:\Users\user1\Desktop\Project_Gym_2025\project_chavy-chayaC-\פרויקט גמר\MyProject\obj\Debug\net7.0\MyProject.pdb
 C:\Users\user1\Desktop\Project_Gym_2025\project_chavy-chayaC-\פרויקט גמר\MyProject\obj\Debug\net7.0\MyProject.genruntimeconfig.cache
 C:\Users\user1\Desktop\Project_Gym_2025\project_chavy-chayaC-\פרויקט גמר\MyProject\obj\Debug\net7.0\ref\MyProject.dll
+C:\Users\user1\Desktop\Project_Gym_2025\project_chavy-chayaC-\פרויקט גמר\MyProject\bin\Debug\net7.0\MyProject.staticwebassets.runtime.json

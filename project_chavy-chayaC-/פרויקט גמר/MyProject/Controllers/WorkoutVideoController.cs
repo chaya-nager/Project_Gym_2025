@@ -44,24 +44,22 @@ namespace MyProject.Controllers
         [HttpPost]
         public async Task<IActionResult> Post([FromForm] WorkoutVideoDto workoutVideo)
         {
-            // 1. שמירת הקובץ בתיקיית Videos
             var fileName = Guid.NewGuid().ToString() + Path.GetExtension(workoutVideo.fileVideo.FileName);
-            var filePath = Path.Combine("Videos", fileName);
+            var videosPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "Videos");
+            Directory.CreateDirectory(videosPath);
+            var filePath = Path.Combine(videosPath, fileName);
 
             using (var stream = new FileStream(filePath, FileMode.Create))
             {
                 await workoutVideo.fileVideo.CopyToAsync(stream);
             }
 
-            // 2. שמירת הנתיב ב-DTO
-            workoutVideo.VideoUrl = $"Videos/{fileName}";
+            var baseUrl = $"{Request.Scheme}://{Request.Host}";
+            workoutVideo.VideoUrl = $"{baseUrl}/Videos/{fileName}";
 
-            // 3. שמירת הנתונים במסד הנתונים
             await _service.AddItemAsync(workoutVideo);
-
             return Ok();
         }
-
         // PUT api/<WorkoutVideoController>/5
         [HttpPut("{id}")]
         public async Task<IActionResult> Put(int id, [FromForm] WorkoutVideoDto workoutVideo)

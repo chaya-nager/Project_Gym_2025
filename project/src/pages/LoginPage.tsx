@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import axios from "axios";
 import { useAppDispatch } from "../redux/store";
-import { setAuth,setInitialized  } from "../redux/auth/auth.slice";
+import { setAuth, setInitialized } from "../redux/auth/auth.slice";
 import { RoleType } from "../types/user.types";
 
 // פענוח JWT
@@ -46,12 +46,15 @@ const LoginPage = () => {
 
       if (token === "Unauthorized") {
         alert("פרטי התחברות שגויים");
+        dispatch(setInitialized());
         return;
       }
 
       const decoded = parseJwt(token);
-      const rawRole = decoded?.["http://schemas.microsoft.com/ws/2008/06/identity/claims/role"]
-        || decoded?.role || decoded?.UserType;
+      const rawRole =
+        decoded?.["http://schemas.microsoft.com/ws/2008/06/identity/claims/role"] ||
+        decoded?.role ||
+        decoded?.UserType;
 
       const role = (rawRole as string)?.toLowerCase() as RoleType;
 
@@ -61,13 +64,13 @@ const LoginPage = () => {
         email: decoded?.Email || "",
         phone: "",
         address: "",
-        role: role?.toLowerCase() as RoleType
+        role
       };
 
       localStorage.setItem("token", token);
-
       dispatch(setAuth(user));
       dispatch(setInitialized());
+
       console.log("✅ התחברת כ:", role);
       setTimeout(() => {
         if (role === RoleType.Trainer) {
@@ -76,10 +79,11 @@ const LoginPage = () => {
           navigate("/choose-plan", { replace: true });
         }
       }, 50);
-      
+
     } catch (err) {
       console.error(err);
       alert("שגיאה בהתחברות");
+      dispatch(setInitialized()); // ✅ נוודא שתמיד מתעדכן
     }
   };
 

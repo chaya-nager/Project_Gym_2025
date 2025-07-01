@@ -12,7 +12,7 @@ import { RoleType } from "../types/user.types";
 import { AdminPage } from "../pages/AdminPage";
 import WorkoutPlanPage from "../pages/WorkoutPlanPage";
 import UploadVideoPage from "../pages/UploadVideoPage"; 
-import WorkoutPlanForm from "../pages/WorkoutPlanForm"; // 👈 ייבוא קיים
+import WorkoutPlanForm from "../pages/WorkoutPlanForm"; 
 
 const Router = () => {
   const router = createBrowserRouter([
@@ -52,7 +52,7 @@ const Router = () => {
           ),
         },
         {
-          path: "/choose-plan", // ✅ הנתיב החדש שהוספנו
+          path: "/choose-plan",
           element: (
             <AuthGuard roles={[RoleType.User]}>
               <WorkoutPlanForm />

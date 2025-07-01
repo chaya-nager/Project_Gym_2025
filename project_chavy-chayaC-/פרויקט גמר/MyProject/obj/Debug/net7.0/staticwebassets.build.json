@@ -1,12 +1,125 @@
 {
   "Version": 1,
-  "Hash": "FHQDH+Pg8JkjrjlKi3PNZUCeyWaXVH/XYxxWTbGfjEk=",
+  "Hash": "ob1r4V4u1UfFS3PVdr9Pf0MrRkoxUvicWaS3mTIMQM4=",
   "Source": "MyProject",
   "BasePath": "_content/MyProject",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "MyProject\\wwwroot",
+      "Source": "MyProject",
+      "ContentRoot": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\",
+      "BasePath": "_content/MyProject",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\78bca5f5-a1d5-42f4-8541-e6c6a5970a3f.mp4",
+      "SourceId": "MyProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\",
+      "BasePath": "_content/MyProject",
+      "RelativePath": "Videos/78bca5f5-a1d5-42f4-8541-e6c6a5970a3f#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "87h6r230ie",
+      "Integrity": "lA/FL61jdR5DwqER+7+cHUR6FBI0EPvjDsxhS7VyR/U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Videos\\78bca5f5-a1d5-42f4-8541-e6c6a5970a3f.mp4"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "Videos/78bca5f5-a1d5-42f4-8541-e6c6a5970a3f.87h6r230ie.mp4",
+      "AssetFile": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\78bca5f5-a1d5-42f4-8541-e6c6a5970a3f.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "85327872"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lA/FL61jdR5DwqER+7+cHUR6FBI0EPvjDsxhS7VyR/U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 01 Jul 2025 19:19:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "87h6r230ie"
+        },
+        {
+          "Name": "label",
+          "Value": "Videos/78bca5f5-a1d5-42f4-8541-e6c6a5970a3f.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lA/FL61jdR5DwqER+7+cHUR6FBI0EPvjDsxhS7VyR/U="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/78bca5f5-a1d5-42f4-8541-e6c6a5970a3f.mp4",
+      "AssetFile": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\78bca5f5-a1d5-42f4-8541-e6c6a5970a3f.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "85327872"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lA/FL61jdR5DwqER+7+cHUR6FBI0EPvjDsxhS7VyR/U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 01 Jul 2025 19:19:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lA/FL61jdR5DwqER+7+cHUR6FBI0EPvjDsxhS7VyR/U="
+        }
+      ]
+    }
+  ]
 }
