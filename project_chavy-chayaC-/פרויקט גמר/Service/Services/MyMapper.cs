@@ -17,8 +17,8 @@ namespace Service.Services
         {
             CreateMap<WorkoutVideo, WorkoutVideoDto>()
                 .ForMember(dest => dest.VideoArr, opt => opt.Ignore());  // המיפוי לא טוען את הקובץ
-            CreateMap<WorkoutVideoDto, WorkoutVideo>()
-                .ForMember(dest => dest.VideoUrl, opt => opt.MapFrom(src => src.fileVideo.FileName));
+            //CreateMap<WorkoutVideoDto, WorkoutVideo>()
+            //    .ForMember(dest => dest.VideoUrl, opt => opt.MapFrom(src => src.fileVideo.FileName));
           //  CreateMap<UserWorkoutPlan, UserWorkoutPlanDto>().ReverseMap();
             CreateMap<User, UserDto>().ReverseMap();
             CreateMap<UserWorkoutPlan, UserWorkoutPlanDto>()
@@ -27,6 +27,8 @@ namespace Service.Services
             CreateMap<UserWorkoutPlanDto, UserWorkoutPlan>()
                 .ForMember(dest => dest.WorkoutPlanVideos, opt => opt.Ignore());
 
+            CreateMap<WorkoutVideoDto, WorkoutVideo>()
+    .ForMember(dest => dest.VideoUrl, opt => opt.MapFrom(src => src.VideoUrl));
         }
     }
 }
