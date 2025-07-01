@@ -12,7 +12,7 @@ const HomePage = () => {
       const response = await axios.post(
         "https://localhost:7286/api/CreateWorkoutPlan/generate",
         {
-          userId: 1, // שימי כאן את ה־UserId האמיתי של המשתמש
+          userId: 1, 
           desiredDuration: 30,
           difficultyLevel: "בינוני"
         },
@@ -74,7 +74,7 @@ const HomePage = () => {
       </div>
 
       <button style={ctaButtonStyle} onClick={handleStartWorkout}>
-        🚀 התחל את האימון הראשון שלך עכשיו
+         התחל את האימון הראשון שלך עכשיו
       </button>
     </div>
   );

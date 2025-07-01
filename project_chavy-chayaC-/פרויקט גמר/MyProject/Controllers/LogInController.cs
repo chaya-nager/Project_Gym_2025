@@ -92,7 +92,8 @@ namespace MyProject.Controllers
             var claims = new[] {
             new Claim(ClaimTypes.Email, user.Email),    
             new Claim(ClaimTypes.Role, user.UserType),
-            new Claim(ClaimTypes.Name,user.FullName)
+            new Claim(ClaimTypes.Name,user.FullName),
+            new Claim("UserId", user.UserId.ToString())
             };
             var token = new JwtSecurityToken(config["Jwt:Issuer"], config["Jwt:Audience"],
                 claims,

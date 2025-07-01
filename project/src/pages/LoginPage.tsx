@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import axios from "axios";
 import { useAppDispatch } from "../redux/store";
-import { setAuth } from "../redux/auth/auth.slice";
+import { setAuth,setInitialized  } from "../redux/auth/auth.slice";
 import { RoleType } from "../types/user.types";
 
 // פענוח JWT
@@ -65,16 +65,18 @@ const LoginPage = () => {
       };
 
       localStorage.setItem("token", token);
-      dispatch(setAuth(user));
 
+      dispatch(setAuth(user));
+      dispatch(setInitialized());
       console.log("✅ התחברת כ:", role);
-      if (role === RoleType.Trainer) {
-        navigate("/upload-video");
-       
-      } else {
-        navigate("/home");
-        
-      }
+      setTimeout(() => {
+        if (role === RoleType.Trainer) {
+          navigate("/upload-video", { replace: true });
+        } else {
+          navigate("/choose-plan", { replace: true });
+        }
+      }, 50);
+      
     } catch (err) {
       console.error(err);
       alert("שגיאה בהתחברות");
