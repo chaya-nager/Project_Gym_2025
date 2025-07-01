@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Http.Features;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.Extensions.FileProviders;
 internal class Program
 {
     private static void Main(string[] args)
@@ -81,7 +82,14 @@ internal class Program
             app.UseSwagger();
             app.UseSwaggerUI();
         }
+        app.UseStaticFiles(); // כבר קיים ברוב הפרויקטים
 
+        app.UseStaticFiles(new StaticFileOptions
+        {
+            FileProvider = new PhysicalFileProvider(
+                Path.Combine(Directory.GetCurrentDirectory(), "Videos")),
+            RequestPath = "/Videos"
+        });
         app.UseHttpsRedirection();
         app.UseCors("AllowLocalhost3000");
         app.UseAuthentication();

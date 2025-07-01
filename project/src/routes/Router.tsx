@@ -2,7 +2,7 @@ import { createBrowserRouter, RouterProvider, Navigate } from "react-router";
 import HomePage from "../pages/HomePage";
 import { ProductsPage } from "../pages/ProductsPage";
 import { AuthPage } from "../pages/AuthPage";
-import { LoginPage } from "../pages/LoginPage";
+import LoginPage  from "../pages/LoginPage";
 import { SignUpPage } from "../pages/SignUpPage";
 import { Layout } from "../layouts/Layout";
 import { Paths } from "./paths";
@@ -10,7 +10,8 @@ import AuthGuard from "../auth/AuthGuard";
 import GuestGuard from "../auth/guestGuard";
 import { RoleType } from "../types/user.types";
 import { AdminPage } from "../pages/AdminPage";
-import WorkoutPlanPage from "../pages/WorkoutPlanPage"; // <-- ודא שקובץ זה קיים
+import WorkoutPlanPage from "../pages/WorkoutPlanPage";
+import UploadVideoPage from "../pages/UploadVideoPage"; 
 
 const Router = () => {
   const router = createBrowserRouter([
@@ -38,8 +39,16 @@ const Router = () => {
           ),
         },
         {
-          path: "/workout-plan/:id", // <-- נתיב חדש לעמוד תכנית אימון
+          path: "/workout-plan/:id",
           element: <WorkoutPlanPage />,
+        },
+        {
+          path: "/upload-video", 
+          element: (
+            <AuthGuard roles={[RoleType.Trainer]}>
+              <UploadVideoPage />
+            </AuthGuard>
+          ),
         },
       ],
     },
@@ -67,8 +76,12 @@ const Router = () => {
     },
     {
       index: true,
-      element: <Navigate to="/home" />,
-    },
+      element: (
+        <AuthGuard roles={[RoleType.User]}>
+          <Navigate to="/home" />
+        </AuthGuard>
+      ),
+    }
   ]);
 
   return <RouterProvider router={router} />;

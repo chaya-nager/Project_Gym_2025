@@ -61,3 +61,16 @@ C:\Users\user1\Desktop\project_chavy-chayaC-\פרויקט גמר\Common\obj\Debu
 C:\Users\user1\Desktop\project_chavy-chayaC-\פרויקט גמר\Common\obj\Debug\net7.0\refint\Common.dll
 C:\Users\user1\Desktop\project_chavy-chayaC-\פרויקט גמר\Common\obj\Debug\net7.0\Common.pdb
 C:\Users\user1\Desktop\project_chavy-chayaC-\פרויקט גמר\Common\obj\Debug\net7.0\ref\Common.dll
+C:\Users\user1\Desktop\Project_Gym_2025\project_chavy-chayaC-\פרויקט גמר\Common\bin\Debug\net7.0\Common.deps.json
+C:\Users\user1\Desktop\Project_Gym_2025\project_chavy-chayaC-\פרויקט גמר\Common\bin\Debug\net7.0\Common.dll
+C:\Users\user1\Desktop\Project_Gym_2025\project_chavy-chayaC-\פרויקט גמר\Common\bin\Debug\net7.0\Common.pdb
+C:\Users\user1\Desktop\Project_Gym_2025\project_chavy-chayaC-\פרויקט גמר\Common\obj\Debug\net7.0\Common.csproj.AssemblyReference.cache
+C:\Users\user1\Desktop\Project_Gym_2025\project_chavy-chayaC-\פרויקט גמר\Common\obj\Debug\net7.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\Desktop\Project_Gym_2025\project_chavy-chayaC-\פרויקט גמר\Common\obj\Debug\net7.0\Common.AssemblyInfoInputs.cache
+C:\Users\user1\Desktop\Project_Gym_2025\project_chavy-chayaC-\פרויקט גמר\Common\obj\Debug\net7.0\Common.AssemblyInfo.cs
+C:\Users\user1\Desktop\Project_Gym_2025\project_chavy-chayaC-\פרויקט גמר\Common\obj\Debug\net7.0\Common.csproj.CoreCompileInputs.cache
+C:\Users\user1\Desktop\Project_Gym_2025\project_chavy-chayaC-\פרויקט גמר\Common\obj\Debug\net7.0\Common.sourcelink.json
+C:\Users\user1\Desktop\Project_Gym_2025\project_chavy-chayaC-\פרויקט גמר\Common\obj\Debug\net7.0\Common.dll
+C:\Users\user1\Desktop\Project_Gym_2025\project_chavy-chayaC-\פרויקט גמר\Common\obj\Debug\net7.0\refint\Common.dll
+C:\Users\user1\Desktop\Project_Gym_2025\project_chavy-chayaC-\פרויקט גמר\Common\obj\Debug\net7.0\Common.pdb
+C:\Users\user1\Desktop\Project_Gym_2025\project_chavy-chayaC-\פרויקט גמר\Common\obj\Debug\net7.0\ref\Common.dll

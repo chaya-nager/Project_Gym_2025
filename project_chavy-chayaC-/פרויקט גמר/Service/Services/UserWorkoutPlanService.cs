@@ -24,11 +24,16 @@ namespace Service.Services
             this.repository = repository;
             this.mapper = mapper;
         }
+        //public async Task<UserWorkoutPlanDto> AddItemAsync(UserWorkoutPlanDto item)
+        //{
+        //    return mapper.Map<UserWorkoutPlan, UserWorkoutPlanDto>(await  repository.AddItemAsync(mapper.Map<UserWorkoutPlanDto,UserWorkoutPlan>(item)));
+        //}
         public async Task<UserWorkoutPlanDto> AddItemAsync(UserWorkoutPlanDto item)
         {
-            return mapper.Map<UserWorkoutPlan, UserWorkoutPlanDto>(await  repository.AddItemAsync(mapper.Map<UserWorkoutPlanDto,UserWorkoutPlan>(item)));
+            var entity = await ConvertDtoToEntity(item);
+            var added = await repository.AddItemAsync(entity);
+            return mapper.Map<UserWorkoutPlanDto>(added);
         }
-
         public async Task DeleteItemAsync(int id)
         {
             await repository.DeleteItemAsync(id);
@@ -47,69 +52,15 @@ namespace Service.Services
         {
              await repository.UpdateItemAsync(id, mapper.Map<UserWorkoutPlanDto, UserWorkoutPlan>(item));
         }
-        //הלוגיקה מזיפוש
-        //public UserWorkoutPlan GenerateWorkoutPlan(int userId, int desiredDuration, string difficultyLevel)
-        //{
-        //    var user = userRepository.GetByIdAsync(userId);
-        //    var allVideos = videoRepository.GetAllAsync();
+        public async Task<UserWorkoutPlan> ConvertDtoToEntity(UserWorkoutPlanDto dto)
+        {
+            var videos = await videoRepository.GetAllAsync(); // או GetByIds
+            var selectedVideos = videos.Where(v => dto.VideoIds.Contains(v.VideoId)).ToList();
 
-        //    var filtered = allVideos
-        //        .Where(v =>
-        //            v.DifficultyLevel == difficultyLevel &&
-        //            (string.IsNullOrEmpty(v.TargetAudience) ||
-        //             !user.HealthConditions?.Split(',').Any(cond => v.TargetAudience.Contains(cond.Trim())) == true) &&
-        //            v.Duration <= desiredDuration &&
-        //            (user.BirthDate.AddYears(13) <= DateTime.Today || v.TargetAudience.Contains("ילדים")))
-        //        .ToList();
+            var entity = mapper.Map<UserWorkoutPlan>(dto);
+            entity.WorkoutPlanVideos = selectedVideos;
 
-        //    var scoredVideos = filtered
-        //        .Select(v => new
-        //        {
-        //            Video = v,
-        //            Score = CalculateScore(v, user, desiredDuration, difficultyLevel)
-        //        })
-        //        .OrderByDescending(x => x.Score)
-        //        .ToList();
-
-        //    var selected = new List<WorkoutVideo>();
-        //    int totalTime = 0;
-
-        //    foreach (var item in scoredVideos)
-        //    {
-        //        if (totalTime + item.Video.Duration <= desiredDuration)
-        //        {
-        //            selected.Add(item.Video);
-        //            totalTime += item.Video.Duration;
-        //        }
-        //    }
-
-        //    var plan = new UserWorkoutPlan
-        //    {
-        //        UserId = user.Id,
-        //        WorkoutPlanVideos = selected
-        //    };
-
-        //    repository.AddItemAsync(plan);
-        //    return plan;
-        //}
-
-        //private double CalculateScore(WorkoutVideo video, User user, int desiredDuration, string difficultyLevel)
-        //{
-        //    double score = 0;
-
-        //    score += 1 - (Math.Abs(video.Duration - desiredDuration) / (double)desiredDuration);
-
-        //    if (video.DifficultyLevel == difficultyLevel)
-        //        score += 1;
-        //    else
-        //        score += 0.5;
-
-        //    if (!string.IsNullOrEmpty(user.HealthConditions) &&
-        //        !string.IsNullOrEmpty(video.TargetAudience) &&
-        //        user.HealthConditions.Split(',').Any(cond => video.TargetAudience.Contains(cond.Trim())))
-        //        score -= 1;
-
-        //    return score;
-        //}
+            return entity;
+        }
     }
 }

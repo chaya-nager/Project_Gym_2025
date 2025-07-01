@@ -1,13 +1,34 @@
 import { useState } from "react";
+import { useNavigate, Link } from "react-router-dom";
 import axios from "axios";
-import { Link } from "react-router-dom";
-import { useNavigate } from "react-router-dom";
+import { useAppDispatch } from "../redux/store";
+import { setAuth } from "../redux/auth/auth.slice";
+import { RoleType } from "../types/user.types";
 
-export const LoginPage = () => {
-    const navigate = useNavigate();
+// פענוח JWT
+function parseJwt(token: string) {
+  try {
+    const base64Url = token.split('.')[1];
+    const base64 = base64Url.replace(/-/g, '+').replace(/_/g, '/');
+    const jsonPayload = decodeURIComponent(
+      atob(base64)
+        .split('')
+        .map(c => '%' + ('00' + c.charCodeAt(0).toString(16)).slice(-2))
+        .join('')
+    );
+    return JSON.parse(jsonPayload);
+  } catch (e) {
+    return null;
+  }
+}
+
+const LoginPage = () => {
+  const navigate = useNavigate();
+  const dispatch = useAppDispatch();
+
   const [credentials, setCredentials] = useState({
-    email: '',
-    userName: ''
+    UserName: '',
+    Email: ''
   });
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -17,18 +38,43 @@ export const LoginPage = () => {
   const handleLogin = async () => {
     try {
       const formData = new FormData();
-      formData.append("UserName", credentials.userName);
-      formData.append("Email", credentials.email);
+      formData.append("UserName", credentials.UserName);
+      formData.append("Email", credentials.Email);
 
       const res = await axios.post("https://localhost:7286/api/login/login", formData);
       const token = res.data;
+
       if (token === "Unauthorized") {
         alert("פרטי התחברות שגויים");
         return;
       }
 
+      const decoded = parseJwt(token);
+      const rawRole = decoded?.["http://schemas.microsoft.com/ws/2008/06/identity/claims/role"]
+        || decoded?.role || decoded?.UserType;
+
+      const role = (rawRole as string)?.toLowerCase() as RoleType;
+
+      const user = {
+        id: decoded?.UserId || 0,
+        name: decoded?.FullName || "",
+        email: decoded?.Email || "",
+        phone: "",
+        address: "",
+        role: role?.toLowerCase() as RoleType
+      };
+
       localStorage.setItem("token", token);
-      navigate("/home"); 
+      dispatch(setAuth(user));
+
+      console.log("✅ התחברת כ:", role);
+      if (role === RoleType.Trainer) {
+        navigate("/upload-video");
+       
+      } else {
+        navigate("/home");
+        
+      }
     } catch (err) {
       console.error(err);
       alert("שגיאה בהתחברות");
@@ -39,8 +85,8 @@ export const LoginPage = () => {
     <div style={wrapperStyle}>
       <form onSubmit={(e) => { e.preventDefault(); handleLogin(); }} style={formStyle}>
         <h2 style={titleStyle}>התחברות</h2>
-        <input name="email" placeholder="אימייל" onChange={handleChange} style={inputStyle} />
-        <input name="userName" placeholder="שם מלא" onChange={handleChange} style={inputStyle} />
+        <input name="UserName" placeholder="שם משתמש" onChange={handleChange} style={inputStyle} />
+        <input name="Email" placeholder="אימייל" onChange={handleChange} style={inputStyle} />
         <button type="submit" style={buttonStyle}>התחבר</button>
         <p style={{ textAlign: "center" }}>
           עדיין לא רשום? <Link to="/auth/sign-up" style={{ color: "#ff9800" }}>הרשמה</Link>
@@ -50,14 +96,16 @@ export const LoginPage = () => {
   );
 };
 
-// סגנונות זהים
+export default LoginPage;
+
+// עיצוב
 const wrapperStyle = {
   display: "flex",
   justifyContent: "center",
   alignItems: "center",
   height: "100vh",
   background: "linear-gradient(135deg, #e0f7fa, #e8f5e9)"
-}as const;
+} as const;
 
 const formStyle = {
   display: "flex",
@@ -69,19 +117,19 @@ const formStyle = {
   boxShadow: "0 8px 24px rgba(0,0,0,0.1)",
   width: "100%",
   maxWidth: "400px"
-}as const;
+} as const;
 
 const titleStyle = {
   textAlign: "center",
   color: "#1976d2"
-}as const;
+} as const;
 
 const inputStyle = {
   padding: "0.75rem",
   borderRadius: "8px",
   border: "1px solid #ccc",
   fontSize: "1rem"
-}as const;
+} as const;
 
 const buttonStyle = {
   padding: "0.75rem",
@@ -92,4 +140,4 @@ const buttonStyle = {
   fontWeight: "bold",
   fontSize: "1rem",
   cursor: "pointer"
-}as const;
+} as const;

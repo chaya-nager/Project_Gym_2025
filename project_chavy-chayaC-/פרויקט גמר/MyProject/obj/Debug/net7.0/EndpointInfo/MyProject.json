@@ -816,6 +816,9 @@
                     "type": "string",
                     "format": "byte"
                   },
+                  "VideoUrl": {
+                    "type": "string"
+                  },
                   "fileVideo": {
                     "type": "string",
                     "format": "binary"
@@ -853,6 +856,9 @@
                   "style": "form"
                 },
                 "VideoArr": {
+                  "style": "form"
+                },
+                "VideoUrl": {
                   "style": "form"
                 },
                 "fileVideo": {
@@ -964,6 +970,9 @@
                     "type": "string",
                     "format": "byte"
                   },
+                  "VideoUrl": {
+                    "type": "string"
+                  },
                   "fileVideo": {
                     "type": "string",
                     "format": "binary"
@@ -1001,6 +1010,9 @@
                   "style": "form"
                 },
                 "VideoArr": {
+                  "style": "form"
+                },
+                "VideoUrl": {
                   "style": "form"
                 },
                 "fileVideo": {
@@ -1282,6 +1294,10 @@
           "videoArr": {
             "type": "string",
             "format": "byte",
+            "nullable": true
+          },
+          "videoUrl": {
+            "type": "string",
             "nullable": true
           },
           "fileVideo": {

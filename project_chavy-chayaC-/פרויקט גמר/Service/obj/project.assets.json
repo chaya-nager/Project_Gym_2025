@@ -773,11 +773,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user1\\Desktop\\project_chavy-chayaC-\\פרויקט גמר\\Service\\Service.csproj",
+      "projectUniqueName": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\Service\\Service.csproj",
       "projectName": "Service",
-      "projectPath": "C:\\Users\\user1\\Desktop\\project_chavy-chayaC-\\פרויקט גמר\\Service\\Service.csproj",
+      "projectPath": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\Service\\Service.csproj",
       "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user1\\Desktop\\project_chavy-chayaC-\\פרויקט גמר\\Service\\obj\\",
+      "outputPath": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\Service\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -798,11 +798,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\user1\\Desktop\\project_chavy-chayaC-\\פרויקט גמר\\Common\\Common.csproj": {
-              "projectPath": "C:\\Users\\user1\\Desktop\\project_chavy-chayaC-\\פרויקט גמר\\Common\\Common.csproj"
+            "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\Common\\Common.csproj": {
+              "projectPath": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\Common\\Common.csproj"
             },
-            "C:\\Users\\user1\\Desktop\\project_chavy-chayaC-\\פרויקט גמר\\Repository\\Repository.csproj": {
-              "projectPath": "C:\\Users\\user1\\Desktop\\project_chavy-chayaC-\\פרויקט גמר\\Repository\\Repository.csproj"
+            "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\Repository\\Repository.csproj": {
+              "projectPath": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\Repository\\Repository.csproj"
             }
           }
         }

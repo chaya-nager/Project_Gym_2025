@@ -542,6 +542,11 @@
         "IsRequired": false
       },
       {
+        "Name": "VideoUrl",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
         "Name": "fileVideo",
         "Type": "Microsoft.AspNetCore.Http.IFormFile",
         "IsRequired": false
@@ -557,13 +562,7 @@
         "IsRequired": false
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "MyProject.Controllers.WorkoutVideoController",
@@ -642,6 +641,11 @@
       {
         "Name": "VideoArr",
         "Type": "System.Byte[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "VideoUrl",
+        "Type": "System.String",
         "IsRequired": false
       },
       {

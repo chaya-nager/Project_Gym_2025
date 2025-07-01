@@ -36,10 +36,30 @@ namespace MyProject.Controllers
         // POST api/<WorkoutVideoController>
         [HttpPost]
         //[Authorize (Roles= "Trainer")]
-        public async Task Post([FromForm] WorkoutVideoDto workoutVideo)
+        //public async Task Post([FromForm] WorkoutVideoDto workoutVideo)
+        //{
+        //    await UploadVideo(workoutVideo.fileVideo);
+        //    await _service.AddItemAsync(workoutVideo);
+        //}
+        [HttpPost]
+        public async Task<IActionResult> Post([FromForm] WorkoutVideoDto workoutVideo)
         {
-            await UploadVideo(workoutVideo.fileVideo);
+            // 1. שמירת הקובץ בתיקיית Videos
+            var fileName = Guid.NewGuid().ToString() + Path.GetExtension(workoutVideo.fileVideo.FileName);
+            var filePath = Path.Combine("Videos", fileName);
+
+            using (var stream = new FileStream(filePath, FileMode.Create))
+            {
+                await workoutVideo.fileVideo.CopyToAsync(stream);
+            }
+
+            // 2. שמירת הנתיב ב-DTO
+            workoutVideo.VideoUrl = $"Videos/{fileName}";
+
+            // 3. שמירת הנתונים במסד הנתונים
             await _service.AddItemAsync(workoutVideo);
+
+            return Ok();
         }
 
         // PUT api/<WorkoutVideoController>/5

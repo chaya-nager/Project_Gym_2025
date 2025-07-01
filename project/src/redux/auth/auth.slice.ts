@@ -1,34 +1,44 @@
-import { PayloadAction, createSlice } from "@reduxjs/toolkit";
-import { UserType } from "../../types/user.types";
+import { createSlice, PayloadAction } from "@reduxjs/toolkit";
+import { RoleType } from "../../types/user.types";
 
-type AuthStateType = {
-    isAuthorized: boolean,
-    isInitialized: boolean,
-    user: UserType | null
-}
+type User = {
+  id: number;
+  name: string;
+  email: string;
+  phone?: string;
+  address?: string;
+  role: RoleType;
+};
 
-const initialState: AuthStateType = {
-    isAuthorized: false,
-    isInitialized: false,
-    user: null
-}
+type AuthState = {
+  isAuthorized: boolean;
+  isInitialized: boolean;
+  user: User | null;
+};
+
+const initialState: AuthState = {
+  isAuthorized: false,
+  isInitialized: false,
+  user: null,
+};
 
 const authSlice = createSlice({
-    name: 'auth',
-    initialState,
-    reducers: {
-        setAuth: (state, action: PayloadAction<UserType>) => {
-            state.user = action.payload
-            state.isAuthorized = true // האם למשתמש יש הרשאות
-            state.isInitialized = true // האם כבר בדקנו את ההרשאות של המשתמש
-        },
-        setInitialized: (state) => {
-            state.isInitialized = true
+  name: "auth",
+  initialState,
+  reducers: {
+    setAuth: (state, action: PayloadAction<User>) => {
+      state.user = action.payload;
+      state.isAuthorized = true;
+    },
+    setInitialized: (state) => {
+      state.isInitialized = true;
+    },
+    logout: (state) => {
+      state.isAuthorized = false;
+      state.user = null;
+    },
+  },
+});
 
-        },
-    }
-})
-
-export const { setAuth, setInitialized } = authSlice.actions
-
-export default authSlice.reducer
+export const { setAuth, setInitialized, logout } = authSlice.actions;
+export default authSlice.reducer;

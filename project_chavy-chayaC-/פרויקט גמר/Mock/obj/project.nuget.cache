@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "s+5rwzgyCDc=",
+  "dgSpecHash": "EfonnNK+jXk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\user1\\Desktop\\project_chavy-chayaC-\\פרויקט גמר\\Mock\\Mock.csproj",
+  "projectFilePath": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\Mock\\Mock.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user1\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\user1\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

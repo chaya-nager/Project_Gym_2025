@@ -28,8 +28,10 @@ namespace Common.Dto
         public string TargetAudience { get; set; } = string.Empty; // למשל: חולי לב 
 
         public byte[]? VideoArr { get; set; }
-        
-       public IFormFile fileVideo { get; set; } 
+        public string? VideoUrl { get; set; }
+
+
+        public IFormFile fileVideo { get; set; } 
 
         public DateTime UploadedAt { get; set; } = DateTime.UtcNow;
 

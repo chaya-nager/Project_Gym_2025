@@ -1,9 +1,8 @@
-
 export enum RoleType {
-    Admin = 'admin',
-    User = 'user'
-}
-
+    User = "user",
+    Admin = "admin",
+    Trainer = "trainer"
+  }
 export type UserType = {
     id: number,
     name: string,
@@ -11,8 +10,4 @@ export type UserType = {
     phone: string,
     email: string,
     address: string,
-}
-
-export type Teatcher = UserType & {
-    aa: string
 }
