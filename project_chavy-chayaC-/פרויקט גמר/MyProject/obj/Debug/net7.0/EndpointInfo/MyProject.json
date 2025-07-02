@@ -31,24 +31,7 @@
         },
         "responses": {
           "200": {
-            "description": "Success",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/UserWorkoutPlan"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/UserWorkoutPlan"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/UserWorkoutPlan"
-                }
-              }
-            }
+            "description": "Success"
           }
         }
       }
@@ -1074,51 +1057,20 @@
           "difficultyLevel": {
             "type": "string",
             "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "User": {
-        "type": "object",
-        "properties": {
-          "userId": {
-            "type": "integer",
-            "format": "int32"
           },
-          "fullName": {
+          "workoutType": {
             "type": "string",
             "nullable": true
           },
-          "email": {
-            "type": "string",
-            "format": "email",
-            "nullable": true
-          },
-          "passwordHash": {
+          "targetAudience": {
             "type": "string",
             "nullable": true
           },
-          "birthDate": {
-            "type": "string",
-            "format": "date-time"
+          "includeWarmup": {
+            "type": "boolean"
           },
-          "userType": {
-            "type": "string",
-            "nullable": true
-          },
-          "healthConditions": {
-            "type": "string",
-            "nullable": true
-          },
-          "workoutVideos": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/WorkoutVideo"
-            },
-            "nullable": true
-          },
-          "userWorkoutPlan": {
-            "$ref": "#/components/schemas/UserWorkoutPlan"
+          "includeCooldown": {
+            "type": "boolean"
           }
         },
         "additionalProperties": false
@@ -1157,30 +1109,6 @@
         },
         "additionalProperties": false
       },
-      "UserWorkoutPlan": {
-        "type": "object",
-        "properties": {
-          "id": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "userId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "user": {
-            "$ref": "#/components/schemas/User"
-          },
-          "workoutPlanVideos": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/WorkoutVideo"
-            },
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
       "UserWorkoutPlanDto": {
         "type": "object",
         "properties": {
@@ -1199,63 +1127,6 @@
               "format": "int32"
             },
             "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "WorkoutVideo": {
-        "type": "object",
-        "properties": {
-          "videoId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "title": {
-            "type": "string",
-            "nullable": true
-          },
-          "description": {
-            "type": "string",
-            "nullable": true
-          },
-          "duration": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "difficultyLevel": {
-            "type": "string",
-            "nullable": true
-          },
-          "workoutType": {
-            "type": "string",
-            "nullable": true
-          },
-          "targetAudience": {
-            "type": "string",
-            "nullable": true
-          },
-          "videoUrl": {
-            "type": "string",
-            "nullable": true
-          },
-          "uploadedAt": {
-            "type": "string",
-            "format": "date-time"
-          },
-          "trainerId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "trainer": {
-            "$ref": "#/components/schemas/User"
-          },
-          "userWorkoutPlanId": {
-            "type": "integer",
-            "format": "int32",
-            "nullable": true
-          },
-          "userWorkoutPlan": {
-            "$ref": "#/components/schemas/UserWorkoutPlan"
           }
         },
         "additionalProperties": false

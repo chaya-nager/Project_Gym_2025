@@ -25,17 +25,34 @@ namespace MyProject.Controllers
         }
 
         [HttpPost("generate")]
-        public async Task<ActionResult<UserWorkoutPlan>> GenerateWorkout([FromBody] GenerateWorkoutPlanRequestDto request)
+        public async Task<ActionResult> GenerateWorkout([FromBody] GenerateWorkoutPlanRequestDto request)
         {
+            Console.WriteLine("📥 נקלטה בקשה ל-GenerateWorkout");
+
             var user = await userRepository.GetByIdAsync(request.UserId);
+            Console.WriteLine($"🔍 מתקבל userId: {request.UserId}, סוג אימון: {request.WorkoutType}");
             if (user == null)
+            {
+                Console.WriteLine("❌ משתמש לא נמצא");
                 return NotFound("User not found");
+            }
 
             var planner = new CreateWorkoutPlan(userRepository, videoRepository, planRepository);
-            var plan = await planner.GenerateWorkoutPlan(request.UserId, request.DesiredDuration, request.DifficultyLevel);
 
-            return Ok(plan);
+            // עכשיו הפונקציה מחזירה רשימת DTO
+            var videoDtos = await planner.GenerateWorkoutPlan(
+                request.UserId,
+                request.DesiredDuration,
+                request.DifficultyLevel,
+                request.WorkoutType,
+                request.TargetAudience,
+                request.IncludeWarmup,
+                request.IncludeCooldown
+            );
+
+            // מחזירים את זה כמו שה-React מצפה
+            return Ok(new { workoutPlanVideos = videoDtos });
         }
-    }
 
+    }
 }

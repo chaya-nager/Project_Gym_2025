@@ -83,6 +83,9 @@ const UploadVideoPage = () => {
     formData.append("TargetAudience", videoData.targetAudience);
     formData.append("fileVideo", file);
     formData.append("TrainerId", trainerId.toString());
+    if (videoData.targetAudience.trim()) {
+      formData.append("TargetAudience", videoData.targetAudience);
+    }
 
     try {
       await axios.post("https://localhost:7286/api/WorkoutVideo", formData, {
@@ -139,7 +142,7 @@ const UploadVideoPage = () => {
         </select>
 
         <input name="workoutType" placeholder="סוג אימון (Cardio, Strength...)" onChange={handleChange} style={inputStyle} />
-        <input name="targetAudience" placeholder="קהל יעד (לא חובה)" onChange={handleChange} style={inputStyle} />
+        <input name="targetAudience" placeholder="קהל יעד" onChange={handleChange} style={inputStyle} />
         <input type="file" accept="video/*" onChange={handleFileChange} style={inputStyle} />
 
         <button type="submit" style={buttonStyle}>העלה</button>

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ob1r4V4u1UfFS3PVdr9Pf0MrRkoxUvicWaS3mTIMQM4=",
+  "Hash": "vC2ozqqf5qNI3XOulCFKHaQH62H6vTiZ0rdyvl3RyZg=",
   "Source": "MyProject",
   "BasePath": "_content/MyProject",
   "Mode": "Default",
@@ -17,12 +17,12 @@
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\78bca5f5-a1d5-42f4-8541-e6c6a5970a3f.mp4",
+      "Identity": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\1475c92d-4956-4cb6-90d8-d1d8c7f901c6.mp4",
       "SourceId": "MyProject",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\",
       "BasePath": "_content/MyProject",
-      "RelativePath": "Videos/78bca5f5-a1d5-42f4-8541-e6c6a5970a3f#[.{fingerprint}]?.mp4",
+      "RelativePath": "Videos/1475c92d-4956-4cb6-90d8-d1d8c7f901c6#[.{fingerprint}]?.mp4",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -35,13 +35,223 @@
       "Integrity": "lA/FL61jdR5DwqER+7+cHUR6FBI0EPvjDsxhS7VyR/U=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Videos\\78bca5f5-a1d5-42f4-8541-e6c6a5970a3f.mp4"
+      "OriginalItemSpec": "wwwroot\\Videos\\1475c92d-4956-4cb6-90d8-d1d8c7f901c6.mp4"
+    },
+    {
+      "Identity": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\19302125-517d-450b-8e10-7ca15660365b.mp4",
+      "SourceId": "MyProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\",
+      "BasePath": "_content/MyProject",
+      "RelativePath": "Videos/19302125-517d-450b-8e10-7ca15660365b#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o6xlgffwzp",
+      "Integrity": "wMiFeWgR0727fRZB6ytyHDQYjeMIb8ylKUg0BDzJLDk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Videos\\19302125-517d-450b-8e10-7ca15660365b.mp4"
+    },
+    {
+      "Identity": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\19529702-a48a-49a3-883c-cfbec21aca1f.mp4",
+      "SourceId": "MyProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\",
+      "BasePath": "_content/MyProject",
+      "RelativePath": "Videos/19529702-a48a-49a3-883c-cfbec21aca1f#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "87h6r230ie",
+      "Integrity": "lA/FL61jdR5DwqER+7+cHUR6FBI0EPvjDsxhS7VyR/U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Videos\\19529702-a48a-49a3-883c-cfbec21aca1f.mp4"
+    },
+    {
+      "Identity": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\1ab670f8-245b-4a6d-96dd-ed1f6602dc63.mp4",
+      "SourceId": "MyProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\",
+      "BasePath": "_content/MyProject",
+      "RelativePath": "Videos/1ab670f8-245b-4a6d-96dd-ed1f6602dc63#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o6xlgffwzp",
+      "Integrity": "wMiFeWgR0727fRZB6ytyHDQYjeMIb8ylKUg0BDzJLDk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Videos\\1ab670f8-245b-4a6d-96dd-ed1f6602dc63.mp4"
+    },
+    {
+      "Identity": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\2aa1cb83-5d8c-458a-9d0d-2291a2ce735c.mp4",
+      "SourceId": "MyProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\",
+      "BasePath": "_content/MyProject",
+      "RelativePath": "Videos/2aa1cb83-5d8c-458a-9d0d-2291a2ce735c#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "01aa5f0isc",
+      "Integrity": "vG084CQEObrTc5ccN1sh+lP0quiaNibbTS1lHLbGz6g=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Videos\\2aa1cb83-5d8c-458a-9d0d-2291a2ce735c.mp4"
+    },
+    {
+      "Identity": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\30953764-c0a3-44d4-900a-c014b205b9e3.mp4",
+      "SourceId": "MyProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\",
+      "BasePath": "_content/MyProject",
+      "RelativePath": "Videos/30953764-c0a3-44d4-900a-c014b205b9e3#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "01aa5f0isc",
+      "Integrity": "vG084CQEObrTc5ccN1sh+lP0quiaNibbTS1lHLbGz6g=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Videos\\30953764-c0a3-44d4-900a-c014b205b9e3.mp4"
+    },
+    {
+      "Identity": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\87a4fad8-f950-4e65-87fb-f095167a430b.mp4",
+      "SourceId": "MyProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\",
+      "BasePath": "_content/MyProject",
+      "RelativePath": "Videos/87a4fad8-f950-4e65-87fb-f095167a430b#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "87h6r230ie",
+      "Integrity": "lA/FL61jdR5DwqER+7+cHUR6FBI0EPvjDsxhS7VyR/U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Videos\\87a4fad8-f950-4e65-87fb-f095167a430b.mp4"
+    },
+    {
+      "Identity": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\b38b5e4a-df66-4533-9101-792e68f7434d.mp4",
+      "SourceId": "MyProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\",
+      "BasePath": "_content/MyProject",
+      "RelativePath": "Videos/b38b5e4a-df66-4533-9101-792e68f7434d#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "87h6r230ie",
+      "Integrity": "lA/FL61jdR5DwqER+7+cHUR6FBI0EPvjDsxhS7VyR/U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Videos\\b38b5e4a-df66-4533-9101-792e68f7434d.mp4"
+    },
+    {
+      "Identity": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\df345f11-f094-4fea-8cce-fb76815c2d06.mp4",
+      "SourceId": "MyProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\",
+      "BasePath": "_content/MyProject",
+      "RelativePath": "Videos/df345f11-f094-4fea-8cce-fb76815c2d06#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o6xlgffwzp",
+      "Integrity": "wMiFeWgR0727fRZB6ytyHDQYjeMIb8ylKUg0BDzJLDk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Videos\\df345f11-f094-4fea-8cce-fb76815c2d06.mp4"
+    },
+    {
+      "Identity": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\df87afc4-884d-4753-871b-d76d5dfb6f26.mp4",
+      "SourceId": "MyProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\",
+      "BasePath": "_content/MyProject",
+      "RelativePath": "Videos/df87afc4-884d-4753-871b-d76d5dfb6f26#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "01aa5f0isc",
+      "Integrity": "vG084CQEObrTc5ccN1sh+lP0quiaNibbTS1lHLbGz6g=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Videos\\df87afc4-884d-4753-871b-d76d5dfb6f26.mp4"
+    },
+    {
+      "Identity": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\f8209469-f73e-4123-841f-db81d85e7647.mp4",
+      "SourceId": "MyProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\",
+      "BasePath": "_content/MyProject",
+      "RelativePath": "Videos/f8209469-f73e-4123-841f-db81d85e7647#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o6xlgffwzp",
+      "Integrity": "wMiFeWgR0727fRZB6ytyHDQYjeMIb8ylKUg0BDzJLDk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Videos\\f8209469-f73e-4123-841f-db81d85e7647.mp4"
     }
   ],
   "Endpoints": [
     {
-      "Route": "Videos/78bca5f5-a1d5-42f4-8541-e6c6a5970a3f.87h6r230ie.mp4",
-      "AssetFile": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\78bca5f5-a1d5-42f4-8541-e6c6a5970a3f.mp4",
+      "Route": "Videos/1475c92d-4956-4cb6-90d8-d1d8c7f901c6.87h6r230ie.mp4",
+      "AssetFile": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\1475c92d-4956-4cb6-90d8-d1d8c7f901c6.mp4",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -62,7 +272,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 01 Jul 2025 19:19:20 GMT"
+          "Value": "Wed, 02 Jul 2025 10:41:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -76,7 +286,7 @@
         },
         {
           "Name": "label",
-          "Value": "Videos/78bca5f5-a1d5-42f4-8541-e6c6a5970a3f.mp4"
+          "Value": "Videos/1475c92d-4956-4cb6-90d8-d1d8c7f901c6.mp4"
         },
         {
           "Name": "integrity",
@@ -85,8 +295,8 @@
       ]
     },
     {
-      "Route": "Videos/78bca5f5-a1d5-42f4-8541-e6c6a5970a3f.mp4",
-      "AssetFile": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\78bca5f5-a1d5-42f4-8541-e6c6a5970a3f.mp4",
+      "Route": "Videos/1475c92d-4956-4cb6-90d8-d1d8c7f901c6.mp4",
+      "AssetFile": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\1475c92d-4956-4cb6-90d8-d1d8c7f901c6.mp4",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -107,7 +317,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 01 Jul 2025 19:19:20 GMT"
+          "Value": "Wed, 02 Jul 2025 10:41:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -118,6 +328,826 @@
         {
           "Name": "integrity",
           "Value": "sha256-lA/FL61jdR5DwqER+7+cHUR6FBI0EPvjDsxhS7VyR/U="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/19302125-517d-450b-8e10-7ca15660365b.mp4",
+      "AssetFile": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\19302125-517d-450b-8e10-7ca15660365b.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "416754731"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wMiFeWgR0727fRZB6ytyHDQYjeMIb8ylKUg0BDzJLDk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Jul 2025 09:57:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wMiFeWgR0727fRZB6ytyHDQYjeMIb8ylKUg0BDzJLDk="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/19302125-517d-450b-8e10-7ca15660365b.o6xlgffwzp.mp4",
+      "AssetFile": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\19302125-517d-450b-8e10-7ca15660365b.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "416754731"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wMiFeWgR0727fRZB6ytyHDQYjeMIb8ylKUg0BDzJLDk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Jul 2025 09:57:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o6xlgffwzp"
+        },
+        {
+          "Name": "label",
+          "Value": "Videos/19302125-517d-450b-8e10-7ca15660365b.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wMiFeWgR0727fRZB6ytyHDQYjeMIb8ylKUg0BDzJLDk="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/19529702-a48a-49a3-883c-cfbec21aca1f.87h6r230ie.mp4",
+      "AssetFile": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\19529702-a48a-49a3-883c-cfbec21aca1f.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "85327872"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lA/FL61jdR5DwqER+7+cHUR6FBI0EPvjDsxhS7VyR/U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Jul 2025 16:48:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "87h6r230ie"
+        },
+        {
+          "Name": "label",
+          "Value": "Videos/19529702-a48a-49a3-883c-cfbec21aca1f.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lA/FL61jdR5DwqER+7+cHUR6FBI0EPvjDsxhS7VyR/U="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/19529702-a48a-49a3-883c-cfbec21aca1f.mp4",
+      "AssetFile": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\19529702-a48a-49a3-883c-cfbec21aca1f.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "85327872"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lA/FL61jdR5DwqER+7+cHUR6FBI0EPvjDsxhS7VyR/U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Jul 2025 16:48:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lA/FL61jdR5DwqER+7+cHUR6FBI0EPvjDsxhS7VyR/U="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/1ab670f8-245b-4a6d-96dd-ed1f6602dc63.mp4",
+      "AssetFile": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\1ab670f8-245b-4a6d-96dd-ed1f6602dc63.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "416754731"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wMiFeWgR0727fRZB6ytyHDQYjeMIb8ylKUg0BDzJLDk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Jul 2025 09:57:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wMiFeWgR0727fRZB6ytyHDQYjeMIb8ylKUg0BDzJLDk="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/1ab670f8-245b-4a6d-96dd-ed1f6602dc63.o6xlgffwzp.mp4",
+      "AssetFile": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\1ab670f8-245b-4a6d-96dd-ed1f6602dc63.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "416754731"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wMiFeWgR0727fRZB6ytyHDQYjeMIb8ylKUg0BDzJLDk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Jul 2025 09:57:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o6xlgffwzp"
+        },
+        {
+          "Name": "label",
+          "Value": "Videos/1ab670f8-245b-4a6d-96dd-ed1f6602dc63.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wMiFeWgR0727fRZB6ytyHDQYjeMIb8ylKUg0BDzJLDk="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/2aa1cb83-5d8c-458a-9d0d-2291a2ce735c.01aa5f0isc.mp4",
+      "AssetFile": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\2aa1cb83-5d8c-458a-9d0d-2291a2ce735c.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "43124101"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vG084CQEObrTc5ccN1sh+lP0quiaNibbTS1lHLbGz6g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Jul 2025 09:57:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "01aa5f0isc"
+        },
+        {
+          "Name": "label",
+          "Value": "Videos/2aa1cb83-5d8c-458a-9d0d-2291a2ce735c.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vG084CQEObrTc5ccN1sh+lP0quiaNibbTS1lHLbGz6g="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/2aa1cb83-5d8c-458a-9d0d-2291a2ce735c.mp4",
+      "AssetFile": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\2aa1cb83-5d8c-458a-9d0d-2291a2ce735c.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "43124101"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vG084CQEObrTc5ccN1sh+lP0quiaNibbTS1lHLbGz6g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Jul 2025 09:57:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vG084CQEObrTc5ccN1sh+lP0quiaNibbTS1lHLbGz6g="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/30953764-c0a3-44d4-900a-c014b205b9e3.01aa5f0isc.mp4",
+      "AssetFile": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\30953764-c0a3-44d4-900a-c014b205b9e3.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "43124101"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vG084CQEObrTc5ccN1sh+lP0quiaNibbTS1lHLbGz6g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Jul 2025 10:40:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "01aa5f0isc"
+        },
+        {
+          "Name": "label",
+          "Value": "Videos/30953764-c0a3-44d4-900a-c014b205b9e3.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vG084CQEObrTc5ccN1sh+lP0quiaNibbTS1lHLbGz6g="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/30953764-c0a3-44d4-900a-c014b205b9e3.mp4",
+      "AssetFile": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\30953764-c0a3-44d4-900a-c014b205b9e3.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "43124101"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vG084CQEObrTc5ccN1sh+lP0quiaNibbTS1lHLbGz6g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Jul 2025 10:40:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vG084CQEObrTc5ccN1sh+lP0quiaNibbTS1lHLbGz6g="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/87a4fad8-f950-4e65-87fb-f095167a430b.87h6r230ie.mp4",
+      "AssetFile": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\87a4fad8-f950-4e65-87fb-f095167a430b.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "85327872"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lA/FL61jdR5DwqER+7+cHUR6FBI0EPvjDsxhS7VyR/U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Jul 2025 16:36:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "87h6r230ie"
+        },
+        {
+          "Name": "label",
+          "Value": "Videos/87a4fad8-f950-4e65-87fb-f095167a430b.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lA/FL61jdR5DwqER+7+cHUR6FBI0EPvjDsxhS7VyR/U="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/87a4fad8-f950-4e65-87fb-f095167a430b.mp4",
+      "AssetFile": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\87a4fad8-f950-4e65-87fb-f095167a430b.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "85327872"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lA/FL61jdR5DwqER+7+cHUR6FBI0EPvjDsxhS7VyR/U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Jul 2025 16:36:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lA/FL61jdR5DwqER+7+cHUR6FBI0EPvjDsxhS7VyR/U="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/b38b5e4a-df66-4533-9101-792e68f7434d.87h6r230ie.mp4",
+      "AssetFile": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\b38b5e4a-df66-4533-9101-792e68f7434d.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "85327872"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lA/FL61jdR5DwqER+7+cHUR6FBI0EPvjDsxhS7VyR/U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Jul 2025 16:14:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "87h6r230ie"
+        },
+        {
+          "Name": "label",
+          "Value": "Videos/b38b5e4a-df66-4533-9101-792e68f7434d.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lA/FL61jdR5DwqER+7+cHUR6FBI0EPvjDsxhS7VyR/U="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/b38b5e4a-df66-4533-9101-792e68f7434d.mp4",
+      "AssetFile": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\b38b5e4a-df66-4533-9101-792e68f7434d.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "85327872"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lA/FL61jdR5DwqER+7+cHUR6FBI0EPvjDsxhS7VyR/U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Jul 2025 16:14:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lA/FL61jdR5DwqER+7+cHUR6FBI0EPvjDsxhS7VyR/U="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/df345f11-f094-4fea-8cce-fb76815c2d06.mp4",
+      "AssetFile": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\df345f11-f094-4fea-8cce-fb76815c2d06.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "416754731"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wMiFeWgR0727fRZB6ytyHDQYjeMIb8ylKUg0BDzJLDk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Jul 2025 16:14:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wMiFeWgR0727fRZB6ytyHDQYjeMIb8ylKUg0BDzJLDk="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/df345f11-f094-4fea-8cce-fb76815c2d06.o6xlgffwzp.mp4",
+      "AssetFile": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\df345f11-f094-4fea-8cce-fb76815c2d06.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "416754731"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wMiFeWgR0727fRZB6ytyHDQYjeMIb8ylKUg0BDzJLDk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Jul 2025 16:14:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o6xlgffwzp"
+        },
+        {
+          "Name": "label",
+          "Value": "Videos/df345f11-f094-4fea-8cce-fb76815c2d06.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wMiFeWgR0727fRZB6ytyHDQYjeMIb8ylKUg0BDzJLDk="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/df87afc4-884d-4753-871b-d76d5dfb6f26.01aa5f0isc.mp4",
+      "AssetFile": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\df87afc4-884d-4753-871b-d76d5dfb6f26.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "43124101"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vG084CQEObrTc5ccN1sh+lP0quiaNibbTS1lHLbGz6g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Jul 2025 10:40:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "01aa5f0isc"
+        },
+        {
+          "Name": "label",
+          "Value": "Videos/df87afc4-884d-4753-871b-d76d5dfb6f26.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vG084CQEObrTc5ccN1sh+lP0quiaNibbTS1lHLbGz6g="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/df87afc4-884d-4753-871b-d76d5dfb6f26.mp4",
+      "AssetFile": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\df87afc4-884d-4753-871b-d76d5dfb6f26.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "43124101"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vG084CQEObrTc5ccN1sh+lP0quiaNibbTS1lHLbGz6g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Jul 2025 10:40:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vG084CQEObrTc5ccN1sh+lP0quiaNibbTS1lHLbGz6g="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/f8209469-f73e-4123-841f-db81d85e7647.mp4",
+      "AssetFile": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\f8209469-f73e-4123-841f-db81d85e7647.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "416754731"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wMiFeWgR0727fRZB6ytyHDQYjeMIb8ylKUg0BDzJLDk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Jul 2025 16:13:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wMiFeWgR0727fRZB6ytyHDQYjeMIb8ylKUg0BDzJLDk="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/f8209469-f73e-4123-841f-db81d85e7647.o6xlgffwzp.mp4",
+      "AssetFile": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\f8209469-f73e-4123-841f-db81d85e7647.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "416754731"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wMiFeWgR0727fRZB6ytyHDQYjeMIb8ylKUg0BDzJLDk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Jul 2025 16:13:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o6xlgffwzp"
+        },
+        {
+          "Name": "label",
+          "Value": "Videos/f8209469-f73e-4123-841f-db81d85e7647.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wMiFeWgR0727fRZB6ytyHDQYjeMIb8ylKUg0BDzJLDk="
         }
       ]
     }

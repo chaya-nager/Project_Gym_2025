@@ -6,6 +6,7 @@ using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.Extensions.FileProviders;
+
 internal class Program
 {
     private static void Main(string[] args)
@@ -13,24 +14,14 @@ internal class Program
         var builder = WebApplication.CreateBuilder(args);
 
         // Add services to the container.
-
         builder.Services.AddControllers();
-        // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddSwaggerGen();
 
-        //הגדרת התלויות
+        // הוספת שירותים ותלויות
         builder.Services.AddServices();
         builder.Services.AddDbContext<IContext, Database>();
-     
-        builder.Services.AddDbContext<IContext, Database>();
-        //builder.Services.AddScoped<IService<WorkoutVideoDto>, WorkoutVideoService>();
-        //builder.Services.AddScoped<IRepository<WorkoutVideo>, WorkoutVideoRepository>();
-        //builder.Services.AddScoped<IService<UserWorkoutPlanDto>, UserWorkoutPlanService>();
-        //builder.Services.AddScoped<IRepository<UserWorkoutPlan>, UserWorkoutPlanRepository>();
-        //builder.Services.AddScoped<IService<UserDto>, UserService>();
-        //builder.Services.AddScoped<IRepository<User>, UserRepository>();
-        //builder.Services.AddAutoMapper(typeof(MyMapper));
+
         builder.WebHost.ConfigureKestrel(serverOptions =>
         {
             serverOptions.Limits.MaxRequestBodySize = 2L * 1024 * 1024 * 1024; // 2GB
@@ -40,25 +31,27 @@ internal class Program
         {
             options.MultipartBodyLengthLimit = 2L * 1024 * 1024 * 1024; // 2GB
         });
+
         builder.Services.AddAuthentication(options =>
         {
             options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
             options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
         })
-     .AddJwtBearer(options =>
-     {
-         options.TokenValidationParameters = new TokenValidationParameters
-         {
-             ValidateIssuer = true,
-             ValidateAudience = true,
-             ValidateLifetime = true,
-             ValidateIssuerSigningKey = true,
-             ValidIssuer = builder.Configuration["Jwt:Issuer"],
-             ValidAudience = builder.Configuration["Jwt:Audience"],
-             IssuerSigningKey = new SymmetricSecurityKey(
-                 Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
-         };
-     });
+        .AddJwtBearer(options =>
+        {
+            options.TokenValidationParameters = new TokenValidationParameters
+            {
+                ValidateIssuer = true,
+                ValidateAudience = true,
+                ValidateLifetime = true,
+                ValidateIssuerSigningKey = true,
+                ValidIssuer = builder.Configuration["Jwt:Issuer"],
+                ValidAudience = builder.Configuration["Jwt:Audience"],
+                IssuerSigningKey = new SymmetricSecurityKey(
+                    Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
+            };
+        });
+
         builder.Services.AddCors(options =>
         {
             options.AddPolicy("AllowLocalhost3000", builder =>
@@ -69,20 +62,26 @@ internal class Program
                        .AllowCredentials();
             });
         });
+
         builder.Services.AddAuthorization();
         builder.Services.AddControllers().AddJsonOptions(options =>
         {
-            options.JsonSerializerOptions.ReferenceHandler = System.Text.Json.Serialization.ReferenceHandler.Preserve;
+            options.JsonSerializerOptions.ReferenceHandler = System.Text.Json.Serialization.ReferenceHandler.IgnoreCycles;
+            options.JsonSerializerOptions.DefaultIgnoreCondition = System.Text.Json.Serialization.JsonIgnoreCondition.WhenWritingNull;
         });
+
         var app = builder.Build();
-      
-        // Configure the HTTP request pipeline.
+
+        // Configure the HTTP request pipeline
         if (app.Environment.IsDevelopment())
         {
             app.UseSwagger();
             app.UseSwaggerUI();
         }
-        app.UseStaticFiles(); // כבר קיים ברוב הפרויקטים
+
+        app.UseHttpsRedirection();
+
+        app.UseStaticFiles();
 
         app.UseStaticFiles(new StaticFileOptions
         {
@@ -90,13 +89,18 @@ internal class Program
                 Path.Combine(Directory.GetCurrentDirectory(), "Videos")),
             RequestPath = "/Videos"
         });
-        app.UseHttpsRedirection();
+
+        app.UseRouting(); // ? חובה לפני Authentication, Authorization, Endpoints
+
         app.UseCors("AllowLocalhost3000");
-        app.UseAuthentication();
 
-        app.UseAuthorization();
+        app.UseAuthentication(); // ? קודם Authentication
+        app.UseAuthorization();  // ? ואז Authorization
 
-        app.MapControllers();
+        app.UseEndpoints(endpoints =>
+        {
+            endpoints.MapControllers();
+        });
 
         app.Run();
     }

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Common.Dto;
 using Repository.Entities;
 using Repository.Interfaces;
 
@@ -14,138 +15,113 @@ namespace Service.Services
         private readonly IRepository<WorkoutVideo> videoRepository;
         private readonly IRepository<UserWorkoutPlan> planRepository;
 
-        public CreateWorkoutPlan(IRepository<User> userRepository, IRepository<WorkoutVideo> videoRepository, IRepository<UserWorkoutPlan> planRepository)
+        public CreateWorkoutPlan(
+            IRepository<User> userRepository,
+            IRepository<WorkoutVideo> videoRepository,
+            IRepository<UserWorkoutPlan> planRepository)
         {
             this.userRepository = userRepository;
             this.videoRepository = videoRepository;
             this.planRepository = planRepository;
         }
-
-        public async Task<UserWorkoutPlan> GenerateWorkoutPlan(int userId, int desiredDuration, string difficultyLevel)
+        public async Task<List<WorkoutVideoDto>> GenerateWorkoutPlan(int userId,int desiredDuration,string difficultyLevel,string workoutType,string targetAudience,bool includeWarmup,bool includeCooldown)
         {
+            Console.WriteLine("📥 נקלטה בקשה ל-GenerateWorkoutPlan");
+            Console.WriteLine($"🧑‍ userId: {userId}, 💪 WorkoutType: {workoutType}, ⏱ Duration: {desiredDuration}, 🎯 Difficulty: {difficultyLevel}, 👥 Audience: {targetAudience}");
+            Console.WriteLine($"🔥 Include Warmup: {includeWarmup}, ❄️ Include Cooldown: {includeCooldown}");
+
             var user = await userRepository.GetByIdAsync(userId);
             var allVideos = await videoRepository.GetAllAsync();
 
-            string healthConditions = user.HealthConditions ?? "";
-            DateTime minBirthDate = DateTime.Today.AddYears(-13);
+            Console.WriteLine($"🎞️ כמות סרטונים כולל בבסיס: {allVideos.Count}");
 
-            // שלב 1: סינון כללי לפי קושי, בריאות, גיל וכו'
             var filteredVideos = allVideos.Where(v =>
+                v.WorkoutType == workoutType &&
+                v.Duration <= desiredDuration &&
                 v.DifficultyLevel == difficultyLevel &&
-                (string.IsNullOrEmpty(v.TargetAudience) ||
-                 !healthConditions.Split(',', StringSplitOptions.RemoveEmptyEntries)
-                     .Any(cond => v.TargetAudience.Contains(cond.Trim(), StringComparison.OrdinalIgnoreCase))) &&
-                (user.BirthDate <= minBirthDate || (v.TargetAudience?.Contains("ילדים") ?? false))
+                (string.IsNullOrEmpty(v.TargetAudience) || v.TargetAudience == targetAudience)
             ).ToList();
 
-            // שלב 2: חלוקה לפי שלב האימון לפי מילות מפתח בתיאור
-            var warmupVideos = filteredVideos.Where(v => v.Description.Contains("חימום", StringComparison.OrdinalIgnoreCase)).ToList();
-            var cooldownVideos = filteredVideos.Where(v => v.Description.Contains("מתיחות", StringComparison.OrdinalIgnoreCase)).ToList();
+            var warmupVideos = allVideos
+                .Where(v => v.Description.Contains("חימום", StringComparison.OrdinalIgnoreCase))
+                .OrderBy(v => v.Duration)
+                .ToList();
 
-            // אימונים עיקריים הם כל השאר שלא חימום או מתיחות
-            var mainVideos = filteredVideos.Except(warmupVideos).Except(cooldownVideos).ToList();
+            var cooldownVideos = allVideos
+                .Where(v => v.Description.Contains("מתיחות", StringComparison.OrdinalIgnoreCase))
+                .OrderBy(v => v.Duration)
+                .ToList();
 
-            // שלב 3: יצירת כל קומבינציות אפשריות של חימום + אימון + מתיחות
-            // נניח לפחות 1 סרטון מכל שלב
-            var bestCombination = new List<WorkoutVideo>();
-            double bestScore = double.NegativeInfinity;
+            var mainVideos = filteredVideos
+                .Except(warmupVideos)
+                .Except(cooldownVideos)
+                .OrderByDescending(v => v.Duration)
+                .ToList();
 
-            foreach (var warmup in warmupVideos)
+            // שמור זמן לחימום ומתיחות מראש
+            int warmupReserve = includeWarmup && warmupVideos.Any() ? warmupVideos.First().Duration : 0;
+            int cooldownReserve = includeCooldown && cooldownVideos.Any() ? cooldownVideos.First().Duration : 0;
+            int timeForMain = desiredDuration - warmupReserve - cooldownReserve;
+
+            var candidate = new List<WorkoutVideo>();
+
+            int remainingMain = timeForMain;
+
+            foreach (var mv in mainVideos)
             {
-                // אפשר גם לבחור יותר מחימום אחד אם רוצים, כאן נניח אחד
-                foreach (var cooldown in cooldownVideos)
+                if (mv.Duration <= remainingMain)
                 {
-                    // כאן נרצה לבדוק כל תת-קבוצה של סרטוני אימון מרכזיים (power set)
-                    var mainSubsets = GetAllSubsets(mainVideos);
-
-                    foreach (var mainSet in mainSubsets)
-                    {
-                        if (mainSet.Count == 0) continue; // לפחות אחד אימון
-
-                        var candidate = new List<WorkoutVideo>();
-                        candidate.Add(warmup);
-                        candidate.AddRange(mainSet);
-                        candidate.Add(cooldown);
-
-                        int totalDuration = candidate.Sum(v => v.Duration);
-                        if (totalDuration <= desiredDuration)
-                        {
-                            double score = CalculateCombinationScore(candidate, user, desiredDuration, difficultyLevel);
-                            if (score > bestScore)
-                            {
-                                bestScore = score;
-                                bestCombination = candidate;
-                            }
-                        }
-                    }
+                    candidate.Add(mv);
+                    remainingMain -= mv.Duration;
+                    Console.WriteLine($"✅ נוסף אימון: {mv.Title}");
                 }
             }
 
-            var plan = new UserWorkoutPlan
+            if (includeWarmup && warmupReserve > 0)
+            {
+                var warmup = warmupVideos.FirstOrDefault(v => v.Duration == warmupReserve);
+                if (warmup != null)
+                {
+                    candidate.Insert(0, warmup);
+                    Console.WriteLine($"✅ נוסף חימום: {warmup.Title}");
+                }
+            }
+
+            if (includeCooldown && cooldownReserve > 0)
+            {
+                var cooldown = cooldownVideos.FirstOrDefault(v => v.Duration == cooldownReserve);
+                if (cooldown != null)
+                {
+                    candidate.Add(cooldown);
+                    Console.WriteLine($"✅ נוספה מתיחה: {cooldown.Title}");
+                }
+            }
+
+            // המרה ל־DTO
+            var videoDtos = candidate.Select(v => new WorkoutVideoDto
+            {
+                VideoId = v.VideoId,
+                Title = v.Title,
+                Description = v.Description,
+                Duration = v.Duration,
+                DifficultyLevel = v.DifficultyLevel,
+                WorkoutType = v.WorkoutType,
+                TargetAudience = v.TargetAudience,
+                VideoUrl = v.VideoUrl
+            }).ToList();
+
+            // שמירה במסד
+            await planRepository.AddItemAsync(new UserWorkoutPlan
             {
                 UserId = user.UserId,
-                WorkoutPlanVideos = bestCombination
-            };
+                WorkoutPlanVideos = candidate
+            });
 
-            await planRepository.AddItemAsync(plan);
-            return plan;
+            Console.WriteLine($"📦 כמות סופית: {candidate.Count}");
+            return videoDtos;
         }
 
-        // פונקציה מחזירה את כל תת-הקבוצות של רשימת סרטונים (Power set)
-        private List<List<WorkoutVideo>> GetAllSubsets(List<WorkoutVideo> videos)
-        {
-            var subsets = new List<List<WorkoutVideo>>();
-            int subsetCount = 1 << videos.Count; // 2^n
 
-            for (int i = 1; i < subsetCount; i++) // מתחילים מ-1 כדי למנוע קבוצה ריקה
-            {
-                var subset = new List<WorkoutVideo>();
-                for (int j = 0; j < videos.Count; j++)
-                {
-                    if ((i & (1 << j)) != 0)
-                    {
-                        subset.Add(videos[j]);
-                    }
-                }
-                subsets.Add(subset);
-            }
-            return subsets;
-        }
 
-        // חישוב ניקוד של קומבינציה לפי קריטריונים שונים
-        private double CalculateCombinationScore(List<WorkoutVideo> videos, User user, int desiredDuration, string difficultyLevel)
-        {
-            double score = 0;
-
-            int totalDuration = videos.Sum(v => v.Duration);
-
-            // ניקוד קרוב למשך הרצוי
-            score += 1 - (Math.Abs(totalDuration - desiredDuration) / (double)desiredDuration);
-
-            // ניקוד לפי רמת קושי
-            bool allMatchDifficulty = videos.All(v => v.DifficultyLevel == difficultyLevel);
-            if (allMatchDifficulty)
-                score += 1;
-            else
-                score += 0.5;
-
-            // עונש אם סרטון לא מתאים למצב בריאות
-            if (!string.IsNullOrEmpty(user.HealthConditions))
-            {
-                foreach (var v in videos)
-                {
-                    if (!string.IsNullOrEmpty(v.TargetAudience) &&
-                        user.HealthConditions.Split(',', StringSplitOptions.RemoveEmptyEntries)
-                            .Any(cond => v.TargetAudience.Contains(cond.Trim(), StringComparison.OrdinalIgnoreCase)))
-                    {
-                        score -= 1;
-                    }
-                }
-            }
-
-            // אפשר להוסיף שיקולים נוספים לפי צורך
-
-            return score;
-        }
     }
 }

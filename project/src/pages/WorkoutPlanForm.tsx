@@ -1,44 +1,85 @@
 import React, { useState } from "react";
 import axios from "axios";
 import { CSSProperties } from "react";
-const formatUrl = (url: string) => {
-  if (url.startsWith("https://localhost")) {
-    return url.replace("localhost", "127.0.0.1");
-  }
-  return url;
-};
+import { useNavigate } from "react-router-dom";
+
 const WorkoutPlanForm = () => {
   const [formData, setFormData] = useState({
     difficulty: "",
     workoutType: "",
     targetAudience: "",
+    desiredDuration: 20,
+    includeWarmup: false,
+    includeCooldown: false,
   });
 
   const [videos, setVideos] = useState<any[]>([]);
+  const navigate = useNavigate();
 
-  const handleChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
+    const target = e.target as HTMLInputElement;
+    const { name, value, type, checked } = target;
+    const updatedValue = type === "checkbox" ? checked : value;
+
+    setFormData({ ...formData, [name]: updatedValue });
   };
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+
+    const token = localStorage.getItem("token");
+    const userData = localStorage.getItem("user");
+
+    if (!token || !userData) {
+      alert("לא נמצא טוקן או נתוני משתמש. התחברי מחדש.");
+      return;
+    }
+
+    const user = JSON.parse(userData);
+    const userId = user?.id;
+
+    if (!userId) {
+      alert("לא נמצא מזהה משתמש.");
+      return;
+    }
+
     try {
-      const { difficulty, workoutType, targetAudience } = formData;
-      const params = new URLSearchParams({
-        difficulty,
-        workoutType,
-        targetAudience,
-      });
-  
-      const response = await axios.get(`https://localhost:7286/api/WorkoutVideo?${params.toString()}`);
-  
-      const data = Array.isArray(response.data.$values)
-        ? response.data.$values
-        : [response.data];
-  
-      setVideos(data);
+      const payload = {
+        userId,
+        desiredDuration: parseInt(formData.desiredDuration.toString(), 10),
+        difficultyLevel: formData.difficulty,
+        workoutType: formData.workoutType,
+        targetAudience: formData.targetAudience,
+        includeWarmup: formData.includeWarmup,
+        includeCooldown: formData.includeCooldown,
+      };
+
+      const response = await axios.post(
+        "https://localhost:7286/api/CreateWorkoutPlan/generate",
+        payload,
+        {
+          headers: {
+            Authorization: `Bearer ${token}`,
+          },
+        }
+      );
+
+      const data = response.data;
+      console.log("👉 תגובת שרת:", JSON.stringify(data, null, 2));
+      let videosArray: any[] = [];
+
+      if (Array.isArray(data.workoutPlanVideos)) {
+        videosArray = data.workoutPlanVideos;
+      } else if (data.workoutPlanVideos?.$values) {
+        videosArray = data.workoutPlanVideos.$values;
+      } else {
+        console.warn("⚠️ פורמט סרטונים לא מזוהה", data.workoutPlanVideos);
+      }
+
+      setVideos(videosArray);
     } catch (error) {
-      console.error("שגיאה בקבלת תוכניות:", error);
+      console.error("❌ שגיאה בבקשה לשרת:", error);
+      alert("שגיאה בשליחה לשרת.");
     }
   };
 
@@ -58,16 +99,51 @@ const WorkoutPlanForm = () => {
         <label>סוג אימון:</label>
         <select name="workoutType" value={formData.workoutType} onChange={handleChange} style={styles.input}>
           <option value="">בחר סוג אימון</option>
-          <option value="אירובי">אירובי</option>
+          <option value="ארובי">ארובי</option>
           <option value="כוח">כוח</option>
+          <option value="כוח">שיווי משקל וקואורדינציה</option>
+          <option value="כוח">אינטרוולים</option>
+          <option value="כוח">התעמלות טיפולית / שיקומית</option>
+
         </select>
 
         <label>קהל יעד:</label>
         <select name="targetAudience" value={formData.targetAudience} onChange={handleChange} style={styles.input}>
           <option value="">בחר קהל יעד</option>
-          <option value="צעירים">צעירים</option>
+          <option value="צעיר">צעירים</option>
           <option value="מבוגרים">מבוגרים</option>
         </select>
+
+        <label>משך אימון (בדקות):</label>
+        <input
+          type="number"
+          name="desiredDuration"
+          value={formData.desiredDuration}
+          onChange={handleChange}
+          style={styles.input}
+        />
+
+        <label>
+          <input
+            type="checkbox"
+            name="includeWarmup"
+            checked={formData.includeWarmup}
+            onChange={handleChange}
+            style={{ marginRight: "0.5rem" }}
+          />
+          כלול חימום
+        </label>
+
+        <label>
+          <input
+            type="checkbox"
+            name="includeCooldown"
+            checked={formData.includeCooldown}
+            onChange={handleChange}
+            style={{ marginRight: "0.5rem" }}
+          />
+          כלול מתיחות
+        </label>
 
         <button type="submit" style={styles.button}>חפש סרטונים</button>
       </form>
@@ -75,47 +151,34 @@ const WorkoutPlanForm = () => {
       {videos.length > 0 && (
         <div style={{ marginTop: "2rem", width: "100%", maxWidth: "800px" }}>
           <h3 style={styles.title}>תוצאות:</h3>
-          
-          {videos.map((video) => {
-            console.log("🎥 וידאו:", video);
-            console.log("🔗 videoUrl:", video.videoUrl);
-            return (
-              <div key={`video-${video.videoId || Math.random()}`} style={styles.videoCard}>
-                <h4>{video.title}</h4>
-                <p>{video.description}</p>
-
-                <button
-  style={{
-    marginTop: "1rem",
-    padding: "0.5rem 1rem",
-    backgroundColor: "#007bff",
-    color: "#fff",
-    border: "none",
-    borderRadius: "6px",
-    cursor: "pointer",
-  }}
-  onClick={() => {
-
-    console.log("🎯 נלחץ על כפתור לצפייה");
-    console.log("🔗 videoUrl:", video.videoUrl);
-    if (
-      
-      typeof video.videoUrl === "string" &&
-      video.videoUrl.trim().startsWith("http")
-      
-    ) {
-      console.log(video.videoUrl)
-      window.open(video.videoUrl, "_blank");
-    } else {
-      alert("קובץ הווידאו אינו זמין או שכתובת ה-URL אינה חוקית.");
-    }
-  }}
->
-  צפייה בדף נפרד
-</button>        
-              </div>
-            );
-          })}
+          {videos.map((video) => (
+            <div key={`video-${video.videoId || Math.random()}`} style={styles.videoCard}>
+              <h4>{video.title}</h4>
+              <p>{video.description}</p>
+              <p>⏱ משך: {video.duration} דקות</p>
+              <p>סוג: {video.workoutType}</p>
+              <button
+                style={{
+                  marginTop: "1rem",
+                  padding: "0.5rem 1rem",
+                  backgroundColor: "#007bff",
+                  color: "#fff",
+                  border: "none",
+                  borderRadius: "6px",
+                  cursor: "pointer",
+                }}
+                onClick={() => {
+                  if (typeof video.videoUrl === "string" && video.videoUrl.trim().startsWith("http")) {
+                    window.open(video.videoUrl, "_blank");
+                  } else {
+                    alert("קובץ הווידאו אינו זמין או לא תקין.");
+                  }
+                }}
+              >
+                צפייה בדף נפרד
+              </button>
+            </div>
+          ))}
         </div>
       )}
     </div>

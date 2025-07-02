@@ -23,10 +23,10 @@ const AuthGuard = ({ children, roles }: Props) => {
   }
   const userRole = user?.role as RoleType | undefined;
 
-  if (roles?.length && (!userRole || !roles.includes(userRole))) {
-    console.warn("🚫 Unauthorized: role is", userRole);
-    return <h1>אין הרשאה</h1>;
-  }
+  // if (roles?.length && (!userRole || !roles.includes(userRole))) {
+  //   console.warn("🚫 Unauthorized: role is", userRole);
+  //   return <h1>אין הרשאה</h1>;
+  // }
 
   return <>{children}</>;
 };

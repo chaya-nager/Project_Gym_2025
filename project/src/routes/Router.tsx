@@ -1,50 +1,29 @@
 import { createBrowserRouter, RouterProvider, Navigate } from "react-router";
 import HomePage from "../pages/HomePage";
-import { ProductsPage } from "../pages/ProductsPage";
 import { AuthPage } from "../pages/AuthPage";
-import LoginPage  from "../pages/LoginPage";
+import LoginPage from "../pages/LoginPage";
 import { SignUpPage } from "../pages/SignUpPage";
 import { Layout } from "../layouts/Layout";
 import { Paths } from "./paths";
 import AuthGuard from "../auth/AuthGuard";
 import GuestGuard from "../auth/guestGuard";
 import { RoleType } from "../types/user.types";
-import { AdminPage } from "../pages/AdminPage";
-import WorkoutPlanPage from "../pages/WorkoutPlanPage";
-import UploadVideoPage from "../pages/UploadVideoPage"; 
-import WorkoutPlanForm from "../pages/WorkoutPlanForm"; 
+import UploadVideoPage from "../pages/UploadVideoPage";
+import WorkoutPlanForm from "../pages/WorkoutPlanForm";
+import VideoPlayer from "../pages/VideoPlayer";
 
 const Router = () => {
   const router = createBrowserRouter([
     {
+      path: "/", // כל מה שקשור ל־Layout
       element: <Layout />,
       children: [
         {
-          path: Paths.home,
+          index: true, // עמוד הבית ברירת מחדל
           element: <HomePage />,
         },
         {
-          path: Paths.products,
-          element: (
-            <AuthGuard roles={[RoleType.User]}>
-              <ProductsPage />
-            </AuthGuard>
-          ),
-        },
-        {
-          path: Paths.admin,
-          element: (
-            <AuthGuard roles={[RoleType.Admin]}>
-              <AdminPage />
-            </AuthGuard>
-          ),
-        },
-        {
-          path: "/workout-plan/:id",
-          element: <WorkoutPlanPage />,
-        },
-        {
-          path: "/upload-video", 
+          path: Paths.uploadVideo, // "upload-video"
           element: (
             <AuthGuard roles={[RoleType.Trainer]}>
               <UploadVideoPage />
@@ -52,21 +31,21 @@ const Router = () => {
           ),
         },
         {
-          path: "/choose-plan",
+          path: Paths.choosePlan, // "choose-plan"
           element: (
             <AuthGuard roles={[RoleType.User]}>
               <WorkoutPlanForm />
             </AuthGuard>
           ),
         },
+        {
+          path: Paths.videoPlayer, // "video-player"
+          element: <VideoPlayer />,
+        },
       ],
     },
     {
-      path: "*",
-      element: <h1>404 Not Found</h1>,
-    },
-    {
-      path: "auth",
+      path: Paths.auth, // "auth"
       element: (
         <GuestGuard>
           <AuthPage />
@@ -74,23 +53,19 @@ const Router = () => {
       ),
       children: [
         {
-          path: Paths.login,
+          path: Paths.login, // "login"
           element: <LoginPage />,
         },
         {
-          path: "sign-up",
+          path: "sign-up", // sign-up עדיין לא מוגדר לך ב־Paths, אפשר להוסיף אם צריך
           element: <SignUpPage />,
         },
       ],
     },
     {
-      index: true,
-      element: (
-        <AuthGuard roles={[RoleType.User]}>
-          <Navigate to="/choose-plan" />
-        </AuthGuard>
-      ),
-    }
+      path: "*",
+      element: <h1>404 - הדף לא נמצא</h1>,
+    },
   ]);
 
   return <RouterProvider router={router} />;

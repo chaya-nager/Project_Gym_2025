@@ -68,6 +68,7 @@ const LoginPage = () => {
       };
 
       localStorage.setItem("token", token);
+      localStorage.setItem("user", JSON.stringify(user));
       dispatch(setAuth(user));
       dispatch(setInitialized());
 
