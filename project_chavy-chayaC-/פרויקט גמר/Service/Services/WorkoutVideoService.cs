@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace Service.Services
 {
-    public class WorkoutVideoService: IService<WorkoutVideoDto>
+    public class WorkoutVideoService: IService<WorkoutVideoDto>, IWorkoutVideoService<WorkoutVideoDto>
     {
         private readonly IRepository<WorkoutVideo> repository;
         private readonly IMapper mapper;
@@ -41,6 +41,12 @@ namespace Service.Services
         public async Task<WorkoutVideoDto> GetByIdAsync(int id)
         {
             return mapper.Map<WorkoutVideo, WorkoutVideoDto>(await repository.GetByIdAsync(id));
+        }
+        public async Task<List<WorkoutVideoDto>> GetVideosByTrainerId(int trainerId)
+        {
+            var allVideos = await repository.GetAllAsync();
+            var filteredVideos = allVideos.Where(v => v.TrainerId == trainerId).ToList();
+            return mapper.Map<List<WorkoutVideoDto>>(filteredVideos);
         }
 
         public async Task UpdateItemAsync(int id, WorkoutVideoDto item)

@@ -26,12 +26,14 @@ namespace Common.Dto
         public string WorkoutType { get; set; } = string.Empty; // Cardio, Strength, Yoga...
 
         public string TargetAudience { get; set; } = string.Empty; // למשל: חולי לב 
+        public string TargetAgeGroup { get; set; } = "לכולם";//מבוגרים צעירים לכולם
+
 
         public byte[]? VideoArr { get; set; }
         public string? VideoUrl { get; set; }
 
 
-        public IFormFile fileVideo { get; set; } 
+        public IFormFile? fileVideo { get; set; } 
 
         public DateTime UploadedAt { get; set; } = DateTime.UtcNow;
 

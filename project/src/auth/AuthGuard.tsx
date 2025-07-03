@@ -19,7 +19,7 @@ const AuthGuard = ({ children, roles }: Props) => {
   if (!isInitialized) return <h1>Loading...</h1>;
 
   if (!isAuthorized) {
-    return <Navigate to={`/${Paths.auth}/${Paths.login}`} replace />;
+return <Navigate to={Paths.login} replace />;
   }
   const userRole = user?.role as RoleType | undefined;
 

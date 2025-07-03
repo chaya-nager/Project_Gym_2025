@@ -11,9 +11,11 @@ namespace MyProject.Controllers
     public class WorkoutVideoController : ControllerBase
     {
         private readonly IService<WorkoutVideoDto> _service;
-        public WorkoutVideoController(IService<WorkoutVideoDto> service)
+        private readonly IWorkoutVideoService<WorkoutVideoDto> _workoutVideoService;
+        public WorkoutVideoController(IService<WorkoutVideoDto> service, IWorkoutVideoService<WorkoutVideoDto> workoutVideoService)
         {
-            this._service = service;           
+            _service = service;       
+            _workoutVideoService= workoutVideoService;
         }
         // GET: api/<WorkoutVideoController>
         [HttpGet]
@@ -32,16 +34,16 @@ namespace MyProject.Controllers
             }
             return Ok(WorkoutVideo);
         }
+        [HttpGet("by-trainer/{trainerId}")]
+        public async Task<IActionResult> GetVideosByTrainer(int trainerId)
+        {
+            var videos = await _workoutVideoService.GetVideosByTrainerId(trainerId);
 
+            return Ok(videos);
+        }
         // POST api/<WorkoutVideoController>
         [HttpPost]
-        //[Authorize (Roles= "Trainer")]
-        //public async Task Post([FromForm] WorkoutVideoDto workoutVideo)
-        //{
-        //    await UploadVideo(workoutVideo.fileVideo);
-        //    await _service.AddItemAsync(workoutVideo);
-        //}
-        [HttpPost]
+        [Authorize (Roles= "Trainer")]
         public async Task<IActionResult> Post([FromForm] WorkoutVideoDto workoutVideo)
         {
             var fileName = Guid.NewGuid().ToString() + Path.GetExtension(workoutVideo.fileVideo.FileName);
@@ -73,15 +75,55 @@ namespace MyProject.Controllers
             {
                 return NotFound();
             }
+            if (workoutVideo.fileVideo != null)
+            {
+                var fileName = Guid.NewGuid() + Path.GetExtension(workoutVideo.fileVideo.FileName);
+                var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "Videos", fileName);
+                using (var stream = new FileStream(path, FileMode.Create))
+                {
+                    await workoutVideo.fileVideo.CopyToAsync(stream);
+                }
+                workoutVideo.VideoUrl = $"{Request.Scheme}://{Request.Host}/Videos/{fileName}";
+            }
+            else
+            {
+                workoutVideo.VideoUrl = workoutVideoUpdate.VideoUrl; // שמור את הקישור הקיים אם לא שונה
+            }
             await _service.UpdateItemAsync(id, workoutVideo);
             return NoContent();
         }
         // DELETE api/<WorkoutVideoController>/5
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteWorkoutVideo(int id)
-        {            
-           await _service.DeleteItemAsync(id);
-            return Ok();
+        {
+            var workoutVideo = await _service.GetByIdAsync(id);
+            if (workoutVideo == null)
+                return NotFound("הסרטון לא נמצא.");
+
+            // נסה למחוק את הקובץ הפיזי אם יש כתובת URL
+            if (!string.IsNullOrWhiteSpace(workoutVideo.VideoUrl))
+            {
+                try
+                {
+                    var uri = new Uri(workoutVideo.VideoUrl);
+                    var fileName = Path.GetFileName(uri.LocalPath);
+                    var videoFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "Videos");
+                    var filePath = Path.Combine(videoFolder, fileName);
+
+                    if (System.IO.File.Exists(filePath))
+                    {
+                        System.IO.File.Delete(filePath);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    // אפשר לרשום ליומן אבל לא לחסום את המחיקה מה־DB
+                    Console.WriteLine($"⚠ שגיאה במחיקת קובץ פיזי: {ex.Message}");
+                }
+            }
+
+            await _service.DeleteItemAsync(id);
+            return Ok("הסרטון נמחק בהצלחה.");
         }
 
         private async Task UploadVideo(IFormFile file)

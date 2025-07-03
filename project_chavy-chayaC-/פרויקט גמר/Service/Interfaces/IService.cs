@@ -13,5 +13,6 @@ namespace Service.Interfaces
         Task<T> AddItemAsync(T item);
         Task DeleteItemAsync(int id);       
         Task UpdateItemAsync(int id, T item);
+
     }
 }

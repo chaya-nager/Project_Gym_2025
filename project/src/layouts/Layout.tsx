@@ -3,6 +3,7 @@ import { removeSession } from "../auth/auth.utils";
 import { RoleType } from "../types/user.types";
 import RoleGuard from "../auth/RoleGuard";
 import { Paths } from "../routes/paths";
+import { isLoggedOut } from "../auth/auth.utils";
 
 export const Layout = () => {
   return (
@@ -21,27 +22,28 @@ export const Layout = () => {
 export const NavBar = () => {
   return (
     <nav style={navStyle}>
-      <NavLink to="/" style={linkStyle} className={({ isActive }) => isActive ? activeLink : ""}>
+      <NavLink to={Paths.home} style={linkStyle} className={({ isActive }) => (isActive ? activeLink : "")}>
         עמוד הבית
       </NavLink>
-
-      <NavLink to="/auth/login" style={linkStyle} className={({ isActive }) => isActive ? activeLink : ""}>
+      <NavLink to={Paths.login} style={linkStyle} className={({ isActive }) => (isActive ? activeLink : "")}>
         התחברות
       </NavLink>
-
-      <NavLink to="/auth/sign-up" style={linkStyle} className={({ isActive }) => isActive ? activeLink : ""}>
+      <NavLink to={Paths.signUp} style={linkStyle} className={({ isActive }) => (isActive ? activeLink : "")}>
         הרשמה
       </NavLink>
 
       <RoleGuard roles={[RoleType.User]}>
-        <NavLink to={Paths.choosePlan} style={linkStyle} className={({ isActive }) => isActive ? activeLink : ""}>
+        <NavLink to={Paths.choosePlan} style={linkStyle} className={({ isActive }) => (isActive ? activeLink : "")}>
           בקשת סרטון
         </NavLink>
       </RoleGuard>
 
       <RoleGuard roles={[RoleType.Trainer]}>
-        <NavLink to={Paths.uploadVideo} style={linkStyle} className={({ isActive }) => isActive ? activeLink : ""}>
+        <NavLink to={Paths.uploadVideo} style={linkStyle} className={({ isActive }) => (isActive ? activeLink : "")}>
           העלאת סרטון
+        </NavLink>
+        <NavLink to={Paths.myTrainerVideos} style={linkStyle} className={({ isActive }) => (isActive ? activeLink : "")}>
+          הסרטונים שלי
         </NavLink>
       </RoleGuard>
     </nav>
@@ -51,19 +53,14 @@ export const NavBar = () => {
 const AccountButton = () => {
   const navigate = useNavigate();
 
-  const logout = () => {
-    removeSession();
-    navigate("/auth/login");
-  };
-
   return (
-    <button style={logoutBtnStyle} onClick={logout}>
+    <button style={logoutBtnStyle} onClick={() => navigate(Paths.logout)}>
       התנתקות
     </button>
   );
 };
 
-// 🌟 עיצובים (inline styles)
+// --- עיצובים
 const headerStyle: React.CSSProperties = {
   backgroundColor: "#ffffff",
   padding: "1rem 2rem",
@@ -92,7 +89,7 @@ const linkStyle: React.CSSProperties = {
   fontSize: "1rem",
 };
 
-const activeLink = "active"; // נוכל להחיל עליו style מיוחד בקובץ CSS אם תרצי
+const activeLink = "active";
 
 const logoutBtnStyle: React.CSSProperties = {
   backgroundColor: "#e53935",

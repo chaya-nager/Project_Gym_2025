@@ -7,28 +7,27 @@ const WorkoutPlanForm = () => {
   const [formData, setFormData] = useState({
     difficulty: "",
     workoutType: "",
-    targetAudience: "",
     desiredDuration: 20,
     includeWarmup: false,
     includeCooldown: false,
   });
 
   const [videos, setVideos] = useState<any[]>([]);
+  const [message, setMessage] = useState("");
   const navigate = useNavigate();
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
     const target = e.target as HTMLInputElement;
     const { name, value, type, checked } = target;
     const updatedValue = type === "checkbox" ? checked : value;
-
     setFormData({ ...formData, [name]: updatedValue });
   };
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
 
-    const token = localStorage.getItem("token");
-    const userData = localStorage.getItem("user");
+    const token = sessionStorage.getItem("token");
+    const userData = sessionStorage.getItem("user");
 
     if (!token || !userData) {
       alert("לא נמצא טוקן או נתוני משתמש. התחברי מחדש.");
@@ -37,6 +36,7 @@ const WorkoutPlanForm = () => {
 
     const user = JSON.parse(userData);
     const userId = user?.id;
+    const targetAudience = user?.medicalCondition || "";
 
     if (!userId) {
       alert("לא נמצא מזהה משתמש.");
@@ -49,7 +49,7 @@ const WorkoutPlanForm = () => {
         desiredDuration: parseInt(formData.desiredDuration.toString(), 10),
         difficultyLevel: formData.difficulty,
         workoutType: formData.workoutType,
-        targetAudience: formData.targetAudience,
+        targetAudience: targetAudience,
         includeWarmup: formData.includeWarmup,
         includeCooldown: formData.includeCooldown,
       };
@@ -65,20 +65,14 @@ const WorkoutPlanForm = () => {
       );
 
       const data = response.data;
-      console.log("👉 תגובת שרת:", JSON.stringify(data, null, 2));
-      let videosArray: any[] = [];
-
-      if (Array.isArray(data.workoutPlanVideos)) {
-        videosArray = data.workoutPlanVideos;
-      } else if (data.workoutPlanVideos?.$values) {
-        videosArray = data.workoutPlanVideos.$values;
-      } else {
-        console.warn("⚠️ פורמט סרטונים לא מזוהה", data.workoutPlanVideos);
-      }
+      const videosArray = Array.isArray(data.workoutPlanVideos)
+        ? data.workoutPlanVideos
+        : data.workoutPlanVideos?.$values || [];
 
       setVideos(videosArray);
+      setMessage(videosArray.length ? "" : "לא נמצאה תוכנית אימון מתאימה. ניתן לשנות את הסינון ולנסות שוב.");
     } catch (error) {
-      console.error("❌ שגיאה בבקשה לשרת:", error);
+      console.error("שגיאה בבקשה לשרת:", error);
       alert("שגיאה בשליחה לשרת.");
     }
   };
@@ -101,17 +95,9 @@ const WorkoutPlanForm = () => {
           <option value="">בחר סוג אימון</option>
           <option value="ארובי">ארובי</option>
           <option value="כוח">כוח</option>
-          <option value="כוח">שיווי משקל וקואורדינציה</option>
-          <option value="כוח">אינטרוולים</option>
-          <option value="כוח">התעמלות טיפולית / שיקומית</option>
-
-        </select>
-
-        <label>קהל יעד:</label>
-        <select name="targetAudience" value={formData.targetAudience} onChange={handleChange} style={styles.input}>
-          <option value="">בחר קהל יעד</option>
-          <option value="צעיר">צעירים</option>
-          <option value="מבוגרים">מבוגרים</option>
+          <option value="שיווי משקל וקואורדינציה">שיווי משקל וקואורדינציה</option>
+          <option value="אינטרוולים">אינטרוולים</option>
+          <option value="התעמלות טיפולית / שיקומית">התעמלות טיפולית / שיקומית</option>
         </select>
 
         <label>משך אימון (בדקות):</label>
@@ -124,29 +110,19 @@ const WorkoutPlanForm = () => {
         />
 
         <label>
-          <input
-            type="checkbox"
-            name="includeWarmup"
-            checked={formData.includeWarmup}
-            onChange={handleChange}
-            style={{ marginRight: "0.5rem" }}
-          />
+          <input type="checkbox" name="includeWarmup" checked={formData.includeWarmup} onChange={handleChange} style={{ marginRight: "0.5rem" }} />
           כלול חימום
         </label>
 
         <label>
-          <input
-            type="checkbox"
-            name="includeCooldown"
-            checked={formData.includeCooldown}
-            onChange={handleChange}
-            style={{ marginRight: "0.5rem" }}
-          />
+          <input type="checkbox" name="includeCooldown" checked={formData.includeCooldown} onChange={handleChange} style={{ marginRight: "0.5rem" }} />
           כלול מתיחות
         </label>
 
         <button type="submit" style={styles.button}>חפש סרטונים</button>
       </form>
+
+      {message && <div style={{ marginTop: "2rem", color: "#e53935", fontWeight: "bold" }}>{message}</div>}
 
       {videos.length > 0 && (
         <div style={{ marginTop: "2rem", width: "100%", maxWidth: "800px" }}>

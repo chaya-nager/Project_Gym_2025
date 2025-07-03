@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "vC2ozqqf5qNI3XOulCFKHaQH62H6vTiZ0rdyvl3RyZg=",
+  "Hash": "zxxNb8rvLLteHOV8OOVpT8+gPMO5eKu6mNWEYGcYFLk=",
   "Source": "MyProject",
   "BasePath": "_content/MyProject",
   "Mode": "Default",
@@ -10,40 +10,19 @@
     {
       "Name": "MyProject\\wwwroot",
       "Source": "MyProject",
-      "ContentRoot": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\",
       "BasePath": "_content/MyProject",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\1475c92d-4956-4cb6-90d8-d1d8c7f901c6.mp4",
+      "Identity": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\059b1033-b144-4602-aec8-05ccda9a6814.mp4",
       "SourceId": "MyProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\",
       "BasePath": "_content/MyProject",
-      "RelativePath": "Videos/1475c92d-4956-4cb6-90d8-d1d8c7f901c6#[.{fingerprint}]?.mp4",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "87h6r230ie",
-      "Integrity": "lA/FL61jdR5DwqER+7+cHUR6FBI0EPvjDsxhS7VyR/U=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Videos\\1475c92d-4956-4cb6-90d8-d1d8c7f901c6.mp4"
-    },
-    {
-      "Identity": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\19302125-517d-450b-8e10-7ca15660365b.mp4",
-      "SourceId": "MyProject",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\",
-      "BasePath": "_content/MyProject",
-      "RelativePath": "Videos/19302125-517d-450b-8e10-7ca15660365b#[.{fingerprint}]?.mp4",
+      "RelativePath": "Videos/059b1033-b144-4602-aec8-05ccda9a6814#[.{fingerprint}]?.mp4",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -56,15 +35,15 @@
       "Integrity": "wMiFeWgR0727fRZB6ytyHDQYjeMIb8ylKUg0BDzJLDk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Videos\\19302125-517d-450b-8e10-7ca15660365b.mp4"
+      "OriginalItemSpec": "wwwroot\\Videos\\059b1033-b144-4602-aec8-05ccda9a6814.mp4"
     },
     {
-      "Identity": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\19529702-a48a-49a3-883c-cfbec21aca1f.mp4",
+      "Identity": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\0ad17773-e903-4561-be0e-59963263de51.mp4",
       "SourceId": "MyProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\",
       "BasePath": "_content/MyProject",
-      "RelativePath": "Videos/19529702-a48a-49a3-883c-cfbec21aca1f#[.{fingerprint}]?.mp4",
+      "RelativePath": "Videos/0ad17773-e903-4561-be0e-59963263de51#[.{fingerprint}]?.mp4",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -77,15 +56,15 @@
       "Integrity": "lA/FL61jdR5DwqER+7+cHUR6FBI0EPvjDsxhS7VyR/U=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Videos\\19529702-a48a-49a3-883c-cfbec21aca1f.mp4"
+      "OriginalItemSpec": "wwwroot\\Videos\\0ad17773-e903-4561-be0e-59963263de51.mp4"
     },
     {
-      "Identity": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\1ab670f8-245b-4a6d-96dd-ed1f6602dc63.mp4",
+      "Identity": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\1bf4935b-d806-4d6b-be37-65e1fcfd1ebc.mp4",
       "SourceId": "MyProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\",
       "BasePath": "_content/MyProject",
-      "RelativePath": "Videos/1ab670f8-245b-4a6d-96dd-ed1f6602dc63#[.{fingerprint}]?.mp4",
+      "RelativePath": "Videos/1bf4935b-d806-4d6b-be37-65e1fcfd1ebc#[.{fingerprint}]?.mp4",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -98,15 +77,15 @@
       "Integrity": "wMiFeWgR0727fRZB6ytyHDQYjeMIb8ylKUg0BDzJLDk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Videos\\1ab670f8-245b-4a6d-96dd-ed1f6602dc63.mp4"
+      "OriginalItemSpec": "wwwroot\\Videos\\1bf4935b-d806-4d6b-be37-65e1fcfd1ebc.mp4"
     },
     {
-      "Identity": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\2aa1cb83-5d8c-458a-9d0d-2291a2ce735c.mp4",
+      "Identity": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\278ad229-c607-4ac1-8819-a980be9f71f9.mp4",
       "SourceId": "MyProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\",
       "BasePath": "_content/MyProject",
-      "RelativePath": "Videos/2aa1cb83-5d8c-458a-9d0d-2291a2ce735c#[.{fingerprint}]?.mp4",
+      "RelativePath": "Videos/278ad229-c607-4ac1-8819-a980be9f71f9#[.{fingerprint}]?.mp4",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -115,40 +94,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "01aa5f0isc",
-      "Integrity": "vG084CQEObrTc5ccN1sh+lP0quiaNibbTS1lHLbGz6g=",
+      "Fingerprint": "o6xlgffwzp",
+      "Integrity": "wMiFeWgR0727fRZB6ytyHDQYjeMIb8ylKUg0BDzJLDk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Videos\\2aa1cb83-5d8c-458a-9d0d-2291a2ce735c.mp4"
+      "OriginalItemSpec": "wwwroot\\Videos\\278ad229-c607-4ac1-8819-a980be9f71f9.mp4"
     },
     {
-      "Identity": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\30953764-c0a3-44d4-900a-c014b205b9e3.mp4",
+      "Identity": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\3a839e80-3157-4c11-a9ec-400984e5f2c1.mp4",
       "SourceId": "MyProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\",
       "BasePath": "_content/MyProject",
-      "RelativePath": "Videos/30953764-c0a3-44d4-900a-c014b205b9e3#[.{fingerprint}]?.mp4",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "01aa5f0isc",
-      "Integrity": "vG084CQEObrTc5ccN1sh+lP0quiaNibbTS1lHLbGz6g=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Videos\\30953764-c0a3-44d4-900a-c014b205b9e3.mp4"
-    },
-    {
-      "Identity": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\87a4fad8-f950-4e65-87fb-f095167a430b.mp4",
-      "SourceId": "MyProject",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\",
-      "BasePath": "_content/MyProject",
-      "RelativePath": "Videos/87a4fad8-f950-4e65-87fb-f095167a430b#[.{fingerprint}]?.mp4",
+      "RelativePath": "Videos/3a839e80-3157-4c11-a9ec-400984e5f2c1#[.{fingerprint}]?.mp4",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -161,15 +119,57 @@
       "Integrity": "lA/FL61jdR5DwqER+7+cHUR6FBI0EPvjDsxhS7VyR/U=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Videos\\87a4fad8-f950-4e65-87fb-f095167a430b.mp4"
+      "OriginalItemSpec": "wwwroot\\Videos\\3a839e80-3157-4c11-a9ec-400984e5f2c1.mp4"
     },
     {
-      "Identity": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\b38b5e4a-df66-4533-9101-792e68f7434d.mp4",
+      "Identity": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\3cdc83d3-2ade-4885-bbeb-fc69f875472c.mp4",
       "SourceId": "MyProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\",
       "BasePath": "_content/MyProject",
-      "RelativePath": "Videos/b38b5e4a-df66-4533-9101-792e68f7434d#[.{fingerprint}]?.mp4",
+      "RelativePath": "Videos/3cdc83d3-2ade-4885-bbeb-fc69f875472c#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0rey4f1oq5",
+      "Integrity": "1FAepgpayeyAmZQePe3o4YAGn/SIL3gJlCV8pd60bXY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Videos\\3cdc83d3-2ade-4885-bbeb-fc69f875472c.mp4"
+    },
+    {
+      "Identity": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\3f402ca1-c9da-40b0-898a-81871792a405.mp4",
+      "SourceId": "MyProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\",
+      "BasePath": "_content/MyProject",
+      "RelativePath": "Videos/3f402ca1-c9da-40b0-898a-81871792a405#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o6xlgffwzp",
+      "Integrity": "wMiFeWgR0727fRZB6ytyHDQYjeMIb8ylKUg0BDzJLDk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Videos\\3f402ca1-c9da-40b0-898a-81871792a405.mp4"
+    },
+    {
+      "Identity": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\45aab7c8-c7e6-487b-8d5e-5e3580a8cdb7.mp4",
+      "SourceId": "MyProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\",
+      "BasePath": "_content/MyProject",
+      "RelativePath": "Videos/45aab7c8-c7e6-487b-8d5e-5e3580a8cdb7#[.{fingerprint}]?.mp4",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -182,15 +182,15 @@
       "Integrity": "lA/FL61jdR5DwqER+7+cHUR6FBI0EPvjDsxhS7VyR/U=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Videos\\b38b5e4a-df66-4533-9101-792e68f7434d.mp4"
+      "OriginalItemSpec": "wwwroot\\Videos\\45aab7c8-c7e6-487b-8d5e-5e3580a8cdb7.mp4"
     },
     {
-      "Identity": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\df345f11-f094-4fea-8cce-fb76815c2d06.mp4",
+      "Identity": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\4c47ac1d-c433-4168-b40a-71f1925edd88.mp4",
       "SourceId": "MyProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\",
       "BasePath": "_content/MyProject",
-      "RelativePath": "Videos/df345f11-f094-4fea-8cce-fb76815c2d06#[.{fingerprint}]?.mp4",
+      "RelativePath": "Videos/4c47ac1d-c433-4168-b40a-71f1925edd88#[.{fingerprint}]?.mp4",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -203,36 +203,15 @@
       "Integrity": "wMiFeWgR0727fRZB6ytyHDQYjeMIb8ylKUg0BDzJLDk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Videos\\df345f11-f094-4fea-8cce-fb76815c2d06.mp4"
+      "OriginalItemSpec": "wwwroot\\Videos\\4c47ac1d-c433-4168-b40a-71f1925edd88.mp4"
     },
     {
-      "Identity": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\df87afc4-884d-4753-871b-d76d5dfb6f26.mp4",
+      "Identity": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\52fe3dc2-ae56-4551-8709-88f15a76bff3.mp4",
       "SourceId": "MyProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\",
       "BasePath": "_content/MyProject",
-      "RelativePath": "Videos/df87afc4-884d-4753-871b-d76d5dfb6f26#[.{fingerprint}]?.mp4",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "01aa5f0isc",
-      "Integrity": "vG084CQEObrTc5ccN1sh+lP0quiaNibbTS1lHLbGz6g=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Videos\\df87afc4-884d-4753-871b-d76d5dfb6f26.mp4"
-    },
-    {
-      "Identity": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\f8209469-f73e-4123-841f-db81d85e7647.mp4",
-      "SourceId": "MyProject",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\",
-      "BasePath": "_content/MyProject",
-      "RelativePath": "Videos/f8209469-f73e-4123-841f-db81d85e7647#[.{fingerprint}]?.mp4",
+      "RelativePath": "Videos/52fe3dc2-ae56-4551-8709-88f15a76bff3#[.{fingerprint}]?.mp4",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -245,95 +224,307 @@
       "Integrity": "wMiFeWgR0727fRZB6ytyHDQYjeMIb8ylKUg0BDzJLDk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Videos\\f8209469-f73e-4123-841f-db81d85e7647.mp4"
+      "OriginalItemSpec": "wwwroot\\Videos\\52fe3dc2-ae56-4551-8709-88f15a76bff3.mp4"
+    },
+    {
+      "Identity": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\5adc9706-7af4-489c-95ed-71d83e84b1a1.mp4",
+      "SourceId": "MyProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\",
+      "BasePath": "_content/MyProject",
+      "RelativePath": "Videos/5adc9706-7af4-489c-95ed-71d83e84b1a1#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o6xlgffwzp",
+      "Integrity": "wMiFeWgR0727fRZB6ytyHDQYjeMIb8ylKUg0BDzJLDk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Videos\\5adc9706-7af4-489c-95ed-71d83e84b1a1.mp4"
+    },
+    {
+      "Identity": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\6d15c1c3-ac71-4b25-b123-9ebe67d7e958.mp4",
+      "SourceId": "MyProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\",
+      "BasePath": "_content/MyProject",
+      "RelativePath": "Videos/6d15c1c3-ac71-4b25-b123-9ebe67d7e958#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "87h6r230ie",
+      "Integrity": "lA/FL61jdR5DwqER+7+cHUR6FBI0EPvjDsxhS7VyR/U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Videos\\6d15c1c3-ac71-4b25-b123-9ebe67d7e958.mp4"
+    },
+    {
+      "Identity": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\71ede653-5c9c-4277-8dcb-ca9f46c3c9ec.mp4",
+      "SourceId": "MyProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\",
+      "BasePath": "_content/MyProject",
+      "RelativePath": "Videos/71ede653-5c9c-4277-8dcb-ca9f46c3c9ec#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o6xlgffwzp",
+      "Integrity": "wMiFeWgR0727fRZB6ytyHDQYjeMIb8ylKUg0BDzJLDk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Videos\\71ede653-5c9c-4277-8dcb-ca9f46c3c9ec.mp4"
+    },
+    {
+      "Identity": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\7b75def5-5969-4ca7-877e-1568a6f7b41e.mp4",
+      "SourceId": "MyProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\",
+      "BasePath": "_content/MyProject",
+      "RelativePath": "Videos/7b75def5-5969-4ca7-877e-1568a6f7b41e#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o6xlgffwzp",
+      "Integrity": "wMiFeWgR0727fRZB6ytyHDQYjeMIb8ylKUg0BDzJLDk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Videos\\7b75def5-5969-4ca7-877e-1568a6f7b41e.mp4"
+    },
+    {
+      "Identity": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\9fc5c561-6c09-4efe-8ade-d2bba340c55a.mp4",
+      "SourceId": "MyProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\",
+      "BasePath": "_content/MyProject",
+      "RelativePath": "Videos/9fc5c561-6c09-4efe-8ade-d2bba340c55a#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "87h6r230ie",
+      "Integrity": "lA/FL61jdR5DwqER+7+cHUR6FBI0EPvjDsxhS7VyR/U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Videos\\9fc5c561-6c09-4efe-8ade-d2bba340c55a.mp4"
+    },
+    {
+      "Identity": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\ae6627ca-d0e2-4bf9-8ead-c8ac23c9f8a7.mp4",
+      "SourceId": "MyProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\",
+      "BasePath": "_content/MyProject",
+      "RelativePath": "Videos/ae6627ca-d0e2-4bf9-8ead-c8ac23c9f8a7#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "87h6r230ie",
+      "Integrity": "lA/FL61jdR5DwqER+7+cHUR6FBI0EPvjDsxhS7VyR/U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Videos\\ae6627ca-d0e2-4bf9-8ead-c8ac23c9f8a7.mp4"
+    },
+    {
+      "Identity": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\bb33a53b-b790-46a3-9207-172724f00988.mp4",
+      "SourceId": "MyProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\",
+      "BasePath": "_content/MyProject",
+      "RelativePath": "Videos/bb33a53b-b790-46a3-9207-172724f00988#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o6xlgffwzp",
+      "Integrity": "wMiFeWgR0727fRZB6ytyHDQYjeMIb8ylKUg0BDzJLDk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Videos\\bb33a53b-b790-46a3-9207-172724f00988.mp4"
+    },
+    {
+      "Identity": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\cc506caf-3511-4cea-8216-9ca92c5ba403.mp4",
+      "SourceId": "MyProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\",
+      "BasePath": "_content/MyProject",
+      "RelativePath": "Videos/cc506caf-3511-4cea-8216-9ca92c5ba403#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "87h6r230ie",
+      "Integrity": "lA/FL61jdR5DwqER+7+cHUR6FBI0EPvjDsxhS7VyR/U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Videos\\cc506caf-3511-4cea-8216-9ca92c5ba403.mp4"
+    },
+    {
+      "Identity": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\cd8305d2-d187-42e8-91ed-683cc7f1f3d7.mp4",
+      "SourceId": "MyProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\",
+      "BasePath": "_content/MyProject",
+      "RelativePath": "Videos/cd8305d2-d187-42e8-91ed-683cc7f1f3d7#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o6xlgffwzp",
+      "Integrity": "wMiFeWgR0727fRZB6ytyHDQYjeMIb8ylKUg0BDzJLDk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Videos\\cd8305d2-d187-42e8-91ed-683cc7f1f3d7.mp4"
+    },
+    {
+      "Identity": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\e0f1dc07-548a-468f-ac81-8ce2d6546936.mp4",
+      "SourceId": "MyProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\",
+      "BasePath": "_content/MyProject",
+      "RelativePath": "Videos/e0f1dc07-548a-468f-ac81-8ce2d6546936#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o6xlgffwzp",
+      "Integrity": "wMiFeWgR0727fRZB6ytyHDQYjeMIb8ylKUg0BDzJLDk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Videos\\e0f1dc07-548a-468f-ac81-8ce2d6546936.mp4"
+    },
+    {
+      "Identity": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\e84f7fca-21f8-48c5-b52f-ff4d2b3f2584.mp4",
+      "SourceId": "MyProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\",
+      "BasePath": "_content/MyProject",
+      "RelativePath": "Videos/e84f7fca-21f8-48c5-b52f-ff4d2b3f2584#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o6xlgffwzp",
+      "Integrity": "wMiFeWgR0727fRZB6ytyHDQYjeMIb8ylKUg0BDzJLDk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Videos\\e84f7fca-21f8-48c5-b52f-ff4d2b3f2584.mp4"
+    },
+    {
+      "Identity": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\ebf6a36d-c906-477b-9a22-aad1cc09e909.mp4",
+      "SourceId": "MyProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\",
+      "BasePath": "_content/MyProject",
+      "RelativePath": "Videos/ebf6a36d-c906-477b-9a22-aad1cc09e909#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o6xlgffwzp",
+      "Integrity": "wMiFeWgR0727fRZB6ytyHDQYjeMIb8ylKUg0BDzJLDk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Videos\\ebf6a36d-c906-477b-9a22-aad1cc09e909.mp4"
+    },
+    {
+      "Identity": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\eceea181-18ca-4791-b406-cf4f4411764b.mp4",
+      "SourceId": "MyProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\",
+      "BasePath": "_content/MyProject",
+      "RelativePath": "Videos/eceea181-18ca-4791-b406-cf4f4411764b#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o6xlgffwzp",
+      "Integrity": "wMiFeWgR0727fRZB6ytyHDQYjeMIb8ylKUg0BDzJLDk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Videos\\eceea181-18ca-4791-b406-cf4f4411764b.mp4"
+    },
+    {
+      "Identity": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\fbb3a18d-93a1-455b-ab0c-9935d74afd8a.mp4",
+      "SourceId": "MyProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\",
+      "BasePath": "_content/MyProject",
+      "RelativePath": "Videos/fbb3a18d-93a1-455b-ab0c-9935d74afd8a#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o6xlgffwzp",
+      "Integrity": "wMiFeWgR0727fRZB6ytyHDQYjeMIb8ylKUg0BDzJLDk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Videos\\fbb3a18d-93a1-455b-ab0c-9935d74afd8a.mp4"
     }
   ],
   "Endpoints": [
     {
-      "Route": "Videos/1475c92d-4956-4cb6-90d8-d1d8c7f901c6.87h6r230ie.mp4",
-      "AssetFile": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\1475c92d-4956-4cb6-90d8-d1d8c7f901c6.mp4",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "85327872"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "video/mp4"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"lA/FL61jdR5DwqER+7+cHUR6FBI0EPvjDsxhS7VyR/U=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 02 Jul 2025 10:41:00 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "87h6r230ie"
-        },
-        {
-          "Name": "label",
-          "Value": "Videos/1475c92d-4956-4cb6-90d8-d1d8c7f901c6.mp4"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-lA/FL61jdR5DwqER+7+cHUR6FBI0EPvjDsxhS7VyR/U="
-        }
-      ]
-    },
-    {
-      "Route": "Videos/1475c92d-4956-4cb6-90d8-d1d8c7f901c6.mp4",
-      "AssetFile": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\1475c92d-4956-4cb6-90d8-d1d8c7f901c6.mp4",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "85327872"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "video/mp4"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"lA/FL61jdR5DwqER+7+cHUR6FBI0EPvjDsxhS7VyR/U=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 02 Jul 2025 10:41:00 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-lA/FL61jdR5DwqER+7+cHUR6FBI0EPvjDsxhS7VyR/U="
-        }
-      ]
-    },
-    {
-      "Route": "Videos/19302125-517d-450b-8e10-7ca15660365b.mp4",
-      "AssetFile": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\19302125-517d-450b-8e10-7ca15660365b.mp4",
+      "Route": "Videos/059b1033-b144-4602-aec8-05ccda9a6814.mp4",
+      "AssetFile": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\059b1033-b144-4602-aec8-05ccda9a6814.mp4",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -354,7 +545,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 02 Jul 2025 09:57:56 GMT"
+          "Value": "Thu, 03 Jul 2025 09:04:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -369,8 +560,8 @@
       ]
     },
     {
-      "Route": "Videos/19302125-517d-450b-8e10-7ca15660365b.o6xlgffwzp.mp4",
-      "AssetFile": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\19302125-517d-450b-8e10-7ca15660365b.mp4",
+      "Route": "Videos/059b1033-b144-4602-aec8-05ccda9a6814.o6xlgffwzp.mp4",
+      "AssetFile": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\059b1033-b144-4602-aec8-05ccda9a6814.mp4",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -391,7 +582,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 02 Jul 2025 09:57:56 GMT"
+          "Value": "Thu, 03 Jul 2025 09:04:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -405,7 +596,7 @@
         },
         {
           "Name": "label",
-          "Value": "Videos/19302125-517d-450b-8e10-7ca15660365b.mp4"
+          "Value": "Videos/059b1033-b144-4602-aec8-05ccda9a6814.mp4"
         },
         {
           "Name": "integrity",
@@ -414,8 +605,8 @@
       ]
     },
     {
-      "Route": "Videos/19529702-a48a-49a3-883c-cfbec21aca1f.87h6r230ie.mp4",
-      "AssetFile": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\19529702-a48a-49a3-883c-cfbec21aca1f.mp4",
+      "Route": "Videos/0ad17773-e903-4561-be0e-59963263de51.87h6r230ie.mp4",
+      "AssetFile": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\0ad17773-e903-4561-be0e-59963263de51.mp4",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -436,7 +627,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 02 Jul 2025 16:48:03 GMT"
+          "Value": "Wed, 02 Jul 2025 21:28:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -450,7 +641,7 @@
         },
         {
           "Name": "label",
-          "Value": "Videos/19529702-a48a-49a3-883c-cfbec21aca1f.mp4"
+          "Value": "Videos/0ad17773-e903-4561-be0e-59963263de51.mp4"
         },
         {
           "Name": "integrity",
@@ -459,8 +650,8 @@
       ]
     },
     {
-      "Route": "Videos/19529702-a48a-49a3-883c-cfbec21aca1f.mp4",
-      "AssetFile": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\19529702-a48a-49a3-883c-cfbec21aca1f.mp4",
+      "Route": "Videos/0ad17773-e903-4561-be0e-59963263de51.mp4",
+      "AssetFile": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\0ad17773-e903-4561-be0e-59963263de51.mp4",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -481,7 +672,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 02 Jul 2025 16:48:03 GMT"
+          "Value": "Wed, 02 Jul 2025 21:28:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -496,8 +687,8 @@
       ]
     },
     {
-      "Route": "Videos/1ab670f8-245b-4a6d-96dd-ed1f6602dc63.mp4",
-      "AssetFile": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\1ab670f8-245b-4a6d-96dd-ed1f6602dc63.mp4",
+      "Route": "Videos/1bf4935b-d806-4d6b-be37-65e1fcfd1ebc.mp4",
+      "AssetFile": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\1bf4935b-d806-4d6b-be37-65e1fcfd1ebc.mp4",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -518,7 +709,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 02 Jul 2025 09:57:50 GMT"
+          "Value": "Thu, 03 Jul 2025 13:21:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -533,8 +724,8 @@
       ]
     },
     {
-      "Route": "Videos/1ab670f8-245b-4a6d-96dd-ed1f6602dc63.o6xlgffwzp.mp4",
-      "AssetFile": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\1ab670f8-245b-4a6d-96dd-ed1f6602dc63.mp4",
+      "Route": "Videos/1bf4935b-d806-4d6b-be37-65e1fcfd1ebc.o6xlgffwzp.mp4",
+      "AssetFile": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\1bf4935b-d806-4d6b-be37-65e1fcfd1ebc.mp4",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -555,7 +746,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 02 Jul 2025 09:57:50 GMT"
+          "Value": "Thu, 03 Jul 2025 13:21:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -569,7 +760,7 @@
         },
         {
           "Name": "label",
-          "Value": "Videos/1ab670f8-245b-4a6d-96dd-ed1f6602dc63.mp4"
+          "Value": "Videos/1bf4935b-d806-4d6b-be37-65e1fcfd1ebc.mp4"
         },
         {
           "Name": "integrity",
@@ -578,8 +769,8 @@
       ]
     },
     {
-      "Route": "Videos/2aa1cb83-5d8c-458a-9d0d-2291a2ce735c.01aa5f0isc.mp4",
-      "AssetFile": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\2aa1cb83-5d8c-458a-9d0d-2291a2ce735c.mp4",
+      "Route": "Videos/278ad229-c607-4ac1-8819-a980be9f71f9.mp4",
+      "AssetFile": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\278ad229-c607-4ac1-8819-a980be9f71f9.mp4",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -588,7 +779,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "43124101"
+          "Value": "416754731"
         },
         {
           "Name": "Content-Type",
@@ -596,56 +787,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"vG084CQEObrTc5ccN1sh+lP0quiaNibbTS1lHLbGz6g=\""
+          "Value": "\"wMiFeWgR0727fRZB6ytyHDQYjeMIb8ylKUg0BDzJLDk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 02 Jul 2025 09:57:05 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "01aa5f0isc"
-        },
-        {
-          "Name": "label",
-          "Value": "Videos/2aa1cb83-5d8c-458a-9d0d-2291a2ce735c.mp4"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-vG084CQEObrTc5ccN1sh+lP0quiaNibbTS1lHLbGz6g="
-        }
-      ]
-    },
-    {
-      "Route": "Videos/2aa1cb83-5d8c-458a-9d0d-2291a2ce735c.mp4",
-      "AssetFile": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\2aa1cb83-5d8c-458a-9d0d-2291a2ce735c.mp4",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "43124101"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "video/mp4"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"vG084CQEObrTc5ccN1sh+lP0quiaNibbTS1lHLbGz6g=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 02 Jul 2025 09:57:05 GMT"
+          "Value": "Thu, 03 Jul 2025 13:23:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -655,13 +801,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-vG084CQEObrTc5ccN1sh+lP0quiaNibbTS1lHLbGz6g="
+          "Value": "sha256-wMiFeWgR0727fRZB6ytyHDQYjeMIb8ylKUg0BDzJLDk="
         }
       ]
     },
     {
-      "Route": "Videos/30953764-c0a3-44d4-900a-c014b205b9e3.01aa5f0isc.mp4",
-      "AssetFile": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\30953764-c0a3-44d4-900a-c014b205b9e3.mp4",
+      "Route": "Videos/278ad229-c607-4ac1-8819-a980be9f71f9.o6xlgffwzp.mp4",
+      "AssetFile": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\278ad229-c607-4ac1-8819-a980be9f71f9.mp4",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -670,7 +816,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "43124101"
+          "Value": "416754731"
         },
         {
           "Name": "Content-Type",
@@ -678,11 +824,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"vG084CQEObrTc5ccN1sh+lP0quiaNibbTS1lHLbGz6g=\""
+          "Value": "\"wMiFeWgR0727fRZB6ytyHDQYjeMIb8ylKUg0BDzJLDk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 02 Jul 2025 10:40:14 GMT"
+          "Value": "Thu, 03 Jul 2025 13:23:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -692,58 +838,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "01aa5f0isc"
+          "Value": "o6xlgffwzp"
         },
         {
           "Name": "label",
-          "Value": "Videos/30953764-c0a3-44d4-900a-c014b205b9e3.mp4"
+          "Value": "Videos/278ad229-c607-4ac1-8819-a980be9f71f9.mp4"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-vG084CQEObrTc5ccN1sh+lP0quiaNibbTS1lHLbGz6g="
+          "Value": "sha256-wMiFeWgR0727fRZB6ytyHDQYjeMIb8ylKUg0BDzJLDk="
         }
       ]
     },
     {
-      "Route": "Videos/30953764-c0a3-44d4-900a-c014b205b9e3.mp4",
-      "AssetFile": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\30953764-c0a3-44d4-900a-c014b205b9e3.mp4",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "43124101"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "video/mp4"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"vG084CQEObrTc5ccN1sh+lP0quiaNibbTS1lHLbGz6g=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 02 Jul 2025 10:40:14 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-vG084CQEObrTc5ccN1sh+lP0quiaNibbTS1lHLbGz6g="
-        }
-      ]
-    },
-    {
-      "Route": "Videos/87a4fad8-f950-4e65-87fb-f095167a430b.87h6r230ie.mp4",
-      "AssetFile": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\87a4fad8-f950-4e65-87fb-f095167a430b.mp4",
+      "Route": "Videos/3a839e80-3157-4c11-a9ec-400984e5f2c1.87h6r230ie.mp4",
+      "AssetFile": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\3a839e80-3157-4c11-a9ec-400984e5f2c1.mp4",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -764,7 +873,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 02 Jul 2025 16:36:12 GMT"
+          "Value": "Wed, 02 Jul 2025 21:16:26 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -778,7 +887,7 @@
         },
         {
           "Name": "label",
-          "Value": "Videos/87a4fad8-f950-4e65-87fb-f095167a430b.mp4"
+          "Value": "Videos/3a839e80-3157-4c11-a9ec-400984e5f2c1.mp4"
         },
         {
           "Name": "integrity",
@@ -787,8 +896,8 @@
       ]
     },
     {
-      "Route": "Videos/87a4fad8-f950-4e65-87fb-f095167a430b.mp4",
-      "AssetFile": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\87a4fad8-f950-4e65-87fb-f095167a430b.mp4",
+      "Route": "Videos/3a839e80-3157-4c11-a9ec-400984e5f2c1.mp4",
+      "AssetFile": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\3a839e80-3157-4c11-a9ec-400984e5f2c1.mp4",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -809,7 +918,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 02 Jul 2025 16:36:12 GMT"
+          "Value": "Wed, 02 Jul 2025 21:16:26 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -824,8 +933,172 @@
       ]
     },
     {
-      "Route": "Videos/b38b5e4a-df66-4533-9101-792e68f7434d.87h6r230ie.mp4",
-      "AssetFile": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\b38b5e4a-df66-4533-9101-792e68f7434d.mp4",
+      "Route": "Videos/3cdc83d3-2ade-4885-bbeb-fc69f875472c.0rey4f1oq5.mp4",
+      "AssetFile": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\3cdc83d3-2ade-4885-bbeb-fc69f875472c.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17764847"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1FAepgpayeyAmZQePe3o4YAGn/SIL3gJlCV8pd60bXY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Jul 2025 11:02:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0rey4f1oq5"
+        },
+        {
+          "Name": "label",
+          "Value": "Videos/3cdc83d3-2ade-4885-bbeb-fc69f875472c.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1FAepgpayeyAmZQePe3o4YAGn/SIL3gJlCV8pd60bXY="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/3cdc83d3-2ade-4885-bbeb-fc69f875472c.mp4",
+      "AssetFile": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\3cdc83d3-2ade-4885-bbeb-fc69f875472c.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17764847"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1FAepgpayeyAmZQePe3o4YAGn/SIL3gJlCV8pd60bXY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Jul 2025 11:02:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1FAepgpayeyAmZQePe3o4YAGn/SIL3gJlCV8pd60bXY="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/3f402ca1-c9da-40b0-898a-81871792a405.mp4",
+      "AssetFile": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\3f402ca1-c9da-40b0-898a-81871792a405.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "416754731"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wMiFeWgR0727fRZB6ytyHDQYjeMIb8ylKUg0BDzJLDk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Jul 2025 13:23:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wMiFeWgR0727fRZB6ytyHDQYjeMIb8ylKUg0BDzJLDk="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/3f402ca1-c9da-40b0-898a-81871792a405.o6xlgffwzp.mp4",
+      "AssetFile": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\3f402ca1-c9da-40b0-898a-81871792a405.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "416754731"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wMiFeWgR0727fRZB6ytyHDQYjeMIb8ylKUg0BDzJLDk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Jul 2025 13:23:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o6xlgffwzp"
+        },
+        {
+          "Name": "label",
+          "Value": "Videos/3f402ca1-c9da-40b0-898a-81871792a405.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wMiFeWgR0727fRZB6ytyHDQYjeMIb8ylKUg0BDzJLDk="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/45aab7c8-c7e6-487b-8d5e-5e3580a8cdb7.87h6r230ie.mp4",
+      "AssetFile": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\45aab7c8-c7e6-487b-8d5e-5e3580a8cdb7.mp4",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -846,7 +1119,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 02 Jul 2025 16:14:42 GMT"
+          "Value": "Thu, 03 Jul 2025 13:08:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -860,7 +1133,7 @@
         },
         {
           "Name": "label",
-          "Value": "Videos/b38b5e4a-df66-4533-9101-792e68f7434d.mp4"
+          "Value": "Videos/45aab7c8-c7e6-487b-8d5e-5e3580a8cdb7.mp4"
         },
         {
           "Name": "integrity",
@@ -869,8 +1142,8 @@
       ]
     },
     {
-      "Route": "Videos/b38b5e4a-df66-4533-9101-792e68f7434d.mp4",
-      "AssetFile": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\b38b5e4a-df66-4533-9101-792e68f7434d.mp4",
+      "Route": "Videos/45aab7c8-c7e6-487b-8d5e-5e3580a8cdb7.mp4",
+      "AssetFile": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\45aab7c8-c7e6-487b-8d5e-5e3580a8cdb7.mp4",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -891,7 +1164,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 02 Jul 2025 16:14:42 GMT"
+          "Value": "Thu, 03 Jul 2025 13:08:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -906,8 +1179,8 @@
       ]
     },
     {
-      "Route": "Videos/df345f11-f094-4fea-8cce-fb76815c2d06.mp4",
-      "AssetFile": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\df345f11-f094-4fea-8cce-fb76815c2d06.mp4",
+      "Route": "Videos/4c47ac1d-c433-4168-b40a-71f1925edd88.mp4",
+      "AssetFile": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\4c47ac1d-c433-4168-b40a-71f1925edd88.mp4",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -928,7 +1201,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 02 Jul 2025 16:14:00 GMT"
+          "Value": "Thu, 03 Jul 2025 13:23:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -943,8 +1216,8 @@
       ]
     },
     {
-      "Route": "Videos/df345f11-f094-4fea-8cce-fb76815c2d06.o6xlgffwzp.mp4",
-      "AssetFile": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\df345f11-f094-4fea-8cce-fb76815c2d06.mp4",
+      "Route": "Videos/4c47ac1d-c433-4168-b40a-71f1925edd88.o6xlgffwzp.mp4",
+      "AssetFile": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\4c47ac1d-c433-4168-b40a-71f1925edd88.mp4",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -965,7 +1238,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 02 Jul 2025 16:14:00 GMT"
+          "Value": "Thu, 03 Jul 2025 13:23:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -979,7 +1252,7 @@
         },
         {
           "Name": "label",
-          "Value": "Videos/df345f11-f094-4fea-8cce-fb76815c2d06.mp4"
+          "Value": "Videos/4c47ac1d-c433-4168-b40a-71f1925edd88.mp4"
         },
         {
           "Name": "integrity",
@@ -988,90 +1261,8 @@
       ]
     },
     {
-      "Route": "Videos/df87afc4-884d-4753-871b-d76d5dfb6f26.01aa5f0isc.mp4",
-      "AssetFile": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\df87afc4-884d-4753-871b-d76d5dfb6f26.mp4",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "43124101"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "video/mp4"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"vG084CQEObrTc5ccN1sh+lP0quiaNibbTS1lHLbGz6g=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 02 Jul 2025 10:40:35 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "01aa5f0isc"
-        },
-        {
-          "Name": "label",
-          "Value": "Videos/df87afc4-884d-4753-871b-d76d5dfb6f26.mp4"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-vG084CQEObrTc5ccN1sh+lP0quiaNibbTS1lHLbGz6g="
-        }
-      ]
-    },
-    {
-      "Route": "Videos/df87afc4-884d-4753-871b-d76d5dfb6f26.mp4",
-      "AssetFile": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\df87afc4-884d-4753-871b-d76d5dfb6f26.mp4",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "43124101"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "video/mp4"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"vG084CQEObrTc5ccN1sh+lP0quiaNibbTS1lHLbGz6g=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 02 Jul 2025 10:40:35 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-vG084CQEObrTc5ccN1sh+lP0quiaNibbTS1lHLbGz6g="
-        }
-      ]
-    },
-    {
-      "Route": "Videos/f8209469-f73e-4123-841f-db81d85e7647.mp4",
-      "AssetFile": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\f8209469-f73e-4123-841f-db81d85e7647.mp4",
+      "Route": "Videos/52fe3dc2-ae56-4551-8709-88f15a76bff3.mp4",
+      "AssetFile": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\52fe3dc2-ae56-4551-8709-88f15a76bff3.mp4",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1092,7 +1283,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 02 Jul 2025 16:13:52 GMT"
+          "Value": "Thu, 03 Jul 2025 13:23:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1107,8 +1298,8 @@
       ]
     },
     {
-      "Route": "Videos/f8209469-f73e-4123-841f-db81d85e7647.o6xlgffwzp.mp4",
-      "AssetFile": "C:\\Users\\user1\\Desktop\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\f8209469-f73e-4123-841f-db81d85e7647.mp4",
+      "Route": "Videos/52fe3dc2-ae56-4551-8709-88f15a76bff3.o6xlgffwzp.mp4",
+      "AssetFile": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\52fe3dc2-ae56-4551-8709-88f15a76bff3.mp4",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1129,7 +1320,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 02 Jul 2025 16:13:52 GMT"
+          "Value": "Thu, 03 Jul 2025 13:23:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1143,7 +1334,1155 @@
         },
         {
           "Name": "label",
-          "Value": "Videos/f8209469-f73e-4123-841f-db81d85e7647.mp4"
+          "Value": "Videos/52fe3dc2-ae56-4551-8709-88f15a76bff3.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wMiFeWgR0727fRZB6ytyHDQYjeMIb8ylKUg0BDzJLDk="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/5adc9706-7af4-489c-95ed-71d83e84b1a1.mp4",
+      "AssetFile": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\5adc9706-7af4-489c-95ed-71d83e84b1a1.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "416754731"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wMiFeWgR0727fRZB6ytyHDQYjeMIb8ylKUg0BDzJLDk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Jul 2025 13:23:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wMiFeWgR0727fRZB6ytyHDQYjeMIb8ylKUg0BDzJLDk="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/5adc9706-7af4-489c-95ed-71d83e84b1a1.o6xlgffwzp.mp4",
+      "AssetFile": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\5adc9706-7af4-489c-95ed-71d83e84b1a1.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "416754731"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wMiFeWgR0727fRZB6ytyHDQYjeMIb8ylKUg0BDzJLDk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Jul 2025 13:23:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o6xlgffwzp"
+        },
+        {
+          "Name": "label",
+          "Value": "Videos/5adc9706-7af4-489c-95ed-71d83e84b1a1.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wMiFeWgR0727fRZB6ytyHDQYjeMIb8ylKUg0BDzJLDk="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/6d15c1c3-ac71-4b25-b123-9ebe67d7e958.87h6r230ie.mp4",
+      "AssetFile": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\6d15c1c3-ac71-4b25-b123-9ebe67d7e958.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "85327872"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lA/FL61jdR5DwqER+7+cHUR6FBI0EPvjDsxhS7VyR/U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Jul 2025 07:36:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "87h6r230ie"
+        },
+        {
+          "Name": "label",
+          "Value": "Videos/6d15c1c3-ac71-4b25-b123-9ebe67d7e958.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lA/FL61jdR5DwqER+7+cHUR6FBI0EPvjDsxhS7VyR/U="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/6d15c1c3-ac71-4b25-b123-9ebe67d7e958.mp4",
+      "AssetFile": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\6d15c1c3-ac71-4b25-b123-9ebe67d7e958.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "85327872"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lA/FL61jdR5DwqER+7+cHUR6FBI0EPvjDsxhS7VyR/U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Jul 2025 07:36:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lA/FL61jdR5DwqER+7+cHUR6FBI0EPvjDsxhS7VyR/U="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/71ede653-5c9c-4277-8dcb-ca9f46c3c9ec.mp4",
+      "AssetFile": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\71ede653-5c9c-4277-8dcb-ca9f46c3c9ec.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "416754731"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wMiFeWgR0727fRZB6ytyHDQYjeMIb8ylKUg0BDzJLDk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Jul 2025 13:21:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wMiFeWgR0727fRZB6ytyHDQYjeMIb8ylKUg0BDzJLDk="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/71ede653-5c9c-4277-8dcb-ca9f46c3c9ec.o6xlgffwzp.mp4",
+      "AssetFile": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\71ede653-5c9c-4277-8dcb-ca9f46c3c9ec.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "416754731"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wMiFeWgR0727fRZB6ytyHDQYjeMIb8ylKUg0BDzJLDk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Jul 2025 13:21:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o6xlgffwzp"
+        },
+        {
+          "Name": "label",
+          "Value": "Videos/71ede653-5c9c-4277-8dcb-ca9f46c3c9ec.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wMiFeWgR0727fRZB6ytyHDQYjeMIb8ylKUg0BDzJLDk="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/7b75def5-5969-4ca7-877e-1568a6f7b41e.mp4",
+      "AssetFile": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\7b75def5-5969-4ca7-877e-1568a6f7b41e.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "416754731"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wMiFeWgR0727fRZB6ytyHDQYjeMIb8ylKUg0BDzJLDk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Jul 2025 13:23:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wMiFeWgR0727fRZB6ytyHDQYjeMIb8ylKUg0BDzJLDk="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/7b75def5-5969-4ca7-877e-1568a6f7b41e.o6xlgffwzp.mp4",
+      "AssetFile": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\7b75def5-5969-4ca7-877e-1568a6f7b41e.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "416754731"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wMiFeWgR0727fRZB6ytyHDQYjeMIb8ylKUg0BDzJLDk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Jul 2025 13:23:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o6xlgffwzp"
+        },
+        {
+          "Name": "label",
+          "Value": "Videos/7b75def5-5969-4ca7-877e-1568a6f7b41e.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wMiFeWgR0727fRZB6ytyHDQYjeMIb8ylKUg0BDzJLDk="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/9fc5c561-6c09-4efe-8ade-d2bba340c55a.87h6r230ie.mp4",
+      "AssetFile": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\9fc5c561-6c09-4efe-8ade-d2bba340c55a.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "85327872"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lA/FL61jdR5DwqER+7+cHUR6FBI0EPvjDsxhS7VyR/U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Jul 2025 13:22:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "87h6r230ie"
+        },
+        {
+          "Name": "label",
+          "Value": "Videos/9fc5c561-6c09-4efe-8ade-d2bba340c55a.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lA/FL61jdR5DwqER+7+cHUR6FBI0EPvjDsxhS7VyR/U="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/9fc5c561-6c09-4efe-8ade-d2bba340c55a.mp4",
+      "AssetFile": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\9fc5c561-6c09-4efe-8ade-d2bba340c55a.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "85327872"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lA/FL61jdR5DwqER+7+cHUR6FBI0EPvjDsxhS7VyR/U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Jul 2025 13:22:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lA/FL61jdR5DwqER+7+cHUR6FBI0EPvjDsxhS7VyR/U="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/ae6627ca-d0e2-4bf9-8ead-c8ac23c9f8a7.87h6r230ie.mp4",
+      "AssetFile": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\ae6627ca-d0e2-4bf9-8ead-c8ac23c9f8a7.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "85327872"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lA/FL61jdR5DwqER+7+cHUR6FBI0EPvjDsxhS7VyR/U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Jul 2025 13:22:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "87h6r230ie"
+        },
+        {
+          "Name": "label",
+          "Value": "Videos/ae6627ca-d0e2-4bf9-8ead-c8ac23c9f8a7.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lA/FL61jdR5DwqER+7+cHUR6FBI0EPvjDsxhS7VyR/U="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/ae6627ca-d0e2-4bf9-8ead-c8ac23c9f8a7.mp4",
+      "AssetFile": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\ae6627ca-d0e2-4bf9-8ead-c8ac23c9f8a7.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "85327872"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lA/FL61jdR5DwqER+7+cHUR6FBI0EPvjDsxhS7VyR/U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Jul 2025 13:22:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lA/FL61jdR5DwqER+7+cHUR6FBI0EPvjDsxhS7VyR/U="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/bb33a53b-b790-46a3-9207-172724f00988.mp4",
+      "AssetFile": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\bb33a53b-b790-46a3-9207-172724f00988.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "416754731"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wMiFeWgR0727fRZB6ytyHDQYjeMIb8ylKUg0BDzJLDk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Jul 2025 13:23:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wMiFeWgR0727fRZB6ytyHDQYjeMIb8ylKUg0BDzJLDk="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/bb33a53b-b790-46a3-9207-172724f00988.o6xlgffwzp.mp4",
+      "AssetFile": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\bb33a53b-b790-46a3-9207-172724f00988.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "416754731"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wMiFeWgR0727fRZB6ytyHDQYjeMIb8ylKUg0BDzJLDk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Jul 2025 13:23:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o6xlgffwzp"
+        },
+        {
+          "Name": "label",
+          "Value": "Videos/bb33a53b-b790-46a3-9207-172724f00988.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wMiFeWgR0727fRZB6ytyHDQYjeMIb8ylKUg0BDzJLDk="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/cc506caf-3511-4cea-8216-9ca92c5ba403.87h6r230ie.mp4",
+      "AssetFile": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\cc506caf-3511-4cea-8216-9ca92c5ba403.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "85327872"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lA/FL61jdR5DwqER+7+cHUR6FBI0EPvjDsxhS7VyR/U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Jul 2025 10:57:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "87h6r230ie"
+        },
+        {
+          "Name": "label",
+          "Value": "Videos/cc506caf-3511-4cea-8216-9ca92c5ba403.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lA/FL61jdR5DwqER+7+cHUR6FBI0EPvjDsxhS7VyR/U="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/cc506caf-3511-4cea-8216-9ca92c5ba403.mp4",
+      "AssetFile": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\cc506caf-3511-4cea-8216-9ca92c5ba403.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "85327872"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lA/FL61jdR5DwqER+7+cHUR6FBI0EPvjDsxhS7VyR/U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Jul 2025 10:57:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lA/FL61jdR5DwqER+7+cHUR6FBI0EPvjDsxhS7VyR/U="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/cd8305d2-d187-42e8-91ed-683cc7f1f3d7.mp4",
+      "AssetFile": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\cd8305d2-d187-42e8-91ed-683cc7f1f3d7.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "416754731"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wMiFeWgR0727fRZB6ytyHDQYjeMIb8ylKUg0BDzJLDk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Jul 2025 09:04:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wMiFeWgR0727fRZB6ytyHDQYjeMIb8ylKUg0BDzJLDk="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/cd8305d2-d187-42e8-91ed-683cc7f1f3d7.o6xlgffwzp.mp4",
+      "AssetFile": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\cd8305d2-d187-42e8-91ed-683cc7f1f3d7.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "416754731"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wMiFeWgR0727fRZB6ytyHDQYjeMIb8ylKUg0BDzJLDk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Jul 2025 09:04:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o6xlgffwzp"
+        },
+        {
+          "Name": "label",
+          "Value": "Videos/cd8305d2-d187-42e8-91ed-683cc7f1f3d7.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wMiFeWgR0727fRZB6ytyHDQYjeMIb8ylKUg0BDzJLDk="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/e0f1dc07-548a-468f-ac81-8ce2d6546936.mp4",
+      "AssetFile": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\e0f1dc07-548a-468f-ac81-8ce2d6546936.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "416754731"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wMiFeWgR0727fRZB6ytyHDQYjeMIb8ylKUg0BDzJLDk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Jul 2025 13:21:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wMiFeWgR0727fRZB6ytyHDQYjeMIb8ylKUg0BDzJLDk="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/e0f1dc07-548a-468f-ac81-8ce2d6546936.o6xlgffwzp.mp4",
+      "AssetFile": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\e0f1dc07-548a-468f-ac81-8ce2d6546936.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "416754731"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wMiFeWgR0727fRZB6ytyHDQYjeMIb8ylKUg0BDzJLDk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Jul 2025 13:21:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o6xlgffwzp"
+        },
+        {
+          "Name": "label",
+          "Value": "Videos/e0f1dc07-548a-468f-ac81-8ce2d6546936.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wMiFeWgR0727fRZB6ytyHDQYjeMIb8ylKUg0BDzJLDk="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/e84f7fca-21f8-48c5-b52f-ff4d2b3f2584.mp4",
+      "AssetFile": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\e84f7fca-21f8-48c5-b52f-ff4d2b3f2584.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "416754731"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wMiFeWgR0727fRZB6ytyHDQYjeMIb8ylKUg0BDzJLDk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Jul 2025 13:23:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wMiFeWgR0727fRZB6ytyHDQYjeMIb8ylKUg0BDzJLDk="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/e84f7fca-21f8-48c5-b52f-ff4d2b3f2584.o6xlgffwzp.mp4",
+      "AssetFile": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\e84f7fca-21f8-48c5-b52f-ff4d2b3f2584.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "416754731"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wMiFeWgR0727fRZB6ytyHDQYjeMIb8ylKUg0BDzJLDk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Jul 2025 13:23:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o6xlgffwzp"
+        },
+        {
+          "Name": "label",
+          "Value": "Videos/e84f7fca-21f8-48c5-b52f-ff4d2b3f2584.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wMiFeWgR0727fRZB6ytyHDQYjeMIb8ylKUg0BDzJLDk="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/ebf6a36d-c906-477b-9a22-aad1cc09e909.mp4",
+      "AssetFile": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\ebf6a36d-c906-477b-9a22-aad1cc09e909.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "416754731"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wMiFeWgR0727fRZB6ytyHDQYjeMIb8ylKUg0BDzJLDk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Jul 2025 13:35:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wMiFeWgR0727fRZB6ytyHDQYjeMIb8ylKUg0BDzJLDk="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/ebf6a36d-c906-477b-9a22-aad1cc09e909.o6xlgffwzp.mp4",
+      "AssetFile": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\ebf6a36d-c906-477b-9a22-aad1cc09e909.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "416754731"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wMiFeWgR0727fRZB6ytyHDQYjeMIb8ylKUg0BDzJLDk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Jul 2025 13:35:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o6xlgffwzp"
+        },
+        {
+          "Name": "label",
+          "Value": "Videos/ebf6a36d-c906-477b-9a22-aad1cc09e909.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wMiFeWgR0727fRZB6ytyHDQYjeMIb8ylKUg0BDzJLDk="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/eceea181-18ca-4791-b406-cf4f4411764b.mp4",
+      "AssetFile": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\eceea181-18ca-4791-b406-cf4f4411764b.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "416754731"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wMiFeWgR0727fRZB6ytyHDQYjeMIb8ylKUg0BDzJLDk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Jul 2025 21:28:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wMiFeWgR0727fRZB6ytyHDQYjeMIb8ylKUg0BDzJLDk="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/eceea181-18ca-4791-b406-cf4f4411764b.o6xlgffwzp.mp4",
+      "AssetFile": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\eceea181-18ca-4791-b406-cf4f4411764b.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "416754731"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wMiFeWgR0727fRZB6ytyHDQYjeMIb8ylKUg0BDzJLDk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Jul 2025 21:28:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o6xlgffwzp"
+        },
+        {
+          "Name": "label",
+          "Value": "Videos/eceea181-18ca-4791-b406-cf4f4411764b.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wMiFeWgR0727fRZB6ytyHDQYjeMIb8ylKUg0BDzJLDk="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/fbb3a18d-93a1-455b-ab0c-9935d74afd8a.mp4",
+      "AssetFile": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\fbb3a18d-93a1-455b-ab0c-9935d74afd8a.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "416754731"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wMiFeWgR0727fRZB6ytyHDQYjeMIb8ylKUg0BDzJLDk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Jul 2025 09:34:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wMiFeWgR0727fRZB6ytyHDQYjeMIb8ylKUg0BDzJLDk="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/fbb3a18d-93a1-455b-ab0c-9935d74afd8a.o6xlgffwzp.mp4",
+      "AssetFile": "C:\\Users\\user1\\Desktop\\תכנות חיהלה\\יד\\C# סירוקה\\פרויקט\\Project_Gym_2025\\project_chavy-chayaC-\\פרויקט גמר\\MyProject\\wwwroot\\Videos\\fbb3a18d-93a1-455b-ab0c-9935d74afd8a.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "416754731"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wMiFeWgR0727fRZB6ytyHDQYjeMIb8ylKUg0BDzJLDk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Jul 2025 09:34:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o6xlgffwzp"
+        },
+        {
+          "Name": "label",
+          "Value": "Videos/fbb3a18d-93a1-455b-ab0c-9935d74afd8a.mp4"
         },
         {
           "Name": "integrity",

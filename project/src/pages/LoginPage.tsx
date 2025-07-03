@@ -5,7 +5,6 @@ import { useAppDispatch } from "../redux/store";
 import { setAuth, setInitialized } from "../redux/auth/auth.slice";
 import { RoleType } from "../types/user.types";
 
-// פענוח JWT
 function parseJwt(token: string) {
   try {
     const base64Url = token.split('.')[1];
@@ -67,8 +66,8 @@ const LoginPage = () => {
         role
       };
 
-      localStorage.setItem("token", token);
-      localStorage.setItem("user", JSON.stringify(user));
+      sessionStorage.setItem("token", token);
+      sessionStorage.setItem("user", JSON.stringify(user));
       dispatch(setAuth(user));
       dispatch(setInitialized());
 
@@ -84,7 +83,7 @@ const LoginPage = () => {
     } catch (err) {
       console.error(err);
       alert("שגיאה בהתחברות");
-      dispatch(setInitialized()); // ✅ נוודא שתמיד מתעדכן
+      dispatch(setInitialized()); 
     }
   };
 
@@ -105,7 +104,7 @@ const LoginPage = () => {
 
 export default LoginPage;
 
-// עיצוב
+
 const wrapperStyle = {
   display: "flex",
   justifyContent: "center",

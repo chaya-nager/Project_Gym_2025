@@ -1,81 +1,30 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
-import axios from "axios";
 
 const HomePage = () => {
-  const navigate = useNavigate();
-
-  const handleStartWorkout = async () => {
-    try {
-      const token = localStorage.getItem("token");
-
-      const response = await axios.post(
-        "https://localhost:7286/api/CreateWorkoutPlan/generate",
-        {
-          userId: 1, 
-          desiredDuration: 30,
-          difficultyLevel: "בינוני"
-        },
-        {
-          headers: {
-            Authorization: `Bearer ${token}`,
-            "Content-Type": "application/json"
-          }
-        }
-      );
-
-      console.log("תוכנית אימון:", response.data);
-      const planId = response.data.id;
-      navigate(`/workout-plan/${planId}`);
-    } catch (err) {
-      console.error("שגיאה ביצירת תוכנית אימון", err);
-      alert("שגיאה ביצירת תוכנית אימון");
-    }
-  };
-
   return (
     <div style={wrapperStyle}>
-      <div style={bannerStyle}>
-        <h1 style={titleStyle}>מצא את האימון שמתאים בדיוק לך</h1>
-        <p style={subtitleStyle}>התאמן בבית, בקצב שלך</p>
+      <div style={heroSection}>
+        <h1 style={heroTitle}>התעמלות בכיף Gym -ברוך הבא ל</h1>
+        <p style={heroSubtitle}>האימונים שלנו, ההצלחה שלך.</p>
+        <p style={heroText}>
+          המערכת המתקדמת בישראל לאימוני כושר ביתיים, עם תוכניות מותאמות אישית, מאמנים מקצועיים וסרטונים באיכות גבוהה.
+        </p>
       </div>
 
-      <form style={filterFormStyle}>
-        <select style={selectStyle}>
-          <option>גיל</option>
-          <option>צעיר</option>
-          <option>מבוגר</option>
-        </select>
-        <select style={selectStyle}>
-          <option>רמת קושי</option>
-          <option>מתחיל</option>
-          <option>בינוני</option>
-          <option>מתקדם</option>
-        </select>
-        <select style={selectStyle}>
-          <option>סוג אימון</option>
-          <option>אירובי</option>
-          <option>יוגה</option>
-          <option>כוח</option>
-        </select>
-        <select style={selectStyle}>
-          <option>משך זמן</option>
-          <option>עד 15 דק</option>
-          <option>עד 30 דק</option>
-          <option>יותר מ-30 דק</option>
-        </select>
-        <button type="submit" style={buttonStyle}>חפש אימון</button>
-      </form>
-
-      <div style={videosContainerStyle}>
-        <div style={videoCardStyle}>אימון כושר 1</div>
-        <div style={videoCardStyle}>אימון כושר 2</div>
-        <div style={videoCardStyle}>אימון כושר 3</div>
+      <div style={featuresContainer}>
+        <div style={featureBox}>
+          <h3 style={featureTitle}>תוכנית מותאמת אישית</h3>
+          <p style={featureText}>בחר סוג אימון, רמה ואנחנו נבנה לך את המסלול המדויק.</p>
+        </div>
+        <div style={featureBox}>
+          <h3 style={featureTitle}>מאמנים מוסמכים</h3>
+          <p style={featureText}>כל סרטון מופק ע"י מאמן מקצועי עם תעודות וניסיון.</p>
+        </div>
+        <div style={featureBox}>
+          <h3 style={featureTitle}>גישה מכל מקום</h3>
+          <p style={featureText}>אתר רספונסיבי שניתן לצפות בו מהמחשב או הנייד.</p>
+        </div>
       </div>
-
-      <button style={ctaButtonStyle} onClick={handleStartWorkout}>
-         התחל את האימון הראשון שלך עכשיו
-      </button>
     </div>
   );
 };
@@ -84,80 +33,61 @@ const wrapperStyle = {
   display: "flex",
   flexDirection: "column",
   alignItems: "center",
-  padding: "2rem",
-  background: "linear-gradient(135deg, #e0f7fa, #e8f5e9)",
-  minHeight: "100vh"
+  padding: "3rem 2rem",
+  background: "linear-gradient(135deg, #f0f4ff, #e8f5e9)",
+  minHeight: "100vh",
+  fontFamily: "sans-serif"
 } as const;
 
-const bannerStyle = {
+const heroSection = {
   textAlign: "center",
-  marginBottom: "2rem"
+  marginBottom: "4rem",
+  maxWidth: "800px"
 } as const;
 
-const titleStyle = {
-  fontSize: "2.5rem",
-  color: "#1976d2"
+const heroTitle = {
+  fontSize: "3rem",
+  color: "#2c387e",
+  marginBottom: "1rem"
 } as const;
 
-const subtitleStyle = {
+const heroSubtitle = {
+  fontSize: "1.5rem",
+  color: "#1976d2",
+  marginBottom: "1rem"
+} as const;
+
+const heroText = {
+  fontSize: "1.1rem",
+  color: "#444"
+} as const;
+
+const featuresContainer = {
+  display: "flex",
+  flexWrap: "wrap",
+  gap: "1.5rem",
+  justifyContent: "center"
+} as const;
+
+const featureBox = {
+  backgroundColor: "#fff",
+  borderRadius: "1rem",
+  padding: "1.5rem",
+  width: "260px",
+  boxShadow: "0 4px 10px rgba(0,0,0,0.1)",
+  textAlign: "center"
+} as const;
+
+const featureTitle = {
   fontSize: "1.25rem",
+  fontWeight: "bold",
+  color: "#4a148c",
+  marginBottom: "0.5rem"
+} as const;
+
+const featureText = {
+  fontSize: "0.95rem",
   color: "#555"
-} as const;
-
-const filterFormStyle = {
-  display: "flex",
-  gap: "1rem",
-  flexWrap: "wrap",
-  justifyContent: "center",
-  marginBottom: "2rem"
-} as const;
-
-const selectStyle = {
-  padding: "0.5rem",
-  borderRadius: "8px",
-  border: "1px solid #ccc"
-} as const;
-
-const buttonStyle = {
-  padding: "0.75rem 1.5rem",
-  borderRadius: "8px",
-  backgroundColor: "#4caf50",
-  color: "white",
-  border: "none",
-  fontWeight: "bold",
-  cursor: "pointer"
-} as const;
-
-const videosContainerStyle = {
-  display: "flex",
-  gap: "1rem",
-  flexWrap: "wrap",
-  justifyContent: "center",
-  marginBottom: "2rem"
-} as const;
-
-const videoCardStyle = {
-  width: "200px",
-  height: "120px",
-  backgroundColor: "#ffffff",
-  borderRadius: "12px",
-  boxShadow: "0 4px 12px rgba(0,0,0,0.1)",
-  display: "flex",
-  alignItems: "center",
-  justifyContent: "center",
-  fontWeight: "bold",
-  color: "#1976d2"
-} as const;
-
-const ctaButtonStyle = {
-  padding: "1rem 2rem",
-  fontSize: "1.2rem",
-  backgroundColor: "#2196f3",
-  color: "white",
-  border: "none",
-  borderRadius: "12px",
-  fontWeight: "bold",
-  cursor: "pointer"
 } as const;
 
 export default HomePage;

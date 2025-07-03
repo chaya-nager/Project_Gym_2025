@@ -7,8 +7,10 @@ function parseJwt(token: string) {
   try {
     const base64Url = token.split('.')[1];
     const base64 = base64Url.replace(/-/g, '+').replace(/_/g, '/');
-    const jsonPayload = decodeURIComponent(atob(base64).split('').map(c =>
-      '%' + ('00' + c.charCodeAt(0).toString(16)).slice(-2)).join(''));
+    const jsonPayload = decodeURIComponent(
+      atob(base64).split('').map(c =>
+        '%' + ('00' + c.charCodeAt(0).toString(16)).slice(-2)).join('')
+    );
     return JSON.parse(jsonPayload);
   } catch {
     return null;
@@ -25,13 +27,14 @@ const UploadVideoPage = () => {
     duration: '',
     difficultyLevel: 'Beginner',
     workoutType: '',
-    targetAudience: ''
+    targetAudience: '',
+    audienceAgeGroup: '', // ✅ חדש
   });
 
   const [file, setFile] = useState<File | null>(null);
 
   useEffect(() => {
-    const token = localStorage.getItem("token");
+    const token = sessionStorage.getItem("token");
     if (!token) {
       navigate("/home");
       return;
@@ -60,7 +63,7 @@ const UploadVideoPage = () => {
       return;
     }
 
-    const token = localStorage.getItem("token");
+    const token = sessionStorage.getItem("token");
     if (!token) {
       alert("אין טוקן התחברות");
       return;
@@ -68,7 +71,6 @@ const UploadVideoPage = () => {
 
     const decoded = parseJwt(token);
     const trainerId = decoded?.nameid || decoded?.TrainerId || decoded?.UserId;
-    console.log("📦 decoded token:", decoded);
     if (!trainerId || isNaN(trainerId)) {
       alert("TrainerId לא תקין");
       return;
@@ -81,11 +83,9 @@ const UploadVideoPage = () => {
     formData.append("DifficultyLevel", videoData.difficultyLevel);
     formData.append("WorkoutType", videoData.workoutType);
     formData.append("TargetAudience", videoData.targetAudience);
+    formData.append("AudienceAgeGroup", videoData.audienceAgeGroup); // ✅ חדש
     formData.append("fileVideo", file);
     formData.append("TrainerId", trainerId.toString());
-    if (videoData.targetAudience.trim()) {
-      formData.append("TargetAudience", videoData.targetAudience);
-    }
 
     try {
       await axios.post("https://localhost:7286/api/WorkoutVideo", formData, {
@@ -113,13 +113,14 @@ const UploadVideoPage = () => {
             duration: '',
             difficultyLevel: 'Beginner',
             workoutType: '',
-            targetAudience: ''
+            targetAudience: '',
+            audienceAgeGroup: '', // איפוס
           });
           setFile(null);
         }}>
           העלאת סרטון נוסף
         </button>
-        <button style={{ ...buttonStyle, backgroundColor: "#1976d2" }} onClick={() => navigate("/home")}>
+        <button style={{ ...buttonStyle, backgroundColor: "#1976d2" }} onClick={() => navigate("/")}>
           חזרה לעמוד הבית
         </button>
       </div>
@@ -141,8 +142,16 @@ const UploadVideoPage = () => {
           <option value="Advanced">מתקדמים</option>
         </select>
 
-        <input name="workoutType" placeholder="סוג אימון (Cardio, Strength...)" onChange={handleChange} style={inputStyle} />
-        <input name="targetAudience" placeholder="קהל יעד" onChange={handleChange} style={inputStyle} />
+        <input name="workoutType" placeholder="סוג אימון" onChange={handleChange} style={inputStyle} />
+        <input name="targetAudience" placeholder="מצב רפואי (לב, סכרת וכו')" onChange={handleChange} style={inputStyle} />
+
+        <select name="audienceAgeGroup" value={videoData.audienceAgeGroup} onChange={handleChange} style={inputStyle}>
+          <option value="">בחר קבוצת גיל</option>
+          <option value="צעירים">צעירים</option>
+          <option value="מבוגרים">מבוגרים</option>
+          <option value="לכולם">לכולם</option>
+        </select>
+
         <input type="file" accept="video/*" onChange={handleFileChange} style={inputStyle} />
 
         <button type="submit" style={buttonStyle}>העלה</button>

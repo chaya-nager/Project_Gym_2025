@@ -795,6 +795,9 @@
                   "TargetAudience": {
                     "type": "string"
                   },
+                  "TargetAgeGroup": {
+                    "type": "string"
+                  },
                   "VideoArr": {
                     "type": "string",
                     "format": "byte"
@@ -836,6 +839,9 @@
                   "style": "form"
                 },
                 "TargetAudience": {
+                  "style": "form"
+                },
+                "TargetAgeGroup": {
                   "style": "form"
                 },
                 "VideoArr": {
@@ -949,6 +955,9 @@
                   "TargetAudience": {
                     "type": "string"
                   },
+                  "TargetAgeGroup": {
+                    "type": "string"
+                  },
                   "VideoArr": {
                     "type": "string",
                     "format": "byte"
@@ -992,6 +1001,9 @@
                 "TargetAudience": {
                   "style": "form"
                 },
+                "TargetAgeGroup": {
+                  "style": "form"
+                },
                 "VideoArr": {
                   "style": "form"
                 },
@@ -1024,6 +1036,30 @@
         "parameters": [
           {
             "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/WorkoutVideo/by-trainer/{trainerId}": {
+      "get": {
+        "tags": [
+          "WorkoutVideo"
+        ],
+        "parameters": [
+          {
+            "name": "trainerId",
             "in": "path",
             "required": true,
             "style": "simple",
@@ -1159,6 +1195,10 @@
             "nullable": true
           },
           "targetAudience": {
+            "type": "string",
+            "nullable": true
+          },
+          "targetAgeGroup": {
             "type": "string",
             "nullable": true
           },

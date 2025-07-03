@@ -34,14 +34,16 @@ namespace Service.Services
             var allVideos = await videoRepository.GetAllAsync();
 
             Console.WriteLine($"🎞️ כמות סרטונים כולל בבסיס: {allVideos.Count}");
-
+            int userAge = CalculateAge(user.BirthDate);
             var filteredVideos = allVideos.Where(v =>
-                v.WorkoutType == workoutType &&
-                v.Duration <= desiredDuration &&
-                v.DifficultyLevel == difficultyLevel &&
-                (string.IsNullOrEmpty(v.TargetAudience) || v.TargetAudience == targetAudience)
-            ).ToList();
-
+    v.WorkoutType.Equals(workoutType, StringComparison.OrdinalIgnoreCase) &&
+    v.Duration <= desiredDuration &&
+    v.DifficultyLevel.Equals(difficultyLevel, StringComparison.OrdinalIgnoreCase) &&
+    (string.IsNullOrWhiteSpace(targetAudience) || v.TargetAudience.Contains(targetAudience, StringComparison.OrdinalIgnoreCase)) &&
+    (v.TargetAgeGroup == "לכולם" ||
+     (v.TargetAgeGroup == "צעירים" && userAge < 60) ||
+     (v.TargetAgeGroup == "מבוגרים" && userAge >= 60))
+).ToList();
             var warmupVideos = allVideos
                 .Where(v => v.Description.Contains("חימום", StringComparison.OrdinalIgnoreCase))
                 .OrderBy(v => v.Duration)
@@ -122,6 +124,24 @@ namespace Service.Services
         }
 
 
+        private int CalculateAge(DateTime birthDate)
+        {
+            var today = DateTime.Today;
+            var age = today.Year - birthDate.Year;
+            if (birthDate > today.AddYears(-age)) age--;
+            return age;
+        }
+        private bool IsAgeMatch(string targetAudience, int age)
+        {
+            if (string.IsNullOrWhiteSpace(targetAudience)) return true;
 
+            if (targetAudience.Contains("צעיר"))
+                return age < 60;
+
+            if (targetAudience.Contains("מבוגר"))
+                return age >= 60;
+
+            return true;
+        }
     }
 }

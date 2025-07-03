@@ -25,7 +25,7 @@ namespace Repository.Entities
         public string WorkoutType { get; set; } = string.Empty; // Cardio, Strength, Yoga...
 
         public string TargetAudience { get; set; } = string.Empty; // למשל: חולי לב 
-
+        public string TargetAgeGroup { get; set; } = "לכולם";
         public string VideoUrl { get; set; } = string.Empty;
 
         public DateTime UploadedAt { get; set; } = DateTime.UtcNow;

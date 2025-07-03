@@ -95,6 +95,10 @@ namespace Mock.Migrations
                     b.Property<int>("Duration")
                         .HasColumnType("int");
 
+                    b.Property<string>("TargetAgeGroup")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("TargetAudience")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");

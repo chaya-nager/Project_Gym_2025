@@ -6,6 +6,8 @@ using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.Extensions.FileProviders;
+using Common.Dto;
+using Service.Interfaces;
 
 internal class Program
 {
@@ -69,7 +71,7 @@ internal class Program
             options.JsonSerializerOptions.ReferenceHandler = System.Text.Json.Serialization.ReferenceHandler.IgnoreCycles;
             options.JsonSerializerOptions.DefaultIgnoreCondition = System.Text.Json.Serialization.JsonIgnoreCondition.WhenWritingNull;
         });
-
+        builder.Services.AddScoped<IWorkoutVideoService<WorkoutVideoDto>, WorkoutVideoService>();
         var app = builder.Build();
 
         // Configure the HTTP request pipeline

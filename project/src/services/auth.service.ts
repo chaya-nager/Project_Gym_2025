@@ -5,6 +5,7 @@ const url = 'LogIn'
 
 export const login = async (formData: FormData) => {
     const response = await axios.post<string>('/LogIn/login', formData);
+    localStorage.removeItem("loggedOut");
     return response.data;
   };
 

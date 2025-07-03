@@ -527,6 +527,11 @@
         "IsRequired": false
       },
       {
+        "Name": "TargetAgeGroup",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
         "Name": "VideoArr",
         "Type": "System.Byte[]",
         "IsRequired": false
@@ -629,6 +634,11 @@
         "IsRequired": false
       },
       {
+        "Name": "TargetAgeGroup",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
         "Name": "VideoArr",
         "Type": "System.Byte[]",
         "IsRequired": false
@@ -666,6 +676,22 @@
     "Parameters": [
       {
         "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyProject.Controllers.WorkoutVideoController",
+    "Method": "GetVideosByTrainer",
+    "RelativePath": "api/WorkoutVideo/by-trainer/{trainerId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "trainerId",
         "Type": "System.Int32",
         "IsRequired": true
       }

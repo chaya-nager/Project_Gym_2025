@@ -1,4 +1,4 @@
-import { createBrowserRouter, RouterProvider, Navigate } from "react-router";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import HomePage from "../pages/HomePage";
 import { AuthPage } from "../pages/AuthPage";
 import LoginPage from "../pages/LoginPage";
@@ -10,65 +10,75 @@ import GuestGuard from "../auth/guestGuard";
 import { RoleType } from "../types/user.types";
 import UploadVideoPage from "../pages/UploadVideoPage";
 import WorkoutPlanForm from "../pages/WorkoutPlanForm";
-import VideoPlayer from "../pages/VideoPlayer";
+import LogoutPage from "../pages/LogoutPage";
+import MyTrainerVideosPage from "../pages/MyTrainerVideosPage";
+import EditVideoPage from "../pages/EditVideoPage";
 
-const Router = () => {
-  const router = createBrowserRouter([
-    {
-      path: "/", // כל מה שקשור ל־Layout
-      element: <Layout />,
-      children: [
-        {
-          index: true, // עמוד הבית ברירת מחדל
-          element: <HomePage />,
-        },
-        {
-          path: Paths.uploadVideo, // "upload-video"
-          element: (
-            <AuthGuard roles={[RoleType.Trainer]}>
-              <UploadVideoPage />
-            </AuthGuard>
-          ),
-        },
-        {
-          path: Paths.choosePlan, // "choose-plan"
-          element: (
-            <AuthGuard roles={[RoleType.User]}>
-              <WorkoutPlanForm />
-            </AuthGuard>
-          ),
-        },
-        {
-          path: Paths.videoPlayer, // "video-player"
-          element: <VideoPlayer />,
-        },
-      ],
-    },
-    {
-      path: Paths.auth, // "auth"
-      element: (
-        <GuestGuard>
-          <AuthPage />
-        </GuestGuard>
-      ),
-      children: [
-        {
-          path: Paths.login, // "login"
-          element: <LoginPage />,
-        },
-        {
-          path: "sign-up", // sign-up עדיין לא מוגדר לך ב־Paths, אפשר להוסיף אם צריך
-          element: <SignUpPage />,
-        },
-      ],
-    },
-    {
-      path: "*",
-      element: <h1>404 - הדף לא נמצא</h1>,
-    },
-  ]);
+const router = createBrowserRouter([
+  {
+    path: Paths.home,
+    element: <Layout />,
+    children: [
+      { index: true, element: <HomePage /> },
 
-  return <RouterProvider router={router} />;
-};
+      {
+        path: Paths.uploadVideo,
+        element: (
+          <AuthGuard roles={[RoleType.Trainer]}>
+            <UploadVideoPage />
+          </AuthGuard>
+        ),
+      },
+      {
+        path: Paths.choosePlan,
+        element: (
+          <AuthGuard roles={[RoleType.User]}>
+            <WorkoutPlanForm />
+          </AuthGuard>
+        ),
+      },
+      {
+        path: Paths.myTrainerVideos,
+        element: (
+          <AuthGuard roles={[RoleType.Trainer]}>
+            <MyTrainerVideosPage />
+          </AuthGuard>
+        ),
+      },
+      {
+        path: `${Paths.editVideo}/:id`,
+        element: (
+          <AuthGuard roles={[RoleType.Trainer]}>
+            <EditVideoPage />
+          </AuthGuard>
+        ),
+      },
+    ],
+  },
 
+  {
+    path: Paths.auth,
+    element: (
+      <GuestGuard>
+        <AuthPage />
+      </GuestGuard>
+    ),
+    children: [
+      { path: "login", element: <LoginPage /> },
+      { path: "sign-up", element: <SignUpPage /> },
+    ],
+  },
+
+  {
+    path: Paths.logout,
+    element: <LogoutPage />,
+  },
+
+  {
+    path: "*",
+    element: <h1 style={{ textAlign: "center", marginTop: "5rem" }}>404 - הדף לא נמצא</h1>,
+  },
+]);
+
+const Router = () => <RouterProvider router={router} />;
 export default Router;
